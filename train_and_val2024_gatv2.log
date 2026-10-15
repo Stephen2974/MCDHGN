@@ -1,0 +1,31 @@
+INFO:root:Current datetime: 2026-10-14 16:31:02.599333
+INFO:root:USE_GATV2=True, GATV2_SHARE_WEIGHTS=False
+INFO:root:Current datetime: 2026-10-14 16:31:36.538321
+INFO:root:USE_GATV2=True, GATV2_SHARE_WEIGHTS=False
+INFO:root:Current datetime: 2026-10-14 17:02:20.182668
+INFO:root:USE_GATV2=True, multi_gpu=[0, 1, 2], hidden=256, heads=[4]
+INFO:root:metapath device map: [device(type='cuda', index=0), device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=0), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=0), device(type='cuda', index=2)]
+INFO:root:Current datetime: 2026-10-14 17:10:07.240335
+INFO:root:USE_GATV2=True, multi_gpu=[0, 1, 2], hidden=256, heads=[4]
+INFO:root:metapath device map: [device(type='cuda', index=0), device(type='cuda', index=0), device(type='cuda', index=0), device(type='cuda', index=1), device(type='cuda', index=0), device(type='cuda', index=2), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=2)]
+INFO:root:Current datetime: 2026-10-14 17:16:22.505705
+INFO:root:USE_GATV2=True, multi_gpu=[0, 1, 2], hidden=256, heads=[4]
+INFO:root:metapath device map: [device(type='cuda', index=2), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=2), device(type='cuda', index=2), device(type='cuda', index=2)]
+INFO:root:Current datetime: 2026-10-14 17:50:40.744262
+INFO:root:USE_GATV2=True, multi_gpu=[0, 1, 2], hidden=256, heads=[4]
+INFO:root:metapath device map: [device(type='cuda', index=2), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=1), device(type='cuda', index=2), device(type='cuda', index=2), device(type='cuda', index=2), device(type='cuda', index=2)]
+INFO:root:0fold程序运行时间：1小时4分钟23秒
+INFO:root:auc0.8739943070304274,aupr0.8247261849834894
+INFO:root:1fold程序运行时间：2小时8分钟35秒
+INFO:root:auc0.8665640425750719,aupr0.7966788607080856
+INFO:root:2fold程序运行时间：3小时18分钟0秒
+INFO:root:auc0.8790446230305593,aupr0.8051995082527947
+INFO:root:3fold程序运行时间：4小时20分钟58秒
+INFO:root:auc0.8748462041884817,aupr0.8058925056643345
+INFO:root:4fold程序运行时间：5小时24分钟41秒
+INFO:root:auc0.8790128222341568,aupr0.810205116458932
+INFO:root:mean: auc0.8746923998117394,+- 0.004564845617084365
+INFO:root:mean: aupr0.8085404352135273,+- 0.009204563355936151
+INFO:root:mean: acc0.8144329896907216,+- 0.00907567879466956
+INFO:root:mean: micro_f10.8144329896907216,+- 0.00907567879466956
+INFO:root:mean: macro_f10.7899760783501153,+- 0.007622438226224008
