@@ -1,0 +1,3 @@
+node_id	source_id	hgnc_id	symbol	alias_symbol	prev_symbol	ensembl_gene_id	entrez_id	uniprot_ids	status	mapping_status	mapping_method	candidate_hgnc_ids	ambiguity_reason
+5012	U2AF1L5									unmapped	alias_or_previous		no_approved_record
+10415	CBSL									unmapped	alias_or_previous		no_approved_record

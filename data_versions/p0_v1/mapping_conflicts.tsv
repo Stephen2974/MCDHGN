@@ -1,0 +1,4 @@
+node_id	source_id	hgnc_id	symbol	alias_symbol	prev_symbol	ensembl_gene_id	entrez_id	uniprot_ids	status	mapping_status	mapping_method	candidate_hgnc_ids	ambiguity_reason
+8775	MYO18A	HGNC:31104	MYO18A	KIAA0216|MysPDZ	TIAF1	ENSG00000196535	399687	O95411|Q92614	Approved	duplicate_identity	approved_symbol	HGNC:31104	multiple_existing_nodes_share_hgnc_id
+9833	TIAF1	HGNC:31104	MYO18A	KIAA0216|MysPDZ	TIAF1	ENSG00000196535	399687	O95411|Q92614	Approved	duplicate_identity	previous_symbol	HGNC:31104	multiple_existing_nodes_share_hgnc_id
+10603	TAZ									ambiguous	alias_or_previous	HGNC:11577|HGNC:24042	multiple_hgnc_candidates

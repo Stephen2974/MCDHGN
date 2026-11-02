@@ -1,0 +1,36 @@
+{
+  "legacy_positive_count": 2226,
+  "legacy_negative_proxy_count": 4240,
+  "legacy_overlap": [],
+  "evidence_records": 122181,
+  "mapping_statuses": {
+    "resolved": 114747,
+    "outside_nodes": 7426,
+    "duplicate_identity": 5,
+    "unmapped": 3
+  },
+  "source_records": {
+    "NCG": 8886,
+    "NCG_list": 3347,
+    "CancerMine": 108057,
+    "ONGene": 803,
+    "OncoKB": 1088
+  },
+  "strict_positive_candidates": 550,
+  "strict_positive_candidate_legacy_labels": {
+    "positive": 542,
+    "unlabeled": 8
+  },
+  "strict_negative_proxy_candidates": 3885,
+  "legacy_negative_with_evidence_nodes": 382,
+  "canonical_candidate_list_overlap": [],
+  "release_status": "not_released_user_requested_candidate_lists_only",
+  "historical_missing_inputs": "user_confirmed_unavailable_2026-10-23",
+  "unresolved": [
+    "Legacy negative construction not reproducible from available notebook inputs.",
+    "NCG source usage conditions not yet verified; website unavailable.",
+    "NCG PMIDs have not been adjudicated as first driver evidence.",
+    "mmc2.xlsx and extract_name.txt require identification before scientific interpretation.",
+    "No temporal evaluation set established; old test usage unknown."
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "checked_at": "2026-10-23T22:59:46+08:00",
+  "tests": {
+    "command": ".venv-ablation/Scripts/python.exe -m pytest tests -q",
+    "passed": 35,
+    "failed": 0
+  },
+  "syntax_compile": "passed",
+  "git_diff_check": "passed",
+  "real_loader": {
+    "shape": [
+      12944,
+      48
+    ],
+    "metapaths": 9,
+    "folds": 5,
+    "fingerprinted_files": 12,
+    "node_mapping_hashed": true
+  },
+  "training_or_test_evaluation_run": false
+}

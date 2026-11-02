@@ -16,6 +16,13 @@ In the initial feature preprocessing for gene nodes, we calculated the aberrant 
 The file './preprocess/gene_protein.ipynb' deals with the interrelationships between genes obtained through the PPi network. While the file './preprocess/Msig_preprocess.ipynb' deals with Correspondence Relationships between Multi omics Biological Nodes in MSIGDB Database.  
 
 We use './preprocess/generate_network.ipynb' to build available graphs in dgl input format. The graphs used for training and comparing performance are stored in './data/network/hetero/new_9nodes_graph.bin'  
+## Data processing and audit
+
+The P0 data workflow is organized under [`data_processing/p0/`](data_processing/p0/README.md).
+Run its commands from the project root, for example `python -m data_processing.p0.release verify`.
+Audit outputs remain in `data_versions/p0_v1/`; the execution log is in
+[`data_processing/p0/EXECUTION_LOG.md`](data_processing/p0/EXECUTION_LOG.md).
+
 ## Requirements
 MCDHGN codes is baesd on Pytorch and Python and DGL library. So you will need the following packages to run.  
 + Python==3.9.16

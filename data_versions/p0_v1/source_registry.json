@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-23T22:58:26+08:00",
+  "hgnc": {
+    "source": "HGNC",
+    "release": "retrieved-2026-10-23-sha256-pinned",
+    "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+    "final_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+    "downloaded_at": "2026-10-23T22:38:23+08:00",
+    "sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+    "bytes": 16982321,
+    "rows": 45277,
+    "response_headers": {
+      "Content-Type": "text/plain;charset=utf-8",
+      "X-GUploader-UploadID": "AP6rU81NmFZiS2wc0tj_sRX79VtlhI827IUhAwUdVeUMJNPMoiZL8X3T-uPif8-tsUnR6cnC3-DgbA",
+      "Date": "Fri, 23 Oct 2026 14:38:19 GMT",
+      "Cache-Control": "no-store",
+      "Expires": "Sat, 23 Oct 2027 14:38:19 GMT",
+      "Last-Modified": "Fri, 16 Oct 2026 13:36:15 GMT",
+      "ETag": "\"cfb3e2337755e56baa4fa648a96765b2\"",
+      "x-goog-generation": "1792157775531227",
+      "x-goog-metageneration": "1",
+      "x-goog-stored-content-encoding": "identity",
+      "x-goog-stored-content-length": "16982321",
+      "x-goog-hash": "md5=z7PiM3dV5WuqT6ZIqWdlsg==",
+      "x-goog-storage-class": "STANDARD",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "16982321",
+      "Server": "UploadServer",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "usage_terms_url": "https://www.genenames.org/about/",
+    "usage_terms_summary": "HGNC permits use and requests attribution; checked 2026-10-23.",
+    "version_policy": "The local file plus SHA256 is immutable; release names refer to the supplied source URL, not evidence dates."
+  },
+  "local_label_sources": [
+    {
+      "path": "data/labels/NCG7.0/candidate_drivers.txt",
+      "sha256": "3201ec65d6b10c3539c8b5c056e4195bb46cb431358da6f78a1581412b977fba",
+      "source_release": "7.0_directory_claim_unverified",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    },
+    {
+      "path": "data/labels/NCG7.0/canonical_drivers.txt",
+      "sha256": "6b7dd6a401dc481874735f2f79680165d55af3875bf94494fb73b468def36075",
+      "source_release": "7.0_directory_claim_unverified",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    },
+    {
+      "path": "data/labels/NCG7.0/NCG_cancerdrivers.tsv",
+      "sha256": "3b2b11819487b42bbf03d6075d5f9cf73d050fc2772370db2397fb9dbcb32f19",
+      "source_release": "7.0_directory_claim_unverified",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    },
+    {
+      "path": "data/labels/NCG7.0/NCG_healthydrivers.tsv",
+      "sha256": "9de0f37dd7ba396b065dc0587bb04a7dd22010299c2ebd2b2da38138528e29ca",
+      "source_release": "7.0_directory_claim_unverified",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "retained_not_used_for_new_labels"
+    },
+    {
+      "path": "data/labels/new_add_gene/cancermine_collated.tsv",
+      "sha256": "229fa08e5e47bb65e71f5c729b0f28a6a186e7ea31b7da184ab56afca2e721a1",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "retained_not_used_for_new_labels"
+    },
+    {
+      "path": "data/labels/new_add_gene/cancermine_sentences.tsv",
+      "sha256": "76b938bced808ae1677f923fe371b06d12ec495cc711b08543ed90adc44e1725",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    },
+    {
+      "path": "data/labels/new_add_gene/extract_name.txt",
+      "sha256": "0fd22538f0807da64c6be32b737f2316729de70234279e088632255191de1ef2",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "retained_not_used_for_new_labels"
+    },
+    {
+      "path": "data/labels/new_add_gene/generate_label424.ipynb",
+      "sha256": "ec819bed5fe4f327a7d9ec09e2bcfa6823f894995debc193b1041f2a3a3ba582",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "retained_not_used_for_new_labels"
+    },
+    {
+      "path": "data/labels/new_add_gene/mmc2.xlsx",
+      "sha256": "947304e38e371a22aef7c0f4e020733d6bd4af10c4b83607de8327caab341e14",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "retained_not_used_for_new_labels"
+    },
+    {
+      "path": "data/labels/new_add_gene/ongene_human.txt",
+      "sha256": "c9281a8194d749e6d6ee3627e2b5b0e256c29387dfb981fa334289b74475bec7",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    },
+    {
+      "path": "data/labels/now_neg427.pkl",
+      "sha256": "2cad5e1f51394af641d5486dc6bcf09f5f408bff32fdb6911646a9b72e0d7670",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "legacy_membership_audited"
+    },
+    {
+      "path": "data/labels/now_pos427.pkl",
+      "sha256": "212c3abbc7ff7e602f53b870ed00dda450ad5976669d0ae7b146cdbef668ea99",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "legacy_membership_audited"
+    },
+    {
+      "path": "data/labels/OncoKB/cancerGeneList.tsv",
+      "sha256": "57e907f37452d61dc527cc7dce75186f63d3665ee1f3a7fc6b7fe1ee772c6664",
+      "source_release": "unknown",
+      "downloaded_at": null,
+      "usage_terms_status": "see_sources_review.md",
+      "processing_status": "parsed_evidence_records"
+    }
+  ],
+  "historical_missing_inputs_user_confirmed": true
+}

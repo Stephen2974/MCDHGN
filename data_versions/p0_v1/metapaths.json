@@ -1,0 +1,18 @@
+{
+  "version": "legacy-nine-v1",
+  "names": [
+    "gg",
+    "ga-ag",
+    "gb-bg",
+    "gc-cg",
+    "gd-dg",
+    "ge-eg",
+    "gf-fg",
+    "gh-hg",
+    "gi-ig"
+  ],
+  "sampling_seed": null,
+  "neighbor_budget_verified": false,
+  "self_loop_policy": "one_per_gene_observed",
+  "msigdb_release": "2023.1.Hs_local_filenames"
+}

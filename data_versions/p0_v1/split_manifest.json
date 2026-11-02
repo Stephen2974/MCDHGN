@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "issues": [],
+  "folds": [
+    {
+      "fold": 0,
+      "train": 4656,
+      "validation": 1164,
+      "train_classes": {
+        "0": 3068,
+        "1": 1588
+      },
+      "validation_classes": {
+        "0": 758,
+        "1": 406
+      }
+    },
+    {
+      "fold": 1,
+      "train": 4656,
+      "validation": 1164,
+      "train_classes": {
+        "0": 3078,
+        "1": 1578
+      },
+      "validation_classes": {
+        "0": 748,
+        "1": 416
+      }
+    },
+    {
+      "fold": 2,
+      "train": 4656,
+      "validation": 1164,
+      "train_classes": {
+        "0": 3054,
+        "1": 1602
+      },
+      "validation_classes": {
+        "1": 392,
+        "0": 772
+      }
+    },
+    {
+      "fold": 3,
+      "train": 4656,
+      "validation": 1164,
+      "train_classes": {
+        "0": 3062,
+        "1": 1594
+      },
+      "validation_classes": {
+        "0": 764,
+        "1": 400
+      }
+    },
+    {
+      "fold": 4,
+      "train": 4656,
+      "validation": 1164,
+      "train_classes": {
+        "0": 3042,
+        "1": 1614
+      },
+      "validation_classes": {
+        "0": 784,
+        "1": 380
+      }
+    }
+  ],
+  "development_count": 5820,
+  "test_count": 646,
+  "validation_unique": 5820,
+  "never_validated_nodes": [],
+  "test_usage_history": "unknown",
+  "test_independence": "not_established",
+  "unresolved_identity_nodes": 3,
+  "scope": "Structural checks only; passing does not establish scientific label validity or historical independence."
+}

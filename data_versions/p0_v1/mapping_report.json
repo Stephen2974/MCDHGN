@@ -1,0 +1,17 @@
+{
+  "nodes": 12944,
+  "node_order_unchanged": true,
+  "statuses": {
+    "resolved": 12939,
+    "unmapped": 2,
+    "duplicate_identity": 2,
+    "ambiguous": 1
+  },
+  "methods": {
+    "approved_symbol": 12846,
+    "previous_symbol": 95,
+    "alias_or_previous": 3
+  },
+  "hgnc_source_sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+  "policy": "Exact approved symbol first; otherwise union of previous/alias candidates. Ambiguity and duplicate identities never auto-resolved."
+}

@@ -6,6 +6,7 @@ from concurrent.futures import ThreadPoolExecutor
 import dgl
 from dgl.nn.pytorch import GATConv, GATv2Conv, GraphConv, GCN2Conv
 from dgl.sampling import RandomWalkNeighborSampler
+from fusion import SemanticAttention, ViewInteraction
 
 
 def assign_metapath_devices(num_meta_paths, device_ids, edge_counts=None, primary_device_id=0):
@@ -243,25 +244,6 @@ class GAT(nn.Module):
         h = torch.matmul(h, self.weight)
 
         return self.activation(h)
-#元路径怎么融合
-class SemanticAttention(nn.Module):
-    def __init__(self, in_size, hidden_size=128):
-        super(SemanticAttention, self).__init__()
-
-        self.project = nn.Sequential(
-            nn.Linear(in_size, hidden_size),
-            nn.Tanh(),
-            nn.Linear(hidden_size, 1, bias=False),
-        )
-
-    def forward(self, z):
-        w = self.project(z).mean(0)  # (M, 1)
-        beta = torch.softmax(w, dim=0)  # (M, 1)
-        beta = beta.expand((z.shape[0],) + beta.shape)  # (N, M, 1)
-
-        return (beta * z).sum(1),beta[0]  # (N, D * K)
-
-
 class MySampler(object):
     def __init__(self, g, metapath_list, num_neighbors):
         self.sampler_list = []
@@ -320,8 +302,8 @@ class MyLayer(nn.Module):
     dropout : Dropout probability
     use_gatv2 : if True, use GATv2Conv; otherwise use original GATConv
     share_weights : GATv2 only; share W_left and W_right when True
-    use_checkpoint : recompute GATv2 edge feats in backward to save GPU memory
-                     (recommended for GATv2; default True when use_gatv2=True)
+    use_checkpoint : optional outer checkpoint; default False because GATv2
+                     scores and aggregation are already computed in chunks
     metapath_devices : optional list[device], one device per metapath (model parallel)
     primary_device : device for semantic attention fusion / output
     parallel_metapaths : if True, overlap different GPUs in waves (faster, riskier);
@@ -353,6 +335,11 @@ class MyLayer(nn.Module):
         metapath_devices=None,
         primary_device=None,
         parallel_metapaths=None,
+        semantic_mode="global",
+        fusion_mode="none",
+        fusion_alpha=0.6,
+        fusion_dim=64,
+        fusion_chunk_size=1024,
     ):
         super(MyLayer, self).__init__()
 
@@ -398,8 +385,15 @@ class MyLayer(nn.Module):
                     )
                 )
         self.semantic_attention = SemanticAttention(
-            in_size=out_size * layer_num_heads
+            in_size=out_size * layer_num_heads, mode=semantic_mode
         )
+        # Optional fusion must not change initialization of the common
+        # classifier/backbone in paired experiments with the same seed.
+        with torch.random.fork_rng(devices=[]):
+            self.view_interaction = ViewInteraction(
+                out_size * layer_num_heads, mode=fusion_mode, rank=fusion_dim,
+                alpha=fusion_alpha, chunk_size=fusion_chunk_size,
+            )
         self.num_meta_paths = num_meta_paths
 
     def place_devices(self, metapath_devices=None, primary_device=None):
@@ -418,6 +412,7 @@ class MyLayer(nn.Module):
         prim = self.primary_device or self.metapath_devices[0]
         self.primary_device = prim
         self.semantic_attention.to(prim)
+        self.view_interaction.to(prim)
         return self
 
     def _run_one_metapath(self, i, g, h_primary, return_attention):
@@ -490,6 +485,7 @@ class MyLayer(nn.Module):
         semantic_embeddings = torch.stack(
             semantic_embeddings, dim=1
         )  # (N, M, D * K)
+        semantic_embeddings = self.view_interaction(semantic_embeddings)
         gat_out, beta = self.semantic_attention(semantic_embeddings)
         return gat_out, gat_attention_weights, beta  # (N, D * K)
 
@@ -510,6 +506,11 @@ class MCDHGN(nn.Module):
         primary_device_id=0,
         edge_counts=None,
         parallel_metapaths=None,
+        semantic_mode="global",
+        fusion_mode="none",
+        fusion_alpha=0.6,
+        fusion_dim=64,
+        fusion_chunk_size=1024,
     ):
         super(MCDHGN, self).__init__()
 
@@ -540,6 +541,11 @@ class MCDHGN(nn.Module):
             metapath_devices=self.metapath_devices,
             primary_device=self.primary_device,
             parallel_metapaths=parallel_metapaths,
+            semantic_mode=semantic_mode,
+            fusion_mode=fusion_mode,
+            fusion_alpha=fusion_alpha,
+            fusion_dim=fusion_dim,
+            fusion_chunk_size=fusion_chunk_size,
         )
         self.layers = nn.ModuleList()
         self.layers.append(

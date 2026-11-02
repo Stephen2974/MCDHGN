@@ -1,0 +1,33 @@
+{
+  "source": "HGNC",
+  "release": "retrieved-2026-10-23-sha256-pinned",
+  "url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+  "final_url": "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt",
+  "downloaded_at": "2026-10-23T22:38:23+08:00",
+  "sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+  "bytes": 16982321,
+  "rows": 45277,
+  "response_headers": {
+    "Content-Type": "text/plain;charset=utf-8",
+    "X-GUploader-UploadID": "AP6rU81NmFZiS2wc0tj_sRX79VtlhI827IUhAwUdVeUMJNPMoiZL8X3T-uPif8-tsUnR6cnC3-DgbA",
+    "Date": "Fri, 23 Oct 2026 14:38:19 GMT",
+    "Cache-Control": "no-store",
+    "Expires": "Sat, 23 Oct 2027 14:38:19 GMT",
+    "Last-Modified": "Fri, 16 Oct 2026 13:36:15 GMT",
+    "ETag": "\"cfb3e2337755e56baa4fa648a96765b2\"",
+    "x-goog-generation": "1792157775531227",
+    "x-goog-metageneration": "1",
+    "x-goog-stored-content-encoding": "identity",
+    "x-goog-stored-content-length": "16982321",
+    "x-goog-hash": "md5=z7PiM3dV5WuqT6ZIqWdlsg==",
+    "x-goog-storage-class": "STANDARD",
+    "Accept-Ranges": "bytes",
+    "Content-Length": "16982321",
+    "Server": "UploadServer",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Connection": "close"
+  },
+  "usage_terms_url": "https://www.genenames.org/about/",
+  "usage_terms_summary": "HGNC permits use and requests attribution; checked 2026-10-23.",
+  "version_policy": "The local file plus SHA256 is immutable; release names refer to the supplied source URL, not evidence dates."
+}

@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-23T22:37:33+08:00",
+  "authority": "local_repository",
+  "node_order": "data/step1/gene_toids.pkl",
+  "test_usage_history": "unknown",
+  "git_head": "a2f173dd29fa6a7ab88e7e42fd9c35cf0e0944db",
+  "git_status": "M .gitignore\n M .idea/MCDHGN-main.iml\nA  .idea/vcs.xml\n M model.py\nAM preprocess_data/README-cn\n?? DATA_EXPANSION.md\n?? EXPERIMENTS.md\n?? P0_EXECUTION_LOG.md\n?? ablation_config.py\n?? codex-doctor-proxy.json\n?? codex-proxy-restart.ps1\n?? fusion.py\n?? p0_common.py\n?? p0_prepare.py\n?? run_ablation.py\n?? summarize_ablations.py\n?? tests/",
+  "python": "3.14.4",
+  "files": [
+    {
+      "path": ".gitignore",
+      "kind": "code",
+      "size_bytes": 4091,
+      "sha256": "699820c1ef6e38f3c3f99b441304c297990bcf274b42141bcd0c882b82a6cf2d"
+    },
+    {
+      "path": "5fold_verification.ipynb",
+      "kind": "code",
+      "size_bytes": 13909,
+      "sha256": "cf38bcb8d3eefd27eaa9f5db13f6c4bab65530a6992b7cdb17ffe3d7299fafce"
+    },
+    {
+      "path": "ablation_config.py",
+      "kind": "code",
+      "size_bytes": 1371,
+      "sha256": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280"
+    },
+    {
+      "path": "data/biological_features.csv",
+      "kind": "data",
+      "size_bytes": 6494822,
+      "sha256": "dbd8787035c16c5742ddde003fc603e1664a83f3c1e4e457e6ee77dfd1d04a27"
+    },
+    {
+      "path": "data/labels/NCG7.0/candidate_drivers.txt",
+      "kind": "data",
+      "size_bytes": 20151,
+      "sha256": "3201ec65d6b10c3539c8b5c056e4195bb46cb431358da6f78a1581412b977fba"
+    },
+    {
+      "path": "data/labels/NCG7.0/canonical_drivers.txt",
+      "kind": "data",
+      "size_bytes": 4003,
+      "sha256": "6b7dd6a401dc481874735f2f79680165d55af3875bf94494fb73b468def36075"
+    },
+    {
+      "path": "data/labels/NCG7.0/NCG_cancerdrivers.tsv",
+      "kind": "data",
+      "size_bytes": 968029,
+      "sha256": "3b2b11819487b42bbf03d6075d5f9cf73d050fc2772370db2397fb9dbcb32f19"
+    },
+    {
+      "path": "data/labels/NCG7.0/NCG_healthydrivers.tsv",
+      "kind": "data",
+      "size_bytes": 17739,
+      "sha256": "9de0f37dd7ba396b065dc0587bb04a7dd22010299c2ebd2b2da38138528e29ca"
+    },
+    {
+      "path": "data/labels/new_add_gene/cancermine_collated.tsv",
+      "kind": "data",
+      "size_bytes": 3469160,
+      "sha256": "229fa08e5e47bb65e71f5c729b0f28a6a186e7ea31b7da184ab56afca2e721a1"
+    },
+    {
+      "path": "data/labels/new_add_gene/cancermine_sentences.tsv",
+      "kind": "data",
+      "size_bytes": 83312760,
+      "sha256": "76b938bced808ae1677f923fe371b06d12ec495cc711b08543ed90adc44e1725"
+    },
+    {
+      "path": "data/labels/new_add_gene/extract_name.txt",
+      "kind": "data",
+      "size_bytes": 2914,
+      "sha256": "0fd22538f0807da64c6be32b737f2316729de70234279e088632255191de1ef2"
+    },
+    {
+      "path": "data/labels/new_add_gene/generate_label424.ipynb",
+      "kind": "data",
+      "size_bytes": 14262,
+      "sha256": "ec819bed5fe4f327a7d9ec09e2bcfa6823f894995debc193b1041f2a3a3ba582"
+    },
+    {
+      "path": "data/labels/new_add_gene/mmc2.xlsx",
+      "kind": "data",
+      "size_bytes": 53147,
+      "sha256": "947304e38e371a22aef7c0f4e020733d6bd4af10c4b83607de8327caab341e14"
+    },
+    {
+      "path": "data/labels/new_add_gene/ongene_human.txt",
+      "kind": "data",
+      "size_bytes": 133233,
+      "sha256": "c9281a8194d749e6d6ee3627e2b5b0e256c29387dfb981fa334289b74475bec7"
+    },
+    {
+      "path": "data/labels/now_neg427.pkl",
+      "kind": "data",
+      "size_bytes": 12710,
+      "sha256": "2cad5e1f51394af641d5486dc6bcf09f5f408bff32fdb6911646a9b72e0d7670"
+    },
+    {
+      "path": "data/labels/now_pos427.pkl",
+      "kind": "data",
+      "size_bytes": 6609,
+      "sha256": "212c3abbc7ff7e602f53b870ed00dda450ad5976669d0ae7b146cdbef668ea99"
+    },
+    {
+      "path": "data/labels/OncoKB/cancerGeneList.tsv",
+      "kind": "data",
+      "size_bytes": 112683,
+      "sha256": "57e907f37452d61dc527cc7dce75186f63d3665ee1f3a7fc6b7fe1ee772c6664"
+    },
+    {
+      "path": "data/msigdb/c1.all.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 543914,
+      "sha256": "efc8d702361658c32207a4ee55995b5ce2876ef65c391b2390ff3ab0ebfd464c"
+    },
+    {
+      "path": "data/msigdb/c2.cp.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 2523493,
+      "sha256": "b3c901c10ad26b2fcf4dc6aab9cf2632a3c902935c42676eedc7e3e2a014ce8e"
+    },
+    {
+      "path": "data/msigdb/c3.all.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 8197326,
+      "sha256": "79190382904441114f6aed30545ed9c8c498e9ba20edef673b29ea54132af267"
+    },
+    {
+      "path": "data/msigdb/c4.all.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 1000859,
+      "sha256": "379d905384f512ee1f8913c54675c5b56b4e2c166b0e518728e94cc7b1de6fa3"
+    },
+    {
+      "path": "data/msigdb/c5.go.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 11286060,
+      "sha256": "cd4e9de4e2b6b165b923a85cecff569ac0b56fd8843a0921ae6b4865a70b3549"
+    },
+    {
+      "path": "data/msigdb/c5.hpo.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 5584952,
+      "sha256": "3c3ee10432f0a3de173c81c3596a4fa43e0c6ff94c12bcefa8bbcd29a08b0496"
+    },
+    {
+      "path": "data/msigdb/c6.all.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 315793,
+      "sha256": "b37f5e95b4bf62f537e360f462f48ebea16074e4e395281dec470c5820fcdd12"
+    },
+    {
+      "path": "data/msigdb/c8.all.v2023.1.Hs.json",
+      "kind": "data",
+      "size_bytes": 1646719,
+      "sha256": "a5e11700425c857ed1c3901141646b5d7ab09b257514604cac2edc855233daa8"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c1_feature.pkl",
+      "kind": "data",
+      "size_bytes": 150346,
+      "sha256": "e40ccabfeaa7621112e207560a8f3dc41973d06eb864d42c334e03ecfb453d02"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c1_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 203311,
+      "sha256": "d8462648a19d555cf54e42d12eac7c93eeb548572bad4b4310c42cdc5b2f51b5"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c2_feature.pkl",
+      "kind": "data",
+      "size_bytes": 1688688,
+      "sha256": "91763bd8575ed58155effa184332e38826324e01e816405fbf1ad28d2667ef42"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c2_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 2185813,
+      "sha256": "c50223aa062db7aeba005267460aab55bbc590459f81cd801fd1b21031241258"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c3_feature.pkl",
+      "kind": "data",
+      "size_bytes": 1924886,
+      "sha256": "607541130a601f96c8322e75c87fa71cae83a4791b18d1daf7f5ad0adff39505"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c3_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 9161750,
+      "sha256": "c934a2c3b19e3f77181b50c67d378de2b8bd1e2bcf1237c730d2e7fd48fbaf2b"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c4_feature.pkl",
+      "kind": "data",
+      "size_bytes": 443455,
+      "sha256": "c6a52f48376360433b1e1f6f8520ecfe9c56b64df38648d5a60df00fd19e9883"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c4_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 1203870,
+      "sha256": "9d8b2e2bc9e80a36a8978999c570184e6183e7dbd39e06f64ee40504f12adc03"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c5_feature.pkl",
+      "kind": "data",
+      "size_bytes": 5786483,
+      "sha256": "f3e6658c4197cf531b4768119ec50899dbc794f6d76274ea5a4d8c665525633e"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c5_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 11159704,
+      "sha256": "02d3aa01daa385073780dd5baa7645d8048ea258c3d97c5975c844a411ba2bf5"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c6_feature.pkl",
+      "kind": "data",
+      "size_bytes": 2895516,
+      "sha256": "314f04991dadbbf9978e4f69c35ec4326e68891e933ccd189319d122a0a6ebc8"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c6_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 6022852,
+      "sha256": "423fae10072d484d021d5857a095d8d1a57fe701bd6e5dd4a43f7f335d0555e4"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c7_feature.pkl",
+      "kind": "data",
+      "size_bytes": 98260,
+      "sha256": "373bf68ec601ca1d8bca72c0e77780fa7a5027aad1734291013cca881782339a"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c7_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 367361,
+      "sha256": "d6630e2557057969b695d42b1cb189fb6daf19d9f204be2b4830287783a348bd"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c8_feature.pkl",
+      "kind": "data",
+      "size_bytes": 454203,
+      "sha256": "dc109d0d4131aae782d3a897e54111b696dfb400579d6e87f073d5c20ae5d664"
+    },
+    {
+      "path": "data/msigdb/Msig_gene/cpdb/c8_gene_cpdb.pkl",
+      "kind": "data",
+      "size_bytes": 1745051,
+      "sha256": "7941e6059d6628c24107a75ab0ed6c524ba9411526175689d053a6846db1a8d8"
+    },
+    {
+      "path": "data/network/hetero/graph.bin",
+      "kind": "data",
+      "size_bytes": 82316611,
+      "sha256": "c64ec89fcdecd93ba38edb3c7d3865116fba6d929c484b8f542cf4c54d7194a1"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/Cell.pkl",
+      "kind": "data",
+      "size_bytes": 38463,
+      "sha256": "3d6648498d19486b2830c0f6daf62d385d50979db21689cf8dda7a652ff57fd6"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/CM.pkl",
+      "kind": "data",
+      "size_bytes": 13157,
+      "sha256": "c6d957393b1152e532d52e0039b4099e8d574dcb6db5d41b1cf795038f9d66ac"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/F.pkl",
+      "kind": "data",
+      "size_bytes": 3867,
+      "sha256": "239d43d8032d4d5f07de09aee80add57cd4b69ed8000c6f10bcd4610a29132af"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/Gene.pkl",
+      "kind": "data",
+      "size_bytes": 235031,
+      "sha256": "8ab00dbc9d33bbfbbd59da02bb9339ba94f9f30509c48a051832f526c9a04176"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/GO.pkl",
+      "kind": "data",
+      "size_bytes": 503414,
+      "sha256": "c3f6f80fd8a55c2f08badce58599a6cc7be51fef69dd7479e7e3b1ba0fa4bd61"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/HPO.pkl",
+      "kind": "data",
+      "size_bytes": 183144,
+      "sha256": "e904690190a08030ce2b581c0fb5877f0a9d61d1beb95b3fffb9a0c5e013983c"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/M.pkl",
+      "kind": "data",
+      "size_bytes": 63888,
+      "sha256": "537242a9a388082674f5331a6b9edc59f52f25a840288f21d5762627b645b021"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/Pathway.pkl",
+      "kind": "data",
+      "size_bytes": 138446,
+      "sha256": "ecb1246e9a0f26ac3213efbd64235cf0dda85c8cd551d12b30d61ef27b44d6ef"
+    },
+    {
+      "path": "data/network/hetero/ids_to_name/Pos.pkl",
+      "kind": "data",
+      "size_bytes": 3678,
+      "sha256": "fafca4564b5f68f56fab36ada8d45daea149a06e174822ea2c803e7d0d3114d8"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/Cell.pkl",
+      "kind": "data",
+      "size_bytes": 38463,
+      "sha256": "0e210db92833e1d08b7e1b56b749ed5074fca038ea36b55a30e18de86f35c930"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/CM.pkl",
+      "kind": "data",
+      "size_bytes": 13157,
+      "sha256": "dadd38125e9353b62e8f93d6f98e26173978be7387366a4d5a0091d0dc3870cb"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/F.pkl",
+      "kind": "data",
+      "size_bytes": 3867,
+      "sha256": "a6ff08450bd09e2cc08f1fbdd0f40d9ff09eac3273a0b9c992e37f4f67f01e2d"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/Gene.pkl",
+      "kind": "data",
+      "size_bytes": 145214,
+      "sha256": "051ac52216d7066067c6931c7e635903175ba760d6c2421738b9d3a8cb05c3e3"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/GO.pkl",
+      "kind": "data",
+      "size_bytes": 503414,
+      "sha256": "d323ca64eff8e5e1301aed02a7c78a6e2119a12f11fee6388a044984119d8f7a"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/HPO.pkl",
+      "kind": "data",
+      "size_bytes": 183144,
+      "sha256": "47140d5570931d036aa96c0cd0aa67ba05acd246231c653e709956dce4554358"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/M.pkl",
+      "kind": "data",
+      "size_bytes": 63888,
+      "sha256": "4667b35450d9851813dcdbf158a339441e5536fe0cd10941c9924082ea6fa87d"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/Pathway.pkl",
+      "kind": "data",
+      "size_bytes": 138446,
+      "sha256": "e2b02257cf47c513deaca2b047e4fb84785ee0ec2144a94b94d37e3360ea874c"
+    },
+    {
+      "path": "data/network/hetero/name_to_ids/Pos.pkl",
+      "kind": "data",
+      "size_bytes": 3678,
+      "sha256": "4c7a604b501b653cc6ffc01e9e54c3f279b1220c591c105d373f0041182b5d30"
+    },
+    {
+      "path": "data/network/hetero/new_9nodes_graph.bin",
+      "kind": "data",
+      "size_bytes": 77990271,
+      "sha256": "eb12655ac718a01565dfa9302660a17ff61c0784c1d709738fe8a542ac7cfce0"
+    },
+    {
+      "path": "data/step1/gene_feature_bio.pkl",
+      "kind": "data",
+      "size_bytes": 6797994,
+      "sha256": "969557579fede5912ba1ad556cf80a69eba27c56f88960e2c46bc07976628eb1"
+    },
+    {
+      "path": "data/step1/gene_relations_undirected.pkl",
+      "kind": "data",
+      "size_bytes": 7460381,
+      "sha256": "d51403d9404cc81c6d5bc8bb31199b6725a69be43494fb1c0a05320eae62f85e"
+    },
+    {
+      "path": "data/step1/gene_toids.pkl",
+      "kind": "data",
+      "size_bytes": 235031,
+      "sha256": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf"
+    },
+    {
+      "path": "DATA_EXPANSION.md",
+      "kind": "code",
+      "size_bytes": 43545,
+      "sha256": "e9324415b02209ef3f58164c220efe5bb9ef8cfa09aa0d3cfd1f0ad9c83aa33b"
+    },
+    {
+      "path": "EXPERIMENTS.md",
+      "kind": "code",
+      "size_bytes": 18272,
+      "sha256": "931ceeb89d12818e35974b6d2d28f83fd62ad3cc91d99d01465c64eb7a56883d"
+    },
+    {
+      "path": "fusion.py",
+      "kind": "code",
+      "size_bytes": 3665,
+      "sha256": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5"
+    },
+    {
+      "path": "Intermediate/blocks/0gs.bin",
+      "kind": "data",
+      "size_bytes": 13227322,
+      "sha256": "824e314c79bf2ce1a8fd2c53e6a86bac00c86bcb9a34d6b077b5ac0a85d78332"
+    },
+    {
+      "path": "Intermediate/blocks/1gs.bin",
+      "kind": "data",
+      "size_bytes": 24610394,
+      "sha256": "650ddb048f448b3c487684fa0bd8a77f39af5abedaa5f427e8665408d7ae5057"
+    },
+    {
+      "path": "Intermediate/blocks/2gs.bin",
+      "kind": "data",
+      "size_bytes": 31062650,
+      "sha256": "f24b67620e45ae82de12827b77f9fa8def319232004d8654dcfe348b3323647f"
+    },
+    {
+      "path": "Intermediate/blocks/3gs.bin",
+      "kind": "data",
+      "size_bytes": 51180442,
+      "sha256": "9abcb1f5f23905a61d5f1a05304ea69140673e6b9401fdafc82aecb6adcb62d5"
+    },
+    {
+      "path": "Intermediate/blocks/4gs.bin",
+      "kind": "data",
+      "size_bytes": 26419638,
+      "sha256": "f0380b097f71d5aace5e145059a1f5143b807fcf32580042b9c2a631ae2cac3f"
+    },
+    {
+      "path": "Intermediate/blocks/5gs.bin",
+      "kind": "data",
+      "size_bytes": 47719862,
+      "sha256": "83f0fafcd9f1eb047d8b4d52fbb33f0cde0a299320760e6f971f048a8ea6d1ad"
+    },
+    {
+      "path": "Intermediate/blocks/6gs.bin",
+      "kind": "data",
+      "size_bytes": 15763800,
+      "sha256": "28976e4247eec0842e1068ae6b9f675e5ee2102d61c61ff77ce027444707af94"
+    },
+    {
+      "path": "Intermediate/blocks/7gs.bin",
+      "kind": "data",
+      "size_bytes": 26354422,
+      "sha256": "fe882c180bab919bfe551e2b68fda0ef2eca1d96baa20d479cffd3d141801b0b"
+    },
+    {
+      "path": "Intermediate/blocks/8gs.bin",
+      "kind": "data",
+      "size_bytes": 43244214,
+      "sha256": "4c668f7e532ba27e6a66a679c31516fe0ef3d0e64c7aadb35f1eec78ec3e9363"
+    },
+    {
+      "path": "Intermediate/label_set/mydatatest_label.pt",
+      "kind": "data",
+      "size_bytes": 5867,
+      "sha256": "97b4e7adb513d24ebbdce24a2dfa948a6c83bca94912749daf6f247a0a400a8f"
+    },
+    {
+      "path": "Intermediate/label_set/mydatatest_mask.pt",
+      "kind": "data",
+      "size_bytes": 5867,
+      "sha256": "4f5740d9e363a21ee631382ca7b4cbd9202b84d873a9b001072d3bfdf77051d2"
+    },
+    {
+      "path": "Intermediate/label_set/old_data.pkl",
+      "kind": "data",
+      "size_bytes": 210335,
+      "sha256": "66ffceaae9904afa68dbf303e56bde38833a330a7043286818c6aa13dc0d617b"
+    },
+    {
+      "path": "Intermediate/label_set/train_batch.pkl",
+      "kind": "data",
+      "size_bytes": 471515,
+      "sha256": "d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9"
+    },
+    {
+      "path": "model.py",
+      "kind": "code",
+      "size_bytes": 24258,
+      "sha256": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0"
+    },
+    {
+      "path": "p0_common.py",
+      "kind": "code",
+      "size_bytes": 2366,
+      "sha256": "179c646a19e44b97416f15499e40a8510293b0ff9473d60dbc481a7b2fd270f2"
+    },
+    {
+      "path": "p0_prepare.py",
+      "kind": "code",
+      "size_bytes": 5063,
+      "sha256": "9323eb1b46c636a5d016bee8ad5fd53bc74d70adbe122092dc76bd711a30ed91"
+    },
+    {
+      "path": "preprocess/gene_protein.ipynb",
+      "kind": "code",
+      "size_bytes": 11853,
+      "sha256": "76bfacc23c4c8daaa8113409faf335fb856ccc9212dc3a3b05a8c482aeaa1043"
+    },
+    {
+      "path": "preprocess/generate_network.ipynb",
+      "kind": "code",
+      "size_bytes": 13830,
+      "sha256": "214427b82857d13e845b527f30096b41ef3e9455ab666f8d7eb1b288670db14c"
+    },
+    {
+      "path": "preprocess/Msig_preprocess.ipynb",
+      "kind": "code",
+      "size_bytes": 1544408,
+      "sha256": "55b0b5d8f26aaabbd07de9c52e78f467779521498825fc179fd02a4bd97befe8"
+    },
+    {
+      "path": "preprocess/preprocessing_CPDB.ipynb",
+      "kind": "code",
+      "size_bytes": 41107,
+      "sha256": "09825fd9cda8337d86576bce75205fbbc737002c634b857bc530663bf0a26e02"
+    },
+    {
+      "path": "preprocess/test.ipynb",
+      "kind": "code",
+      "size_bytes": 6988458,
+      "sha256": "5d246df90b6e10901044886acf198ed97c570c0d09fc1d4c4ea2d6a68a2a5c96"
+    },
+    {
+      "path": "run_ablation.py",
+      "kind": "code",
+      "size_bytes": 19586,
+      "sha256": "4ab0ac9ad40fd7100b3300d1ba334352789ef717aa5423e19fdbbfddee468eeb"
+    },
+    {
+      "path": "summarize_ablations.py",
+      "kind": "code",
+      "size_bytes": 6670,
+      "sha256": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be"
+    },
+    {
+      "path": "test_and_pridict.ipynb",
+      "kind": "code",
+      "size_bytes": 14608,
+      "sha256": "bd05353af8f40e2ce17bf107e1306789468da106f57a9ea965b90faff204a0f4"
+    },
+    {
+      "path": "utils.py",
+      "kind": "code",
+      "size_bytes": 10434,
+      "sha256": "4ce059f076d580152d736c3d7460d96c300cf748ac6d050234867e64ca5bbb6e"
+    }
+  ],
+  "limitations": [
+    "File hashes freeze identity, not a backup of binary content.",
+    "Historical source download dates and licenses must not be inferred from file modification times."
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-10-23T23:41:59+08:00",
+  "scope": "package_reorganization",
+  "tests_passed": 38,
+  "tests_failed": 0,
+  "cli_help": "passed",
+  "syntax_compile": "passed",
+  "git_diff_check": "passed",
+  "actual_graph_and_nine_caches": "passed",
+  "previously_sealed_artifacts_unchanged": true
+}

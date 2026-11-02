@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "status": "not_established",
+  "training_evidence_cutoff": null,
+  "first_evidence_dates_verified": false,
+  "old_test_usage_history": "unknown",
+  "independent_positive_list_released": false,
+  "eligibility_rules": [
+    "Require a verified first driver-confirmation evidence date after the frozen training cutoff.",
+    "Do not substitute source release, file modification, HGNC update, or download date for first evidence date.",
+    "Canonical database membership or a text-mined mention alone does not prove a first confirmation date.",
+    "Exclude genes used in any historical training, tuning, or test-based selection under the relevant protocol.",
+    "Resolve identities and de-duplicate by HGNC before excluding overlaps.",
+    "Check feature and knowledge-graph source times; if future information is present, do not claim a fully time-isolated discovery experiment.",
+    "Lock model, ranking universe and K before evaluating the temporal list."
+  ],
+  "positive_only_metrics": ["Recall@K", "rank_enrichment_with_prespecified_background"],
+  "forbidden_inferences": [
+    "Unknown genes are not true negatives for full classification AP/AUC.",
+    "Randomly re-splitting previously used genes does not by itself restore test independence."
+  ],
+  "blocking_information": [
+    "Reproducible strict training/negative-proxy protocol has not been released.",
+    "Training evidence cutoff and first evidence dates are unresolved.",
+    "No independently adjudicated post-cutoff positive list is available."
+  ]
+}
