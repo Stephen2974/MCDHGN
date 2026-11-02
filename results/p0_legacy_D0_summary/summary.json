@@ -1,0 +1,74 @@
+{
+  "experiments": {
+    "E1": {
+      "coverage": {
+        "42": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      "all_run_metrics": {
+        "ap": {
+          "mean": 0.8102678399610486,
+          "sd": 0.00863774361661872,
+          "n": 5
+        },
+        "auc": {
+          "mean": 0.8754161608021442,
+          "sd": 0.005340085988048777,
+          "n": 5
+        },
+        "accuracy": {
+          "mean": 0.804639175257732,
+          "sd": 0.019349932342868168,
+          "n": 5
+        },
+        "macro_f1": {
+          "mean": 0.7846390853745738,
+          "sd": 0.014372418322735999,
+          "n": 5
+        }
+      },
+      "per_seed_fold_mean": {
+        "42": {
+          "ap": 0.8102678399610486,
+          "auc": 0.8754161608021442,
+          "accuracy": 0.804639175257732,
+          "macro_f1": 0.7846390853745738
+        }
+      },
+      "across_seed_means": {
+        "ap": {
+          "mean": 0.8102678399610486,
+          "sd": null,
+          "n": 1
+        },
+        "auc": {
+          "mean": 0.8754161608021442,
+          "sd": null,
+          "n": 1
+        },
+        "accuracy": {
+          "mean": 0.804639175257732,
+          "sd": null,
+          "n": 1
+        },
+        "macro_f1": {
+          "mean": 0.7846390853745738,
+          "sd": null,
+          "n": 1
+        }
+      },
+      "parameters": [
+        1569536
+      ],
+      "total_train_hours": 5.0257635934166665
+    }
+  },
+  "paired_contrasts": {},
+  "interaction_E4_minus_E3_minus_E2_plus_E1": {},
+  "note": "Validation model-selection results; folds overlap in training. No independence-based p-values computed."
+}
