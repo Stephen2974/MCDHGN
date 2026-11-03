@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# P0 seals the exact LF bytes of this file; do not convert on Windows checkout.
+/summarize_ablations.py text eol=lf
