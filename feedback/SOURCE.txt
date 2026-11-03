@@ -1,0 +1,7 @@
+﻿Source commit: 7954bbc75186a74f23380efad6ef9fb4c1a13422
+Scheduler: results/d0_E3_seeds43_44_20261103_234627/scheduler.py
+Scheduler SHA256: 11c312e8b0e33a1d415ed9ddfeabf45f0d0d593c81b4fbfab12060a104217332
+Output: G:\LLLM\MCDHGN-main\results\d0_E3_seeds43_44_20261103_234627
+Status: completed
+Archive SHA256: 86dc1b14a15d559084fbdc72480cdf9fad365a8b9d801e2591307ee208aafe38
+Archive bytes: 781162
