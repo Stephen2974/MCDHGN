@@ -1,0 +1,6 @@
+E3 - E1 paired validation comparison (seed 42, five folds)
+Validation model selection only; no independent-test or significance claim.
+ap: +0.0448 percentage points; wins 4/5
+auc: -0.0395 percentage points; wins 3/5
+accuracy: -0.6529 percentage points; wins 3/5
+macro_f1: -0.6584 percentage points; wins 3/5

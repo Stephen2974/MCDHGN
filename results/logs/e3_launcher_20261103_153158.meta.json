@@ -1,0 +1,11 @@
+﻿{
+    "output":  "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158",
+    "launcher_pid":  11976,
+    "CUDA_VISIBLE_DEVICES":  "0,1,2",
+    "stdout":  "G:\\LLLM\\MCDHGN-main\\results\\logs\\e3_launcher_20261103_153158.out.log",
+    "DGLBACKEND":  "pytorch",
+    "PYTHONUNBUFFERED":  "1",
+    "started":  "2026-11-03T15:31:58.8916804+08:00",
+    "python":  "G:\\LLLM\\MCDHGN-main\\.conda\\python.exe",
+    "stderr":  "G:\\LLLM\\MCDHGN-main\\results\\logs\\e3_launcher_20261103_153158.err.log"
+}

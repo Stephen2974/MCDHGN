@@ -1,0 +1,77 @@
+{
+  "config": {
+    "epochs": 2,
+    "eval_every": 1,
+    "patience": 2,
+    "lr": 0.01,
+    "weight_decay": 0.0001,
+    "positive_weight": 1.904,
+    "dropout": 0.4,
+    "hidden_size": 8,
+    "heads": 2,
+    "fusion_dim": 4,
+    "fusion_chunk_size": 1024,
+    "smoke": true,
+    "code_sha256": {
+      "model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+      "fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+      "run_ablation.py": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+      "ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280"
+    },
+    "protocol": "softmax-ap-checkpoint-v1",
+    "experiment": "E1",
+    "architecture": {
+      "use_gatv2": true,
+      "semantic_mode": "global",
+      "fusion_mode": "none",
+      "fusion_alpha": 0.6
+    },
+    "seed": 42,
+    "fold": 1
+  },
+  "data_sha256": {
+    "synthetic": "smoke-v1-seed71"
+  },
+  "best_epoch": 1,
+  "epochs_trained": 2,
+  "validation": {
+    "ap": 0.6190476190476191,
+    "auc": 0.44,
+    "accuracy": 0.6,
+    "macro_f1": 0.5238095238095238,
+    "loss": 0.7592072486877441,
+    "precision_at_50": 0.5,
+    "recall_at_50": 1.0,
+    "effective_k_50": 10,
+    "precision_at_100": 0.5,
+    "recall_at_100": 1.0,
+    "effective_k_100": 10
+  },
+  "weight_diagnostics": {
+    "mean_by_path": [
+      0.3219042718410492,
+      0.30373820662498474,
+      0.37435731291770935
+    ],
+    "std_by_path": [
+      5.960464477539063e-08,
+      5.960464477539063e-08,
+      5.960464477539063e-08
+    ],
+    "mean_entropy": 1.0946327447891235
+  },
+  "train_seconds": 0.10319940000000027,
+  "parameters": 3368,
+  "peak_allocated_bytes": {
+    "0": 216576
+  },
+  "environment": {
+    "python": "3.9.16 (main, May 17 2023, 17:49:16) [MSC v.1916 64 bit (AMD64)]",
+    "torch": "1.12.0+cu116",
+    "dgl": "1.1.1+cu116",
+    "cuda": "11.6",
+    "gpus": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ]
+  }
+}
