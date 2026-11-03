@@ -110,6 +110,10 @@ def main():
     parser.add_argument("--expected-folds", type=int, default=5)
     parser.add_argument("--allow-partial", action="store_true")
     args = parser.parse_args()
+    if args.output.name == "p0_legacy_D0_summary" and (args.output / "summary.json").is_file():
+        kept = args.output
+        args.output = args.output.with_name("p0_legacy_D0_summary_seeds42_43_44")
+        print(f"Keeping existing summary at {kept}; writing {args.output}")
     groups = collect(args.roots)
     result = summarize(groups, args.expected_folds, args.allow_partial)
     args.output.mkdir(parents=True, exist_ok=True)
