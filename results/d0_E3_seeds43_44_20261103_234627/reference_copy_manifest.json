@@ -1,0 +1,402 @@
+[
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold0\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold0\\config.json",
+    "sha256": "faa155354b8f5eee011f366fed920c5679bc06b2bb64ef122eeb08fc2b8082ae"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold0\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold0\\result.json",
+    "sha256": "f87bdf0593a0c795e7d255b5cc4be64b7b528632b9d8d261011e3fedea023f84"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold0\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold0\\history.jsonl",
+    "sha256": "f8f5f370373a0ee56dd242374b6d9fe566e6979bc62b6f7e47d9fdf88f835c25"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold0\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold0\\validation_predictions.npz",
+    "sha256": "ed2804189fa562472a4fef537e9726863cffcd77a21ca7d21fad9177a9331188"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold1\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold1\\config.json",
+    "sha256": "3bee818c8aa1da68f1f4717883d1cb4c3d005a5c31c3e555a43d077b44ec86ad"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold1\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold1\\result.json",
+    "sha256": "3ace501f3da97227c8126eb49fb555d47088f0a77bb2d38f40006fe952bc3b2c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold1\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold1\\history.jsonl",
+    "sha256": "400c5969720fa76643e53d4d0af5840489444c886bc5117e353a7222396c6032"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold1\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold1\\validation_predictions.npz",
+    "sha256": "0e35d437640ef21cd16053073df9306ea060180c85e931afc2be2afe8c43f5f1"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold2\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold2\\config.json",
+    "sha256": "98b00dc71d067c78f441bdb89e60343c3198fb0f1026d8e2006c7575cad56724"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold2\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold2\\result.json",
+    "sha256": "0b00cc9ace98c016182844ec0b484ece0b043887abd46f391568afe8a2f2bc0f"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold2\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold2\\history.jsonl",
+    "sha256": "f546cb1cd30f91bf326f1e4dd9674dc88497fd30876c7be9ebd14689cedf184e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold2\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold2\\validation_predictions.npz",
+    "sha256": "b215fc8bd5a6d15da74ebfaf102d41e726fcfce05258c2bcb2f48d0ca60e81ff"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold3\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold3\\config.json",
+    "sha256": "6ce103c5b6b826d3fc615656eff755ff3e3954c3042bc112f0d438546689203e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold3\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold3\\result.json",
+    "sha256": "38471f464e1cdbfeb9f0589ca9fa40ffb863189f4c4d4cc51f27118987ef26c1"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold3\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold3\\history.jsonl",
+    "sha256": "088994bc0590dbb908eb983907b7b2883f345bce971f46c1fc128f0b482410eb"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold3\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold3\\validation_predictions.npz",
+    "sha256": "5973145e54cd481c58a5c345df687598fa73bc99838fc1cae6d3a61d72385f64"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold4\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold4\\config.json",
+    "sha256": "ecf702de03d555bb796c8d690b209db9c4557203be4b09f75a778fac9064b1f6"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold4\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold4\\result.json",
+    "sha256": "0f0490baaee32c1f1dbabaa5d3289513a5124de0c72029863819cbb3ba188c14"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold4\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold4\\history.jsonl",
+    "sha256": "f841131ff002a414fce9c4ade1db247ce1733901f288dbae9445964df26910cf"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed42\\fold4\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed42\\fold4\\validation_predictions.npz",
+    "sha256": "602c5bb5a094056d2cd670530491cb3388fb330eda7c68eaf2af5efd852fed34"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold0\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold0\\config.json",
+    "sha256": "a21c4f773874310db298e6e721edf065b97bad7ea9ff7bda38ad39e1f592360f"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold0\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold0\\result.json",
+    "sha256": "965770174546561240af03ec93f9758a7265def0a79674b133928de756b396ce"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold0\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold0\\history.jsonl",
+    "sha256": "e46148404ca8957ac7703772c98f582fcc583804432eaa86a5dd315fddaa7268"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold0\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold0\\validation_predictions.npz",
+    "sha256": "3a54e2bf831eb582d3c084ad753ebc60b1e8838de21e133672bd461de7a2c5cb"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold1\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold1\\config.json",
+    "sha256": "b28e5b3df4245af48e1521022be13dea6d283d4b6d9d0a396d1265cf254f3be5"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold1\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold1\\result.json",
+    "sha256": "8027f83ffc1f3cbb53855db8467addd776f17178143e71639c7e04fe0bd92c18"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold1\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold1\\history.jsonl",
+    "sha256": "1eb52f878b507378df4ab087299130cbe2090a9a325fa7aa92d0474efd20c1d6"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold1\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold1\\validation_predictions.npz",
+    "sha256": "c3d3fa6c36352a92e371c4b6800f942247342aba2a331156aacb6d2f33aa5c50"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold2\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold2\\config.json",
+    "sha256": "65e61b8e81ffd4ba0b766d2cc83edfe07e19e4cb1ce1f29ad3b46a7c3e7864dd"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold2\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold2\\result.json",
+    "sha256": "eb18ae13ece0893a1e0ae66be72feafa654f2475356fa779a80272d9b2580274"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold2\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold2\\history.jsonl",
+    "sha256": "dcbd7ef120ccf4ee5c15e446f04e2105492f253f1667ef6d196f1bc1d12861e4"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold2\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold2\\validation_predictions.npz",
+    "sha256": "6d32f94de84a48c3953f2df08beb90b48cd6a1207ea51c5f1cd3ba6c0a117d2f"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold3\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold3\\config.json",
+    "sha256": "bd22f2ba77c2e918e5820d45197f0acd716cc8c43c97b8a71ceb33b4d7a1aa26"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold3\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold3\\result.json",
+    "sha256": "2cdb3e169175b9005c36efd97a6413198ea688b287d5f418870ca48c86d45a78"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold3\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold3\\history.jsonl",
+    "sha256": "c875d020d6fa112c49f7728ac3eae76565a2b10bbbff695c808f70269f21be5e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold3\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold3\\validation_predictions.npz",
+    "sha256": "cb6d8b927ad383e2f9e5243ff1a5a04a0e5f1092911a785ee16a48a5df5bb66d"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold4\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold4\\config.json",
+    "sha256": "9091e82b8191a63986060c2978220da04f819ab47300e70624587cab8e9877f6"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold4\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold4\\result.json",
+    "sha256": "1423102f61fe8375d6875f498ca73570ffec6bbeeee511b6a458fd17c8e31029"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold4\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold4\\history.jsonl",
+    "sha256": "0da34787f2ce96f398a2aab5d63fab3d8509975e8356afd3d7e16aa02129623c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed43\\fold4\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed43\\fold4\\validation_predictions.npz",
+    "sha256": "5d5d447aa6a8aa63922787b93a055ac0009265fefe903bb58b29374be645526a"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold0\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold0\\config.json",
+    "sha256": "c58c6ab655f2bea45363d763785c290fd80a853eb60fa3bb5c6c21d668c5792c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold0\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold0\\result.json",
+    "sha256": "f8f86daffa7606d167e932a9c2f5aad8c6382798028d01127fe212858898e699"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold0\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold0\\history.jsonl",
+    "sha256": "f3b210ff3c1dff2e4e5c2e3b65c33514c670307098971bbaf2157ebbe406e3c9"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold0\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold0\\validation_predictions.npz",
+    "sha256": "3695dde24862187bc27c774a7c9545c4be369f0ba354711b81a74e2e32c87776"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold1\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold1\\config.json",
+    "sha256": "0643c1dda92d4263b38a723bf4931301e75069025a8c53e27c38a08b1058c63e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold1\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold1\\result.json",
+    "sha256": "236d6251a9d1487c30e1b68e3f3f5829d0c101e1234b4c475018b28ca20d20c9"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold1\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold1\\history.jsonl",
+    "sha256": "569cbc566745b71a39be1c8b1a36b1843be3bde51423ecd50cfe6c18476e2763"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold1\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold1\\validation_predictions.npz",
+    "sha256": "32b3a4f7358ae389c8fb0bb4a5933ad2aa9475424df7f329a084b975b8ee30d4"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold2\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold2\\config.json",
+    "sha256": "527a6a9722fd79279d2a28cc2b94a5292c25e0010fc6e3c85e15f81e229fda32"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold2\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold2\\result.json",
+    "sha256": "0fd9efbad1d245236c38e4e17f96f8b62c103b546515ead3f8ccaa6155da6bb2"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold2\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold2\\history.jsonl",
+    "sha256": "a653c8cddc9babaeac0901849c2003891bd6aa6c46f9b02a0b5749895dd7f81e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold2\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold2\\validation_predictions.npz",
+    "sha256": "2edda0e0e1c6b80befe87e90d4fcd64a9bcfbb039fedffa7dafa28a525b8e26f"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold3\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold3\\config.json",
+    "sha256": "52db6703af38e8131bdf6f00591d1b6c28a7e558553f7800bbae1ef7c2eec467"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold3\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold3\\result.json",
+    "sha256": "ceae95f22707f07abd19504fdaafad8296dfc9c875edf848642e8e22768545ea"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold3\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold3\\history.jsonl",
+    "sha256": "f9f1b968a304e898436d77db84dbff7e7f18c49704afe9f512c790a433a21eab"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold3\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold3\\validation_predictions.npz",
+    "sha256": "2b6058336e67f8cf00f107835ff68a9616e01963f15aca4e9d39e49b3a096373"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold4\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold4\\config.json",
+    "sha256": "f2f06c523966644a5cc1c193e4c147a3bdcf536daa1a8d2e7d212a76454507ad"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold4\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold4\\result.json",
+    "sha256": "72703d922f1d2a14f3349cf62e42e12669b4171a6b02e56e6825c5b0a80c3b8c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold4\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold4\\history.jsonl",
+    "sha256": "f47716bb1cb502f6567d1d80e71c934cc4a06dc480bf0e2d617f679e81c628a8"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\p0_legacy_D0\\E1\\seed44\\fold4\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E1\\E1\\seed44\\fold4\\validation_predictions.npz",
+    "sha256": "67f07567b5ba0d6367b7705d68722b9d08300b0071cfa0dc52751a35b6036228"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold0\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold0\\config.json",
+    "sha256": "c1283a40b225a008cac12fc4deb711e52459044c11180bef5397fd6737a4b68e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold0\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold0\\result.json",
+    "sha256": "f0e9e1b4b71dc14e43e9aac53828eb047aaef6df331a43cbc895edd4d5b12e33"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold0\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold0\\history.jsonl",
+    "sha256": "0b9afb573615e821ce66422d2dceb6bebfbc62cb80c979fd852e4d7834f55e7d"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold0\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold0\\validation_predictions.npz",
+    "sha256": "356ed4fd18aa2006554a8f554631309408ec0a51080519010af921b6a2545310"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold1\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold1\\config.json",
+    "sha256": "309d34d7d2b8cbb85ca8b32407339f9e991001f74fb0623edea5e30f4887c89c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold1\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold1\\result.json",
+    "sha256": "1e5cc1cb397cbbe7b7b067bcae15f0fc074996b1be96cfbe9fd9c1c0d46c690d"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold1\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold1\\history.jsonl",
+    "sha256": "7712943c05d3c7972db67e7f3fafd23f4463f2d7013dc394c7635280ceb151e6"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold1\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold1\\validation_predictions.npz",
+    "sha256": "dd26a58c4c339e330366d12db02b86bc5d0f414eaa7e32e0cb00572a92d0f21e"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold2\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold2\\config.json",
+    "sha256": "faead6dcdd213227536f2c83e553fd26ddfe6fbed8921f5970448e7bb56ba144"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold2\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold2\\result.json",
+    "sha256": "bf982cf39c16b1c121ccb20fb6854ee4e8f78511459cc47e406572fd55627792"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold2\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold2\\history.jsonl",
+    "sha256": "65203ff42eb900b946dd481a54c7bb6c622e4bffbd948ac4cfd3e14b8404b9db"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold2\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold2\\validation_predictions.npz",
+    "sha256": "8c6d3fbb48f17af226eecf5320f9fe465e46d3e8e86d484618de9dd3b6b2c78c"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold3\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold3\\config.json",
+    "sha256": "67ea9af53968b900bcdeadb76d50030458c7fd6e2f566d7211985a209b71526d"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold3\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold3\\result.json",
+    "sha256": "356083de4503a918ff530f636956ea0331a38ac49cd848af621b5a8e2efea01a"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold3\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold3\\history.jsonl",
+    "sha256": "d8c0399caebed143bb686463ef4f6d36e3deb1cd18bd5f4ef7ee413f8d32ad64"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold3\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold3\\validation_predictions.npz",
+    "sha256": "08035d73ce3a86d64e0cb56e5fceea5ad1d0df568e94ec6dfc23435b56a20bb3"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold4\\config.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold4\\config.json",
+    "sha256": "d75f1127424a00277786e3970cb656f9eaf737889b277fda6e2ce367a9afb2dd"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold4\\result.json",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold4\\result.json",
+    "sha256": "4a6904851392d279a3c3e05014f1dd0c9137e7334d169b51fefbb60e32426ba3"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold4\\history.jsonl",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold4\\history.jsonl",
+    "sha256": "d628a229b9fd59cbdab697f90f12ddfcdef2912441a838b1867bedb4bff09f80"
+  },
+  {
+    "source": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seed42_20261103_153158\\train\\E3\\seed42\\fold4\\validation_predictions.npz",
+    "dest": "G:\\LLLM\\MCDHGN-main\\results\\d0_E3_seeds43_44_20261103_234627\\reference_E3_seed42\\E3\\seed42\\fold4\\validation_predictions.npz",
+    "sha256": "42caf69e58e7525bd948388cea789439aae8b26ea7b43b399e4d0611bc6cbc3d"
+  }
+]

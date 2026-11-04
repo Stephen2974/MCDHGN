@@ -1,0 +1,322 @@
+[
+  {
+    "experiment": "E1",
+    "fold": 0,
+    "which": "new",
+    "best_epoch": 130,
+    "epochs_trained": 330,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.193911677472187e-08,
+    "history_best_ap": 0.7281980125719281,
+    "restored_ap": 0.7281980125719281
+  },
+  {
+    "experiment": "E1",
+    "fold": 0,
+    "which": "old",
+    "best_epoch": 440,
+    "epochs_trained": 640,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.204455315130588e-08,
+    "history_best_ap": 0.8190893873250407,
+    "restored_ap": 0.8190893873250407
+  },
+  {
+    "experiment": "E1",
+    "fold": 1,
+    "which": "new",
+    "best_epoch": 210,
+    "epochs_trained": 410,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.628092735245673e-08,
+    "history_best_ap": 0.7503228374816939,
+    "restored_ap": 0.7503228374816939
+  },
+  {
+    "experiment": "E1",
+    "fold": 1,
+    "which": "old",
+    "best_epoch": 410,
+    "epochs_trained": 610,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.99056358857797e-08,
+    "history_best_ap": 0.8034640974780103,
+    "restored_ap": 0.8034640974780103
+  },
+  {
+    "experiment": "E1",
+    "fold": 2,
+    "which": "new",
+    "best_epoch": 520,
+    "epochs_trained": 720,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.061271650205981e-08,
+    "history_best_ap": 0.7647461155801197,
+    "restored_ap": 0.7647461155801197
+  },
+  {
+    "experiment": "E1",
+    "fold": 2,
+    "which": "old",
+    "best_epoch": 460,
+    "epochs_trained": 660,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.346181318812484e-08,
+    "history_best_ap": 0.8060042144778322,
+    "restored_ap": 0.8060042144778322
+  },
+  {
+    "experiment": "E1",
+    "fold": 3,
+    "which": "new",
+    "best_epoch": 580,
+    "epochs_trained": 780,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.356912795104421e-08,
+    "history_best_ap": 0.7746334741367562,
+    "restored_ap": 0.7746334741367562
+  },
+  {
+    "experiment": "E1",
+    "fold": 3,
+    "which": "old",
+    "best_epoch": 580,
+    "epochs_trained": 780,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.005558271850788e-08,
+    "history_best_ap": 0.802626291005466,
+    "restored_ap": 0.802626291005466
+  },
+  {
+    "experiment": "E1",
+    "fold": 4,
+    "which": "new",
+    "best_epoch": 700,
+    "epochs_trained": 900,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.974198501514707e-08,
+    "history_best_ap": 0.7635196683674244,
+    "restored_ap": 0.7635196683674244
+  },
+  {
+    "experiment": "E1",
+    "fold": 4,
+    "which": "old",
+    "best_epoch": 570,
+    "epochs_trained": 770,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.544766616491728e-08,
+    "history_best_ap": 0.8201552095188934,
+    "restored_ap": 0.8201552095188934
+  },
+  {
+    "experiment": "E3",
+    "fold": 0,
+    "which": "new",
+    "best_epoch": 470,
+    "epochs_trained": 670,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.059840206353641e-08,
+    "history_best_ap": 0.8205338996394533,
+    "restored_ap": 0.8205338996394533
+  },
+  {
+    "experiment": "E3",
+    "fold": 0,
+    "which": "old",
+    "best_epoch": 610,
+    "epochs_trained": 810,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.609972829669687e-08,
+    "history_best_ap": 0.8211287308887643,
+    "restored_ap": 0.8211429303142337
+  },
+  {
+    "experiment": "E3",
+    "fold": 1,
+    "which": "new",
+    "best_epoch": 450,
+    "epochs_trained": 650,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 6.615283254518545e-08,
+    "history_best_ap": 0.7908881648846583,
+    "restored_ap": 0.7908881648846583
+  },
+  {
+    "experiment": "E3",
+    "fold": 1,
+    "which": "old",
+    "best_epoch": 970,
+    "epochs_trained": 1000,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.885807606911044e-08,
+    "history_best_ap": 0.8171787780645445,
+    "restored_ap": 0.8171787780645445
+  },
+  {
+    "experiment": "E3",
+    "fold": 2,
+    "which": "new",
+    "best_epoch": 430,
+    "epochs_trained": 630,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.810511848393986e-08,
+    "history_best_ap": 0.8017465774060019,
+    "restored_ap": 0.8017465774060019
+  },
+  {
+    "experiment": "E3",
+    "fold": 2,
+    "which": "old",
+    "best_epoch": 710,
+    "epochs_trained": 910,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.127662998180796e-08,
+    "history_best_ap": 0.8196078449205013,
+    "restored_ap": 0.8196078449205013
+  },
+  {
+    "experiment": "E3",
+    "fold": 3,
+    "which": "new",
+    "best_epoch": 970,
+    "epochs_trained": 1000,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 7.781289401709302e-08,
+    "history_best_ap": 0.7998975020720358,
+    "restored_ap": 0.7998975020720358
+  },
+  {
+    "experiment": "E3",
+    "fold": 3,
+    "which": "old",
+    "best_epoch": 280,
+    "epochs_trained": 480,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.316537081221043e-08,
+    "history_best_ap": 0.7729883119402984,
+    "restored_ap": 0.7729883119402984
+  },
+  {
+    "experiment": "E3",
+    "fold": 4,
+    "which": "new",
+    "best_epoch": 630,
+    "epochs_trained": 830,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 6.986739209402515e-08,
+    "history_best_ap": 0.7975781405858713,
+    "restored_ap": 0.7975781405858713
+  },
+  {
+    "experiment": "E3",
+    "fold": 4,
+    "which": "old",
+    "best_epoch": 650,
+    "epochs_trained": 850,
+    "metric_abs_diff": {
+      "ap": 0.0,
+      "auc": 0.0,
+      "accuracy": 0.0,
+      "macro_f1": 0.0
+    },
+    "probability_max_abs_diff": 8.06760197535894e-08,
+    "history_best_ap": 0.8226617212741252,
+    "restored_ap": 0.8226617212741252
+  }
+]

@@ -1,0 +1,66 @@
+E3 - E1 paired validation comparison (seeds 42, 43, 44; five folds each)
+Validation model selection only. The 15 folds share splits and are not 15 independent samples.
+No naive significance test and no independent-test claim.
+
+Overall mean difference, E3 minus E1, percentage points; wins are folds with a positive difference.
+ap: -0.9664 percentage points; wins 6/15; ties 0
+auc: -0.5231 percentage points; wins 5/15; ties 0
+accuracy: -0.7331 percentage points; wins 8/15; ties 0
+macro_f1: -0.9391 percentage points; wins 8/15; ties 0
+
+Per-seed mean difference, percentage points
+seed 42: ap +0.0448; auc -0.0395; accuracy -0.6529; macro_f1 -0.6584; AP wins 4/5
+seed 43: ap -1.1398; auc -0.4644; accuracy -1.1512; macro_f1 -1.1272; AP wins 1/5
+seed 44: ap -1.8040; auc -1.0652; accuracy -0.3952; macro_f1 -1.0319; AP wins 1/5
+
+Per-fold AP difference, percentage points
+seed 42 fold 0: +0.2054
+seed 42 fold 1: +1.3715
+seed 42 fold 2: +1.3604
+seed 42 fold 3: -2.9638
+seed 42 fold 4: +0.2507
+seed 43 fold 0: +0.1395
+seed 43 fold 1: -2.0702
+seed 43 fold 2: -0.8165
+seed 43 fold 3: -2.8059
+seed 43 fold 4: -0.1461
+seed 44 fold 0: +0.3331
+seed 44 fold 1: -1.6564
+seed 44 fold 2: -0.1987
+seed 44 fold 3: -2.6628
+seed 44 fold 4: -4.8353
+
+fold3 across seeds
+seed 42 fold3 AP difference: -2.9638 percentage points
+seed 43 fold3 AP difference: -2.8059 percentage points
+seed 44 fold3 AP difference: -2.6628 percentage points
+fold3 AP is lower than paired E1 for every seed: yes
+
+Training time and recorded peak allocated memory
+E3 seed 42 fold 0: best_epoch=610 epochs_trained=810 seconds=4068.3 peak_allocated_bytes=4708319232
+E3 seed 42 fold 1: best_epoch=970 epochs_trained=1000 seconds=5263.2 peak_allocated_bytes=4708855808
+E3 seed 42 fold 2: best_epoch=710 epochs_trained=910 seconds=4927.4 peak_allocated_bytes=4708855808
+E3 seed 42 fold 3: best_epoch=280 epochs_trained=480 seconds=2431.0 peak_allocated_bytes=4708855808
+E3 seed 42 fold 4: best_epoch=650 epochs_trained=850 seconds=4270.0 peak_allocated_bytes=4708855808
+E3 seed 43 fold 0: best_epoch=530 epochs_trained=730 seconds=3684.5 peak_allocated_bytes=4708855808
+E3 seed 43 fold 1: best_epoch=230 epochs_trained=430 seconds=2196.2 peak_allocated_bytes=4708855808
+E3 seed 43 fold 2: best_epoch=290 epochs_trained=490 seconds=2574.1 peak_allocated_bytes=4708855808
+E3 seed 43 fold 3: best_epoch=300 epochs_trained=500 seconds=2531.1 peak_allocated_bytes=4707809280
+E3 seed 43 fold 4: best_epoch=260 epochs_trained=460 seconds=2297.1 peak_allocated_bytes=4708855808
+E3 seed 44 fold 0: best_epoch=990 epochs_trained=1000 seconds=5050.5 peak_allocated_bytes=4708855808
+E3 seed 44 fold 1: best_epoch=450 epochs_trained=650 seconds=3345.2 peak_allocated_bytes=4756639232
+E3 seed 44 fold 2: best_epoch=710 epochs_trained=910 seconds=4646.9 peak_allocated_bytes=4708855808
+E3 seed 44 fold 3: best_epoch=220 epochs_trained=420 seconds=2116.2 peak_allocated_bytes=4708855808
+E3 seed 44 fold 4: best_epoch=230 epochs_trained=430 seconds=2178.7 peak_allocated_bytes=4707610624
+
+Notable training records
+seed 42 fold 0 best AP 0.8211, last logged AP 0.3488
+seed 42 fold 1 reached the 1000-epoch cap
+seed 42 fold 1 best AP 0.8172, last logged AP 0.7404
+seed 42 fold 3 best AP 0.7730, last logged AP 0.5265
+seed 43 fold 1 best AP 0.7929, last logged AP 0.3574
+seed 43 fold 3 best AP 0.7790, last logged AP 0.3436
+seed 43 fold 4 best AP 0.8163, last logged AP 0.4411
+seed 44 fold 0 reached the 1000-epoch cap
+seed 44 fold 2 best AP 0.8085, last logged AP 0.3215
+seed 44 fold 4 best AP 0.7786, last logged AP 0.2619

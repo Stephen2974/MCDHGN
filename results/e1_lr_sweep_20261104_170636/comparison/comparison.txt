@@ -1,0 +1,51 @@
+E1 学习率对比（seed 42，每组完整五折）
+验证集 AP 选最佳 checkpoint。未调用测试集。折间标准差为样本标准差（n-1）。
+配对差值 = 候选学习率 − 本轮 0.01。正值表示候选更高。
+
+学习率 0.01
+  ap: mean 0.810343, sd 0.007452
+  auc: mean 0.874874, sd 0.004211
+  macro_f1: mean 0.782165, sd 0.017660
+
+学习率 0.005
+  ap: mean 0.810434, sd 0.010405
+  auc: mean 0.875178, sd 0.003164
+  macro_f1: mean 0.780207, sd 0.017743
+
+学习率 0.003
+  ap: mean 0.754967, sd 0.019428
+  auc: mean 0.837613, sd 0.013717
+  macro_f1: mean 0.688989, sd 0.034152
+
+相对本轮 0.01：0.005
+  ap: mean delta +0.000091 (+0.0091 pp), wins 2/5, ties 0, losses 3
+  auc: mean delta +0.000304 (+0.0304 pp), wins 4/5, ties 0, losses 1
+  macro_f1: mean delta -0.001958 (-0.1958 pp), wins 3/5, ties 0, losses 2
+
+相对本轮 0.01：0.003
+  ap: mean delta -0.055377 (-5.5377 pp), wins 0/5, ties 0, losses 5
+  auc: mean delta -0.037261 (-3.7261 pp), wins 0/5, ties 0, losses 5
+  macro_f1: mean delta -0.093177 (-9.3177 pp), wins 0/5, ties 0, losses 5
+
+达到记录轮数上限的折：
+  无
+
+新旧 0.01 复现差异（本轮 − 既有 E1 seed42）：
+  ap: mean delta +0.000076 (+0.0076 pp), sd_delta 0.006637
+    fold 0: +0.000214
+    fold 1: +0.004192
+    fold 2: -0.006625
+    fold 3: +0.008760
+    fold 4: -0.006163
+  auc: mean delta -0.000542 (-0.0542 pp), sd_delta 0.003149
+    fold 0: +0.001271
+    fold 1: +0.000945
+    fold 2: -0.006004
+    fold 3: +0.001538
+    fold 4: -0.000460
+  macro_f1: mean delta -0.002474 (-0.2474 pp), sd_delta 0.012546
+    fold 0: +0.002260
+    fold 1: +0.000816
+    fold 2: -0.021161
+    fold 3: +0.012613
+    fold 4: -0.006897

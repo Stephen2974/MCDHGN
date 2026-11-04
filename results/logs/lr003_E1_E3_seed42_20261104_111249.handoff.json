@@ -1,0 +1,15 @@
+﻿{
+    "scheduler_sha256":  "193eebd9a7ea429d24080a693af249f5d2815297e5eb10d13631ce65c81ac0dc",
+    "PYTHONUNBUFFERED":  "1",
+    "stderr":  "G:\\LLLM\\MCDHGN-main\\results\\logs\\lr003_E1_E3_seed42_20261104_111249.err.log",
+    "git_head":  "7954bbc75186a74f23380efad6ef9fb4c1a13422",
+    "started":  "2026-11-04T11:13:44.4236222+08:00",
+    "DGLBACKEND":  "pytorch",
+    "stdout":  "G:\\LLLM\\MCDHGN-main\\results\\logs\\lr003_E1_E3_seed42_20261104_111249.out.log",
+    "CUDA_VISIBLE_DEVICES":  "0,1,2",
+    "scheduler":  "G:\\LLLM\\MCDHGN-main\\results\\lr003_E1_E3_seed42_20261104_111249\\scheduler.py",
+    "output":  "G:\\LLLM\\MCDHGN-main\\results\\lr003_E1_E3_seed42_20261104_111249",
+    "compare_sha256":  "238b9f70584a5337848fcbd7497c22d8c91925f42e8cb7909903c7bbe2943f7f",
+    "python":  "G:\\LLLM\\MCDHGN-main\\.conda\\python.exe",
+    "scheduler_pid":  9220
+}

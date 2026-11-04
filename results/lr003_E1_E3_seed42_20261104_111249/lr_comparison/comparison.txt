@@ -1,0 +1,67 @@
+Learning-rate comparison for E1 and E3, base seed 42, five validation folds.
+Differences are percentage points. This is one seed used for screening, not a multi-seed or independent-test result.
+
+A. E1(lr=0.003) - E1(lr=0.01)
+  ap: -5.3984 percentage points; wins 0/5
+  auc: -3.6272 percentage points; wins 0/5
+  accuracy: -9.0722 percentage points; wins 0/5
+  macro_f1: -7.6982 percentage points; wins 0/5
+  fold 0 AP: -9.0891
+  fold 1 AP: -5.3141
+  fold 2 AP: -4.1258
+  fold 3 AP: -2.7993
+  fold 4 AP: -5.6636
+
+B. E3(lr=0.003) - E3(lr=0.01)
+  ap: -0.8587 percentage points; wins 1/5
+  auc: -0.6402 percentage points; wins 1/5
+  accuracy: -0.0687 percentage points; wins 1/5
+  macro_f1: -0.1725 percentage points; wins 1/5
+  fold 0 AP: -0.0609
+  fold 1 AP: -2.6291
+  fold 2 AP: -1.7861
+  fold 3 AP: +2.6909
+  fold 4 AP: -2.5084
+
+C. E3(lr=0.003) - E1(lr=0.003)
+  ap: +4.5845 percentage points; wins 5/5
+  auc: +2.9475 percentage points; wins 5/5
+  accuracy: +8.3505 percentage points; wins 5/5
+  macro_f1: +6.8674 percentage points; wins 5/5
+  fold 0 AP: +9.2336
+  fold 1 AP: +4.0565
+  fold 2 AP: +3.7000
+  fold 3 AP: +2.5264
+  fold 4 AP: +3.4058
+
+D. [E3-E1 at 0.003] - [E3-E1 at 0.01]
+  ap: +4.5397 percentage points; wins 5/5
+  auc: +2.9870 percentage points; wins 5/5
+  accuracy: +9.0034 percentage points; wins 5/5
+  macro_f1: +7.5258 percentage points; wins 5/5
+  fold 0 AP: +9.0282
+  fold 1 AP: +2.6851
+  fold 2 AP: +2.3397
+  fold 3 AP: +5.4902
+  fold 4 AP: +3.1552
+
+fold3
+E1 fold3 AP lr0.003-lr0.01: -2.7993 percentage points
+E3 fold3 AP lr0.003-lr0.01: +2.6909 percentage points
+fold3 E3-E1 at lr0.01: -2.9638 percentage points
+fold3 E3-E1 at lr0.003: +2.5264 percentage points
+
+Runs whose last logged AP is at least 0.05 below the selected checkpoint: lr0.01 3/10, lr0.003 2/10
+Runs that reached the 1000-epoch cap: lr0.01 1/10, lr0.003 1/10
+Mean best epoch: lr0.01 568.0, lr0.003 509.0
+
+E1 fold 0: best_epoch=130 epochs_trained=330 seconds=1697.7 peak_allocated_bytes=4532646912 best_minus_last_ap=+0.0595
+E1 fold 1: best_epoch=210 epochs_trained=410 seconds=2159.4 peak_allocated_bytes=4556767744 best_minus_last_ap=+0.0536
+E1 fold 2: best_epoch=520 epochs_trained=720 seconds=3826.8 peak_allocated_bytes=4485631488 best_minus_last_ap=+0.0046
+E1 fold 3: best_epoch=580 epochs_trained=780 seconds=3914.5 peak_allocated_bytes=4525597184 best_minus_last_ap=+0.0272
+E1 fold 4: best_epoch=700 epochs_trained=900 seconds=4590.2 peak_allocated_bytes=4587762688 best_minus_last_ap=+0.0461
+E3 fold 0: best_epoch=470 epochs_trained=670 seconds=3324.8 peak_allocated_bytes=4708649472 best_minus_last_ap=+0.0248
+E3 fold 1: best_epoch=450 epochs_trained=650 seconds=3279.9 peak_allocated_bytes=4708855808 best_minus_last_ap=+0.0030
+E3 fold 2: best_epoch=430 epochs_trained=630 seconds=3267.2 peak_allocated_bytes=4709056512 best_minus_last_ap=+0.0149
+E3 fold 3: best_epoch=970 epochs_trained=1000 seconds=4881.2 peak_allocated_bytes=4708855808 best_minus_last_ap=+0.0104
+E3 fold 4: best_epoch=630 epochs_trained=830 seconds=4156.0 peak_allocated_bytes=4708855808 best_minus_last_ap=+0.0357
