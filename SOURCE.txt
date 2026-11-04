@@ -1,0 +1,10 @@
+Training commit: 7954bbc75186a74f23380efad6ef9fb4c1a13422
+Scheduler SHA256: 193eebd9a7ea429d24080a693af249f5d2815297e5eb10d13631ce65c81ac0dc
+Compare script SHA256: 238b9f70584a5337848fcbd7497c22d8c91925f42e8cb7909903c7bbe2943f7f
+Python: G:\LLLM\MCDHGN-main\.conda\python.exe
+Environment: Python 3.9.16, PyTorch 1.12.0+cu116, DGL 1.1.1+cu116, CUDA runtime 11.6
+Output: G:\LLLM\MCDHGN-main\results\lr003_E1_E3_seed42_20261104_111249
+Status: completed
+Archive: lr003_E1_E3_seed42_20261104_111249_feedback.tar.gz
+Bytes: 571908
+SHA256: 689524b08d118b6bb64ef79b37c41be31572fe463ef94421006816c40a68e3f9
