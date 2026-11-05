@@ -1,0 +1,1331 @@
+{
+  "created_at": "2026-11-03T16:45:12+08:00",
+  "status": "data_prepared_not_trainable",
+  "data_preparation_complete": true,
+  "trainable": false,
+  "training_graph_generated": false,
+  "nodes": 12944,
+  "studies": [
+    {
+      "study": "kirc_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "KIRC"
+      ],
+      "study_meta": {
+        "study": "kirc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "ccrcc",
+        "name": "Kidney Renal Clear Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Kidney Renal Clear Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "kirc_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 512,
+      "patient_records": 512,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "KIRC": 509
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 3
+      },
+      "classification_basis": {
+        "single_cancer_study:kirc_tcga_pan_can_atlas_2018": 512
+      },
+      "oncotree_counts": {
+        "CCRCC": 512
+      },
+      "case_list_samples": 509,
+      "matrix_samples": 509,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 17,
+        "conflicting_nodes": 7,
+        "illegal_cells": 0,
+        "parsed_cells": 6564064,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "brca_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "BRCA"
+      ],
+      "study_meta": {
+        "study": "brca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "brca",
+        "name": "Breast Invasive Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Breast Invasive Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "brca_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 1084,
+      "patient_records": 1084,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "BRCA": 1070
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 14
+      },
+      "classification_basis": {
+        "single_cancer_study:brca_tcga_pan_can_atlas_2018": 1084
+      },
+      "oncotree_counts": {
+        "ILC": 201,
+        "IDC": 780,
+        "BRCNOS": 77,
+        "IMMC": 17,
+        "MBC": 8,
+        "BRCA": 1
+      },
+      "case_list_samples": 1070,
+      "matrix_samples": 1070,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 10,
+        "conflicting_nodes": 14,
+        "illegal_cells": 0,
+        "parsed_cells": 13798720,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "coadread_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "READ",
+        "COAD"
+      ],
+      "study_meta": {
+        "study": "coadread_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "coadread",
+        "name": "Colorectal Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Colorectal Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "coadread_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 594,
+      "patient_records": 594,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "READ": 155,
+        "COAD": 437
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 2
+      },
+      "classification_basis": {
+        "oncotree:COAD;site:Colon": 375,
+        "oncotree:MACR;site:Colon": 61,
+        "oncotree:COAD;site:missing": 3,
+        "oncotree:READ;site:Rectum": 152,
+        "oncotree:READ;site:missing": 3
+      },
+      "oncotree_counts": {
+        "COAD": 378,
+        "MACR": 61,
+        "READ": 155
+      },
+      "case_list_samples": 592,
+      "matrix_samples": 592,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25131,
+        "accepted_rows": 12922,
+        "rejected_rows": 12209,
+        "outside_node_set": 11741,
+        "deduplicated_rows": 16,
+        "conflicting_nodes": 10,
+        "illegal_cells": 0,
+        "parsed_cells": 7634432,
+        "methods": {
+          "entrez_hgnc": 12914,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "prad_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "PRAD"
+      ],
+      "study_meta": {
+        "study": "prad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "prad",
+        "name": "Prostate Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Prostate Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "prad_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 494,
+      "patient_records": 494,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "PRAD": 489
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 5
+      },
+      "classification_basis": {
+        "single_cancer_study:prad_tcga_pan_can_atlas_2018": 494
+      },
+      "oncotree_counts": {
+        "PRAD": 494
+      },
+      "case_list_samples": 489,
+      "matrix_samples": 489,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 8,
+        "conflicting_nodes": 16,
+        "illegal_cells": 0,
+        "parsed_cells": 6306144,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "stad_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "STAD"
+      ],
+      "study_meta": {
+        "study": "stad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "stad",
+        "name": "Stomach Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Stomach Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "stad_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 440,
+      "patient_records": 440,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "STAD": 438
+      },
+      "exclusion_reasons": {
+        "missing_clinical_record": 1,
+        "no_cna_data": 2
+      },
+      "classification_basis": {
+        "not_classified": 1,
+        "single_cancer_study:stad_tcga_pan_can_atlas_2018": 440
+      },
+      "oncotree_counts": {
+        "STAD": 165,
+        "DSTAD": 72,
+        "ISTAD": 81,
+        "TSTAD": 79,
+        "PSTAD": 8,
+        "MSTAD": 22,
+        "SSRCC": 13
+      },
+      "case_list_samples": 438,
+      "matrix_samples": 439,
+      "case_list_only": 0,
+      "matrix_only": 1,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 11,
+        "conflicting_nodes": 13,
+        "illegal_cells": 0,
+        "parsed_cells": 5648448,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "hnsc_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "HNSC"
+      ],
+      "study_meta": {
+        "study": "hnsc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "hnsc",
+        "name": "Head and Neck Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Head and Neck Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "hnsc_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 523,
+      "patient_records": 523,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "HNSC": 517
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 6
+      },
+      "classification_basis": {
+        "single_cancer_study:hnsc_tcga_pan_can_atlas_2018": 523
+      },
+      "oncotree_counts": {
+        "HNSC": 523
+      },
+      "case_list_samples": 517,
+      "matrix_samples": 517,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 13,
+        "conflicting_nodes": 12,
+        "illegal_cells": 0,
+        "parsed_cells": 6667232,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "luad_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "LUAD"
+      ],
+      "study_meta": {
+        "study": "luad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "luad",
+        "name": "Lung Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Lung Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "luad_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 566,
+      "patient_records": 566,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "LUAD": 511
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 55
+      },
+      "classification_basis": {
+        "single_cancer_study:luad_tcga_pan_can_atlas_2018": 566
+      },
+      "oncotree_counts": {
+        "LUAD": 566
+      },
+      "case_list_samples": 511,
+      "matrix_samples": 511,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 14,
+        "conflicting_nodes": 11,
+        "illegal_cells": 0,
+        "parsed_cells": 6589856,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "thca_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "THCA"
+      ],
+      "study_meta": {
+        "study": "thca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "thpa",
+        "name": "Thyroid Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Thyroid Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "thca_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 500,
+      "patient_records": 499,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "THCA": 497
+      },
+      "exclusion_reasons": {
+        "missing_clinical_record": 1,
+        "no_cna_data": 3
+      },
+      "classification_basis": {
+        "not_classified": 1,
+        "single_cancer_study:thca_tcga_pan_can_atlas_2018": 500
+      },
+      "oncotree_counts": {
+        "THPA": 500
+      },
+      "case_list_samples": 497,
+      "matrix_samples": 498,
+      "case_list_only": 0,
+      "matrix_only": 1,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 20,
+        "conflicting_nodes": 5,
+        "illegal_cells": 0,
+        "parsed_cells": 6409312,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "blca_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "BLCA"
+      ],
+      "study_meta": {
+        "study": "blca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "blca",
+        "name": "Bladder Urothelial Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Bladder Urothelial Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "blca_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 411,
+      "patient_records": 411,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "BLCA": 408
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 3
+      },
+      "classification_basis": {
+        "single_cancer_study:blca_tcga_pan_can_atlas_2018": 411
+      },
+      "oncotree_counts": {
+        "BLCA": 411
+      },
+      "case_list_samples": 408,
+      "matrix_samples": 408,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 12,
+        "conflicting_nodes": 12,
+        "illegal_cells": 0,
+        "parsed_cells": 5261568,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "esca_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "ESCA"
+      ],
+      "study_meta": {
+        "study": "esca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "esca",
+        "name": "Esophageal Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Esophageal Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "esca_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 182,
+      "patient_records": 182,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "ESCA": 182
+      },
+      "exclusion_reasons": {},
+      "classification_basis": {
+        "single_cancer_study:esca_tcga_pan_can_atlas_2018": 182
+      },
+      "oncotree_counts": {
+        "ESCA": 87,
+        "ESCC": 95
+      },
+      "case_list_samples": 182,
+      "matrix_samples": 182,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 15,
+        "conflicting_nodes": 9,
+        "illegal_cells": 0,
+        "parsed_cells": 2347072,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "lihc_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "LIHC"
+      ],
+      "study_meta": {
+        "study": "lihc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "hcc",
+        "name": "Liver Hepatocellular Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Liver Hepatocellular Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "lihc_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 372,
+      "patient_records": 372,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "LIHC": 367
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 5
+      },
+      "classification_basis": {
+        "single_cancer_study:lihc_tcga_pan_can_atlas_2018": 372
+      },
+      "oncotree_counts": {
+        "HCC": 369,
+        "FLC": 3
+      },
+      "case_list_samples": 367,
+      "matrix_samples": 367,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 13,
+        "conflicting_nodes": 11,
+        "illegal_cells": 0,
+        "parsed_cells": 4732832,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "ucec_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "UCEC"
+      ],
+      "study_meta": {
+        "study": "ucec_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "ucec",
+        "name": "Uterine Corpus Endometrial Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Uterine Corpus Endometrial Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "ucec_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 529,
+      "patient_records": 529,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "UCEC": 523
+      },
+      "exclusion_reasons": {
+        "missing_clinical_record": 1,
+        "no_cna_data": 6
+      },
+      "classification_basis": {
+        "not_classified": 1,
+        "single_cancer_study:ucec_tcga_pan_can_atlas_2018": 529
+      },
+      "oncotree_counts": {
+        "UEC": 399,
+        "USC": 109,
+        "UMEC": 21
+      },
+      "case_list_samples": 523,
+      "matrix_samples": 524,
+      "case_list_only": 0,
+      "matrix_only": 1,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 13,
+        "conflicting_nodes": 11,
+        "illegal_cells": 0,
+        "parsed_cells": 6744608,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "lusc_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "LUSC"
+      ],
+      "study_meta": {
+        "study": "lusc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "lusc",
+        "name": "Lung Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Lung Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "lusc_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 487,
+      "patient_records": 487,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "LUSC": 487
+      },
+      "exclusion_reasons": {},
+      "classification_basis": {
+        "single_cancer_study:lusc_tcga_pan_can_atlas_2018": 487
+      },
+      "oncotree_counts": {
+        "LUSC": 487
+      },
+      "case_list_samples": 487,
+      "matrix_samples": 487,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 15,
+        "conflicting_nodes": 10,
+        "illegal_cells": 0,
+        "parsed_cells": 6280352,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "cesc_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "CESC"
+      ],
+      "study_meta": {
+        "study": "cesc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "cesc",
+        "name": "Cervical Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Cervical Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "cesc_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 297,
+      "patient_records": 297,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "CESC": 293
+      },
+      "exclusion_reasons": {
+        "no_cna_data": 4
+      },
+      "classification_basis": {
+        "single_cancer_study:cesc_tcga_pan_can_atlas_2018": 297
+      },
+      "oncotree_counts": {
+        "CESC": 251,
+        "ECAD": 26,
+        "CEMU": 17,
+        "CEEN": 3
+      },
+      "case_list_samples": 293,
+      "matrix_samples": 293,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 17,
+        "conflicting_nodes": 8,
+        "illegal_cells": 0,
+        "parsed_cells": 3778528,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    },
+    {
+      "study": "kirp_tcga_pan_can_atlas_2018",
+      "cancers": [
+        "KIRP"
+      ],
+      "study_meta": {
+        "study": "kirp_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "prcc",
+        "name": "Kidney Renal Papillary Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Kidney Renal Papillary Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "cna_meta": {
+        "study": "kirp_tcga_pan_can_atlas_2018",
+        "datatype": "DISCRETE",
+        "stable_id": "gistic",
+        "profile_description": "Putative copy-number from GISTIC 2.0. Values: -2 = homozygous deletion; -1 = hemizygous deletion; 0 = neutral / no change; 1 = gain; 2 = high level amplification.",
+        "genome_build": "not_specified_in_meta_cna"
+      },
+      "clinical_samples": 283,
+      "patient_records": 283,
+      "selected_patients_missing_patient_record": 0,
+      "selected_patients": {
+        "KIRP": 283
+      },
+      "exclusion_reasons": {},
+      "classification_basis": {
+        "single_cancer_study:kirp_tcga_pan_can_atlas_2018": 283
+      },
+      "oncotree_counts": {
+        "PRCC": 283
+      },
+      "case_list_samples": 283,
+      "matrix_samples": 283,
+      "case_list_only": 0,
+      "matrix_only": 0,
+      "cna_stats": {
+        "source_rows": 25128,
+        "accepted_rows": 12921,
+        "rejected_rows": 12207,
+        "outside_node_set": 11739,
+        "deduplicated_rows": 22,
+        "conflicting_nodes": 3,
+        "illegal_cells": 0,
+        "parsed_cells": 3649568,
+        "methods": {
+          "entrez_hgnc": 12913,
+          "symbol_fallback_previous_symbol": 6,
+          "symbol_fallback_approved_symbol": 1,
+          "symbol_fallback_alias_or_previous": 1
+        },
+        "unmapped_symbol": 463,
+        "ambiguous_symbol": 1
+      },
+      "illegal_examples": []
+    }
+  ],
+  "table_check": {
+    "nodes": 12944,
+    "cancers": [
+      "KIRC",
+      "BRCA",
+      "READ",
+      "PRAD",
+      "STAD",
+      "HNSC",
+      "LUAD",
+      "THCA",
+      "BLCA",
+      "ESCA",
+      "LIHC",
+      "UCEC",
+      "COAD",
+      "LUSC",
+      "CESC",
+      "KIRP"
+    ],
+    "features": [
+      "CNV_AMP:KIRC",
+      "CNV_DEL:KIRC",
+      "CNV_AMP:BRCA",
+      "CNV_DEL:BRCA",
+      "CNV_AMP:READ",
+      "CNV_DEL:READ",
+      "CNV_AMP:PRAD",
+      "CNV_DEL:PRAD",
+      "CNV_AMP:STAD",
+      "CNV_DEL:STAD",
+      "CNV_AMP:HNSC",
+      "CNV_DEL:HNSC",
+      "CNV_AMP:LUAD",
+      "CNV_DEL:LUAD",
+      "CNV_AMP:THCA",
+      "CNV_DEL:THCA",
+      "CNV_AMP:BLCA",
+      "CNV_DEL:BLCA",
+      "CNV_AMP:ESCA",
+      "CNV_DEL:ESCA",
+      "CNV_AMP:LIHC",
+      "CNV_DEL:LIHC",
+      "CNV_AMP:UCEC",
+      "CNV_DEL:UCEC",
+      "CNV_AMP:COAD",
+      "CNV_DEL:COAD",
+      "CNV_AMP:LUSC",
+      "CNV_DEL:LUSC",
+      "CNV_AMP:CESC",
+      "CNV_DEL:CESC",
+      "CNV_AMP:KIRP",
+      "CNV_DEL:KIRP"
+    ],
+    "missing_cells": 1860,
+    "observed_cells": 412348,
+    "genes_observed_by_cancer": {
+      "KIRC": 12889,
+      "BRCA": 12882,
+      "READ": 12886,
+      "PRAD": 12880,
+      "STAD": 12883,
+      "HNSC": 12884,
+      "LUAD": 12885,
+      "THCA": 12891,
+      "BLCA": 12884,
+      "ESCA": 12887,
+      "LIHC": 12885,
+      "UCEC": 12885,
+      "COAD": 12886,
+      "LUSC": 12886,
+      "CESC": 12888,
+      "KIRP": 12893
+    },
+    "finite_complete": false
+  },
+  "coverage": {
+    "all_nodes": {
+      "nodes": 12944,
+      "all_32_observed": 12874,
+      "any_observed": 12894
+    },
+    "development": {
+      "folds": [
+        {
+          "fold": 0,
+          "train": {
+            "nodes": 4656,
+            "all_32_observed": 4628,
+            "any_observed": 4633,
+            "by_label": {
+              "0": {
+                "nodes": 3068,
+                "all_32_observed": 3043,
+                "any_observed": 3045
+              },
+              "1": {
+                "nodes": 1588,
+                "all_32_observed": 1585,
+                "any_observed": 1588
+              }
+            }
+          },
+          "validation": {
+            "nodes": 1164,
+            "all_32_observed": 1154,
+            "any_observed": 1156,
+            "by_label": {
+              "0": {
+                "nodes": 758,
+                "all_32_observed": 749,
+                "any_observed": 751
+              },
+              "1": {
+                "nodes": 406,
+                "all_32_observed": 405,
+                "any_observed": 405
+              }
+            }
+          }
+        },
+        {
+          "fold": 1,
+          "train": {
+            "nodes": 4656,
+            "all_32_observed": 4627,
+            "any_observed": 4632,
+            "by_label": {
+              "0": {
+                "nodes": 3078,
+                "all_32_observed": 3052,
+                "any_observed": 3055
+              },
+              "1": {
+                "nodes": 1578,
+                "all_32_observed": 1575,
+                "any_observed": 1577
+              }
+            }
+          },
+          "validation": {
+            "nodes": 1164,
+            "all_32_observed": 1155,
+            "any_observed": 1157,
+            "by_label": {
+              "0": {
+                "nodes": 748,
+                "all_32_observed": 740,
+                "any_observed": 741
+              },
+              "1": {
+                "nodes": 416,
+                "all_32_observed": 415,
+                "any_observed": 416
+              }
+            }
+          }
+        },
+        {
+          "fold": 2,
+          "train": {
+            "nodes": 4656,
+            "all_32_observed": 4627,
+            "any_observed": 4634,
+            "by_label": {
+              "0": {
+                "nodes": 3054,
+                "all_32_observed": 3029,
+                "any_observed": 3033
+              },
+              "1": {
+                "nodes": 1602,
+                "all_32_observed": 1598,
+                "any_observed": 1601
+              }
+            }
+          },
+          "validation": {
+            "nodes": 1164,
+            "all_32_observed": 1155,
+            "any_observed": 1155,
+            "by_label": {
+              "1": {
+                "nodes": 392,
+                "all_32_observed": 392,
+                "any_observed": 392
+              },
+              "0": {
+                "nodes": 772,
+                "all_32_observed": 763,
+                "any_observed": 763
+              }
+            }
+          }
+        },
+        {
+          "fold": 3,
+          "train": {
+            "nodes": 4656,
+            "all_32_observed": 4621,
+            "any_observed": 4627,
+            "by_label": {
+              "0": {
+                "nodes": 3062,
+                "all_32_observed": 3031,
+                "any_observed": 3034
+              },
+              "1": {
+                "nodes": 1594,
+                "all_32_observed": 1590,
+                "any_observed": 1593
+              }
+            }
+          },
+          "validation": {
+            "nodes": 1164,
+            "all_32_observed": 1161,
+            "any_observed": 1162,
+            "by_label": {
+              "0": {
+                "nodes": 764,
+                "all_32_observed": 761,
+                "any_observed": 762
+              },
+              "1": {
+                "nodes": 400,
+                "all_32_observed": 400,
+                "any_observed": 400
+              }
+            }
+          }
+        },
+        {
+          "fold": 4,
+          "train": {
+            "nodes": 4656,
+            "all_32_observed": 4625,
+            "any_observed": 4630,
+            "by_label": {
+              "0": {
+                "nodes": 3042,
+                "all_32_observed": 3013,
+                "any_observed": 3017
+              },
+              "1": {
+                "nodes": 1614,
+                "all_32_observed": 1612,
+                "any_observed": 1613
+              }
+            }
+          },
+          "validation": {
+            "nodes": 1164,
+            "all_32_observed": 1157,
+            "any_observed": 1159,
+            "by_label": {
+              "0": {
+                "nodes": 784,
+                "all_32_observed": 779,
+                "any_observed": 779
+              },
+              "1": {
+                "nodes": 380,
+                "all_32_observed": 378,
+                "any_observed": 380
+              }
+            }
+          }
+        }
+      ],
+      "development_nodes": 5820,
+      "test_labels_read": false
+    }
+  },
+  "missing_reason_counts": {
+    "BRCA:conflicting_source_rows": 14,
+    "PRAD:conflicting_source_rows": 16,
+    "STAD:conflicting_source_rows": 13,
+    "HNSC:conflicting_source_rows": 12,
+    "THCA:conflicting_source_rows": 5,
+    "BLCA:conflicting_source_rows": 12,
+    "LIHC:conflicting_source_rows": 11,
+    "UCEC:conflicting_source_rows": 11,
+    "LUSC:conflicting_source_rows": 10,
+    "CESC:conflicting_source_rows": 8,
+    "KIRC:no_mapped_cna_row": 43,
+    "BRCA:no_mapped_cna_row": 43,
+    "READ:no_mapped_cna_row": 43,
+    "PRAD:no_mapped_cna_row": 43,
+    "STAD:no_mapped_cna_row": 43,
+    "HNSC:no_mapped_cna_row": 43,
+    "LUAD:no_mapped_cna_row": 43,
+    "THCA:no_mapped_cna_row": 43,
+    "BLCA:no_mapped_cna_row": 43,
+    "ESCA:no_mapped_cna_row": 43,
+    "LIHC:no_mapped_cna_row": 43,
+    "UCEC:no_mapped_cna_row": 43,
+    "COAD:no_mapped_cna_row": 43,
+    "LUSC:no_mapped_cna_row": 43,
+    "CESC:no_mapped_cna_row": 43,
+    "KIRP:no_mapped_cna_row": 43,
+    "KIRC:conflicting_source_rows": 7,
+    "READ:conflicting_source_rows": 10,
+    "LUAD:conflicting_source_rows": 11,
+    "ESCA:conflicting_source_rows": 9,
+    "COAD:conflicting_source_rows": 10,
+    "KIRP:conflicting_source_rows": 3,
+    "KIRC:node_mapping_status:unmapped": 2,
+    "BRCA:node_mapping_status:unmapped": 2,
+    "READ:node_mapping_status:unmapped": 2,
+    "PRAD:node_mapping_status:unmapped": 2,
+    "STAD:node_mapping_status:unmapped": 2,
+    "HNSC:node_mapping_status:unmapped": 2,
+    "LUAD:node_mapping_status:unmapped": 2,
+    "THCA:node_mapping_status:unmapped": 2,
+    "BLCA:node_mapping_status:unmapped": 2,
+    "ESCA:node_mapping_status:unmapped": 2,
+    "LIHC:node_mapping_status:unmapped": 2,
+    "UCEC:node_mapping_status:unmapped": 2,
+    "COAD:node_mapping_status:unmapped": 2,
+    "LUSC:node_mapping_status:unmapped": 2,
+    "CESC:node_mapping_status:unmapped": 2,
+    "KIRP:node_mapping_status:unmapped": 2,
+    "KIRC:node_mapping_status:duplicate_identity": 2,
+    "BRCA:node_mapping_status:duplicate_identity": 2,
+    "READ:node_mapping_status:duplicate_identity": 2,
+    "PRAD:node_mapping_status:duplicate_identity": 2,
+    "STAD:node_mapping_status:duplicate_identity": 2,
+    "HNSC:node_mapping_status:duplicate_identity": 2,
+    "LUAD:node_mapping_status:duplicate_identity": 2,
+    "THCA:node_mapping_status:duplicate_identity": 2,
+    "BLCA:node_mapping_status:duplicate_identity": 2,
+    "ESCA:node_mapping_status:duplicate_identity": 2,
+    "LIHC:node_mapping_status:duplicate_identity": 2,
+    "UCEC:node_mapping_status:duplicate_identity": 2,
+    "COAD:node_mapping_status:duplicate_identity": 2,
+    "LUSC:node_mapping_status:duplicate_identity": 2,
+    "CESC:node_mapping_status:duplicate_identity": 2,
+    "KIRP:node_mapping_status:duplicate_identity": 2,
+    "KIRC:node_mapping_status:ambiguous": 1,
+    "BRCA:node_mapping_status:ambiguous": 1,
+    "READ:node_mapping_status:ambiguous": 1,
+    "PRAD:node_mapping_status:ambiguous": 1,
+    "STAD:node_mapping_status:ambiguous": 1,
+    "HNSC:node_mapping_status:ambiguous": 1,
+    "LUAD:node_mapping_status:ambiguous": 1,
+    "THCA:node_mapping_status:ambiguous": 1,
+    "BLCA:node_mapping_status:ambiguous": 1,
+    "ESCA:node_mapping_status:ambiguous": 1,
+    "LIHC:node_mapping_status:ambiguous": 1,
+    "UCEC:node_mapping_status:ambiguous": 1,
+    "COAD:node_mapping_status:ambiguous": 1,
+    "LUSC:node_mapping_status:ambiguous": 1,
+    "CESC:node_mapping_status:ambiguous": 1,
+    "KIRP:node_mapping_status:ambiguous": 1
+  },
+  "unresolved_identity_nodes": [
+    {
+      "node_id": 5012,
+      "source_id": "U2AF1L5",
+      "mapping_status": "unmapped",
+      "ambiguity_reason": "no_approved_record"
+    },
+    {
+      "node_id": 8775,
+      "source_id": "MYO18A",
+      "mapping_status": "duplicate_identity",
+      "ambiguity_reason": "multiple_existing_nodes_share_hgnc_id"
+    },
+    {
+      "node_id": 9833,
+      "source_id": "TIAF1",
+      "mapping_status": "duplicate_identity",
+      "ambiguity_reason": "multiple_existing_nodes_share_hgnc_id"
+    },
+    {
+      "node_id": 10415,
+      "source_id": "CBSL",
+      "mapping_status": "unmapped",
+      "ambiguity_reason": "no_approved_record"
+    },
+    {
+      "node_id": 10603,
+      "source_id": "TAZ",
+      "mapping_status": "ambiguous",
+      "ambiguity_reason": "multiple_hgnc_candidates"
+    }
+  ],
+  "unresolved_text": "缺失单元格 1860。身份未解析节点 5 个，状态来自 P0 gene_map 的实际 mapping_status。 原 48 维矩阵没有患者 ID，无法核实与本批 CNA 患者是否完全相同。基因组版本未写在 meta_cna.txt 中，因此记录为未知，不从其他文件名推断。 KIRC、KIRP、LIHC、THCA 的 meta type_of_cancer 分别是 ccrcc、prcc、hcc、thpa；研究 ID 仍是 TCGA 项目缩写。 ESCA 研究显示名是 Esophageal Adenocarcinoma，本列仍按该研究中的原发 CNA 样本汇总，没有再按组织学拆开。",
+  "illegal_examples": [],
+  "d0_patient_overlap": "not_verifiable_from_available_48_column_matrix",
+  "protected_inputs": {
+    "checked": 113,
+    "mismatches": 0
+  }
+}

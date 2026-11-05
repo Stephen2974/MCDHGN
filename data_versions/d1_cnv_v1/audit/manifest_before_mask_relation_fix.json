@@ -1,0 +1,134 @@
+{
+  "schema_version": 3,
+  "created_at": "2026-11-03T16:45:12+08:00",
+  "pipeline": "d1_cnv_v1",
+  "status": "data_prepared_not_trainable",
+  "trainable": false,
+  "training_graph_generated": false,
+  "study_batch": "TCGA PanCancer Atlas 2018",
+  "study_batch_id": "tcga_pan_can_atlas_2018",
+  "datahub_commit": "860b63a7f2d23540c94e25dd35302e133c29f48b",
+  "rules": {
+    "primary_tumor": "clinical primary and TCGA sample-type code 01",
+    "patient_dedup": "lexicographic sample_id before event counting",
+    "coadread": "ONCOTREE COAD/READ; MACR only with explicit Colon or Rectum site",
+    "frequency": "GISTIC +2 or -2 over valid calls in {-2,-1,0,1,2}; missing stays blank",
+    "mapping": "Entrez through pinned HGNC to one resolved node; unambiguous symbol fallback; conflicting rows quarantined"
+  },
+  "inputs": {
+    "gene_toids_sha256": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+    "gene_map_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+    "hgnc_sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+    "hgnc_release": "retrieved-2026-10-23-sha256-pinned"
+  },
+  "code_sha256": {
+    "data_processing/d1/__init__.py": "44183e091636db7bcac30ce3fc92d23770eb298476089fa5f7a1297a20c384d0",
+    "data_processing/d1/spec.py": "7689045c1c8f2650a40a9f9c43f00f1fdae5805d750ed04be84dc39bcb7c46e2",
+    "data_processing/d1/download.py": "398362983f4760d2e1ba353a9ae911e0a68be57d37a4c34109d034e9ea52d4ac",
+    "data_processing/d1/select.py": "3a660c6fc41aba105827ea2b13d4cbefeb3117664a9e4a5c43172cc158a8caf2",
+    "data_processing/d1/genes.py": "cc2cefb3ac0fc73bd8cc195a18d539f01ebdc8e621c19bcd718fca4098d74c09",
+    "data_processing/d1/cna.py": "a36b3e189108c311a1f6446d75b20f32a3f45aa40c5a1b0f827d7f0d813e1b1f",
+    "data_processing/d1/tables.py": "05fa8bdfac77c1031aec5e1b8a4e90f4a1dfe3a7a402bb3428037dacc2807513",
+    "data_processing/d1/pipeline.py": "e2d3160b61a652c57fada26af3de100e2dd181ed00cd8c0de735ca545e0b3311",
+    "data_processing/d1/build_graph.py": "4f3c8f81897ea8c80f19de3cd27903f208e49a2147f49edcfd3572d6027a9769",
+    "data_processing/d1/README.md": "e019601390b13d95c945141bf733913597ab10151ff2d1198be253596f1939e9",
+    "tests/test_d1.py": "ee2bbc877c4ccce496f447b0fcfc6d799cbf78b0177f505decb636255af6e183"
+  },
+  "outputs": [
+    {
+      "path": "audit/interface_fix_relation.json",
+      "size_bytes": 1029,
+      "sha256": "20330bfce1d4585d0632366d92464701078956c564e2a11038d19e5826d7c1d7"
+    },
+    {
+      "path": "audit/manifest_before_interface_fix.json",
+      "size_bytes": 5295,
+      "sha256": "214f6ec2f1012644f9c5e1507bfc7c110c3cd855e454383b768eeb7beb2f7f77"
+    },
+    {
+      "path": "audit/manifest_before_validator_fix.json",
+      "size_bytes": 4627,
+      "sha256": "76644e46f39a0c8b17cfb714f467341776c6c19abba234acbae34c20bee0822c"
+    },
+    {
+      "path": "audit/validator_fix_relation.json",
+      "size_bytes": 885,
+      "sha256": "f0df0302283e60d50530b81f6940c47d8295419014bc9e876ec7a03805cdbbed"
+    },
+    {
+      "path": "cnv_event_counts.tsv",
+      "size_bytes": 1305445,
+      "sha256": "e89c3249491530989014648031a45d31bf266667d233f08337b13f896f60948a"
+    },
+    {
+      "path": "cnv_features.tsv",
+      "size_bytes": 8344645,
+      "sha256": "5ab52426f45a18c5ecd272b20d9ab54e6b0d478f4ca1e9708547aa39fe60f20c"
+    },
+    {
+      "path": "cnv_gene_links.tsv",
+      "size_bytes": 15096737,
+      "sha256": "a897de598af8662f76481a019b18ddf4b40eda7bc77383ee30897fc6693aecd2"
+    },
+    {
+      "path": "cnv_patient_counts.tsv",
+      "size_bytes": 1289071,
+      "sha256": "b73de1c40a749ad9fa86012fb534094eeea337946c0d64fcc9c2f59db9f08ce5"
+    },
+    {
+      "path": "feature_observed.tsv",
+      "size_bytes": 1279315,
+      "sha256": "5a1b64cc69a0125922281710e2a157f7a4943653a5dfb9b08d0330d520dd62b6"
+    },
+    {
+      "path": "feature_schema.tsv",
+      "size_bytes": 12416,
+      "sha256": "05b13b89e980f1f776d7d160f54b93abc7f87336a7ac375bd534106161916d99"
+    },
+    {
+      "path": "gene_map.tsv",
+      "size_bytes": 1573192,
+      "sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3"
+    },
+    {
+      "path": "mapping_issues.tsv",
+      "size_bytes": 86366,
+      "sha256": "920dc329f14533e9660961407ba01adea584134dded4a4a3459068704c2c6534"
+    },
+    {
+      "path": "missing_reasons.tsv",
+      "size_bytes": 385391,
+      "sha256": "abb407d8f2e77b90152c49a8e854e3d738c6a83de9532e6f7841a3dd4eac0ad5"
+    },
+    {
+      "path": "quality_report.json",
+      "size_bytes": 47950,
+      "sha256": "426017233e9e33e778936f0820aaaec4287660cfb37d4ca878fe9fdb641c982d"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 9911,
+      "sha256": "7c935f2c21da038e0d82dbec2ec6d4edbf90d3dbe50853462e65b6eb34b3490f"
+    },
+    {
+      "path": "sample_metadata.tsv",
+      "size_bytes": 1654620,
+      "sha256": "2698fa093c724da6793445db1f0ee92108d5fa07216e8b7e5a321908eca66402"
+    },
+    {
+      "path": "source_manifest.json",
+      "size_bytes": 71534,
+      "sha256": "ac9d5671371b6311127b0aef540a51f0d84ec853107c8e512c57634c92cc2271"
+    }
+  ],
+  "controls_not_built": [
+    "zero_value_same_mask",
+    "within_column_permutation_same_mask"
+  ],
+  "validator_fix": {
+    "audit_relation": "audit/interface_fix_relation.json",
+    "previous_manifest": "audit/manifest_before_interface_fix.json",
+    "data_regenerated": false,
+    "note": "Feature, count, mask, sample and mapping data are reused unchanged; interface fixes only changed checkers/packaging code."
+  }
+}

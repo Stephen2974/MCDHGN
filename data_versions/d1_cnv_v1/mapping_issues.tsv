@@ -1,0 +1,542 @@
+issue_type	severity	study	line_number	source_symbol	source_entrez	node_id	hgnc_id	mapping_method	detail
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	kirc_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	kirc_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	kirc_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	kirc_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	kirc_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirc_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirc_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	brca_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	brca_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	brca_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	brca_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	brca_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	brca_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	brca_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	brca_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	brca_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	brca_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	brca_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	brca_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	brca_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	brca_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	coadread_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	coadread_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	coadread_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	coadread_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	coadread_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	1021,25130	SELENOF	9403	10822	HGNC:17705	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	coadread_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	coadread_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	prad_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	prad_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	prad_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	prad_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	prad_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	prad_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	prad_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	prad_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	prad_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	prad_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	prad_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	prad_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	prad_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	prad_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	stad_tcga_pan_can_atlas_2018	258	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	stad_tcga_pan_can_atlas_2018	1333	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	stad_tcga_pan_can_atlas_2018	1365	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	stad_tcga_pan_can_atlas_2018	1937	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	stad_tcga_pan_can_atlas_2018	2558	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	stad_tcga_pan_can_atlas_2018	4968	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	stad_tcga_pan_can_atlas_2018	6952	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	stad_tcga_pan_can_atlas_2018	9591	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	stad_tcga_pan_can_atlas_2018	12235	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	stad_tcga_pan_can_atlas_2018	19367	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	stad_tcga_pan_can_atlas_2018	19368	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	stad_tcga_pan_can_atlas_2018	24953	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	257,258	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	640,641	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	1332,1333	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	1364,1365	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	1936,1937	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	2299,2300	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	2428,2429	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	2557,2558	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	4978,4979	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	9505,9506,9507	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	9591,12485	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	10083,10085	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	11172,11173	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	11353,11354	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	11951,11952	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	12087,12088	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	12235,12285	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	12593,12594	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	14173,14174	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	18722,18724	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	19345,19346	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	20219,20220	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	stad_tcga_pan_can_atlas_2018	24928,24929	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	stad_tcga_pan_can_atlas_2018	24952,24953	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	hnsc_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	hnsc_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	hnsc_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	hnsc_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	hnsc_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	hnsc_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	hnsc_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	luad_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	luad_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	luad_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	luad_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	luad_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	luad_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	luad_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	luad_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	luad_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	luad_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	luad_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	luad_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	luad_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	luad_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	thca_tcga_pan_can_atlas_2018	258	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	thca_tcga_pan_can_atlas_2018	1333	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	thca_tcga_pan_can_atlas_2018	1365	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	thca_tcga_pan_can_atlas_2018	1937	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	thca_tcga_pan_can_atlas_2018	2558	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	thca_tcga_pan_can_atlas_2018	4968	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	thca_tcga_pan_can_atlas_2018	6952	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	thca_tcga_pan_can_atlas_2018	9591	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	thca_tcga_pan_can_atlas_2018	12235	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	thca_tcga_pan_can_atlas_2018	19367	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	thca_tcga_pan_can_atlas_2018	19368	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	thca_tcga_pan_can_atlas_2018	24953	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	257,258	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	640,641	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	thca_tcga_pan_can_atlas_2018	1332,1333	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	1364,1365	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	1936,1937	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	2299,2300	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	2428,2429	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	2557,2558	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	4978,4979	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	9505,9506,9507	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	thca_tcga_pan_can_atlas_2018	9591,12485	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	10083,10085	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	11172,11173	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	11353,11354	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	thca_tcga_pan_can_atlas_2018	11951,11952	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	12087,12088	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	thca_tcga_pan_can_atlas_2018	12235,12285	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	12593,12594	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	14173,14174	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	thca_tcga_pan_can_atlas_2018	18722,18724	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	19345,19346	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	20219,20220	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	24928,24929	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	thca_tcga_pan_can_atlas_2018	24952,24953	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	blca_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	blca_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	blca_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	blca_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	blca_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	blca_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	blca_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	blca_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	blca_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	blca_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	blca_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	blca_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	blca_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	blca_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	esca_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	esca_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	esca_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	esca_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	esca_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	esca_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	esca_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	esca_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	esca_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	esca_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	esca_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	esca_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	esca_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	esca_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	lihc_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	lihc_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	lihc_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	lihc_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	lihc_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lihc_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lihc_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	258	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	1333	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	1365	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	1937	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	2558	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	ucec_tcga_pan_can_atlas_2018	4968	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	ucec_tcga_pan_can_atlas_2018	6952	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	9591	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	12235	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	ucec_tcga_pan_can_atlas_2018	19367	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	ucec_tcga_pan_can_atlas_2018	19368	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	ucec_tcga_pan_can_atlas_2018	24953	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	257,258	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	640,641	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	1332,1333	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	1364,1365	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	1936,1937	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	2299,2300	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	2428,2429	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	2557,2558	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	4978,4979	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	9505,9506,9507	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	9591,12485	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	10083,10085	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	11172,11173	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	11353,11354	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	11951,11952	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	12087,12088	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	12235,12285	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	12593,12594	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	14173,14174	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	18722,18724	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	19345,19346	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	20219,20220	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	ucec_tcga_pan_can_atlas_2018	24928,24929	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	ucec_tcga_pan_can_atlas_2018	24952,24953	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	lusc_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	lusc_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	lusc_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	lusc_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	lusc_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	lusc_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	lusc_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	cesc_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	cesc_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	cesc_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	cesc_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	cesc_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	cesc_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	cesc_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	255	RSC1A1	6248	12896	HGNC:24578	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	1325	GPR89C	728932	9229	HGNC:13840	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	1357	NBPF16	728936	9758	HGNC:28791	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	1923	QSOX1	200058	9800	HGNC:9756	symbol_fallback_approved_symbol	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	2543	C2orf48	348738	8528	HGNC:10452	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	kirp_tcga_pan_can_atlas_2018	4936	ALDH1L1-AS1	100874204				ambiguous_entrez:HGNC:40244|HGNC:55559
+mapping_rejected	error	kirp_tcga_pan_can_atlas_2018	6898	EPB41L4A-AS2	54508		HGNC:25643		symbol_entrez_conflict:entrez=HGNC:25643;symbol=HGNC:59110
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	9518	ZASP	101927655	10886	HGNC:15710	symbol_fallback_alias_or_previous	entrez_not_in_hgnc_snapshot
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	12145	FAM21B	55747	6805	HGNC:23416	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+mapping_rejected	error	kirp_tcga_pan_can_atlas_2018	19234	MYO18A	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_rejected	error	kirp_tcga_pan_can_atlas_2018	19235	TIAF1	399687		HGNC:31104		identity_not_assignable:duplicate_identity
+mapping_note	info	kirp_tcga_pan_can_atlas_2018	24789	SPANXE	171489	8065	HGNC:14332	symbol_fallback_previous_symbol	entrez_not_in_hgnc_snapshot
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	254,255	DDI2|RSC1A1	6248|84301	12896	HGNC:24578	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	634,635	KIAA0754|MACF1	23499	5377	HGNC:13664	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	1324,1325	GPR89B|GPR89C	51463|728932	9229	HGNC:13840	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	1356,1357	NBPF15|NBPF16	284565|728936	9758	HGNC:28791	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	1922,1923	QSOX1	200058|5768	9800	HGNC:9756	entrez_hgnc|symbol_fallback_approved_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	2284,2285	SNAP47	116841	6931	HGNC:30669	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	2413,2414	HNRNPU|HNRNPU-AS1	3192	2994	HGNC:5048	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	2542,2543	C2orf48|RRM2	348738|6241	8528	HGNC:10452	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirp_tcga_pan_can_atlas_2018	4946,4947	TXNRD3|TXNRD3NB	114112	8764	HGNC:20667	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	9432,9433,9434	C7orf76|SEM1|SHFM1	7979	4216	HGNC:10845	entrez_hgnc	collapsed_3_identical_rows
+duplicate_row_conflict	error	kirp_tcga_pan_can_atlas_2018	9518,12392	LDB3|ZASP	101927655|11155	10886	HGNC:15710	entrez_hgnc|symbol_fallback_alias_or_previous	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	10007,10009	DLGAP2|ERICH1-AS1	9228	5169	HGNC:2906	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	11086,11087	LINC00950|TMEM8B	51754	11083	HGNC:21427	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	11266,11267	C9orf47|S1PR3	1903	4777	HGNC:3167	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	11863,11864	EHMT1|EHMT1-IT1	79813	156	HGNC:24650	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	11997,11998	C10orf113|NEBL	10529	2347	HGNC:16932	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	12145,12195	FAM21A|FAM21B	387680|55747	6805	HGNC:23416	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	12499,12500	C10orf12|LCOR	84458	7200	HGNC:29503	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	14069,14070	ELMOD1	55531	10320	HGNC:25334	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_conflict	error	kirp_tcga_pan_can_atlas_2018	18590,18592	C16orf47|ZFHX3	463	1121	HGNC:777	entrez_hgnc	source rows disagree; node quarantined for this study
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	19212,19213	NARR|RAB34	83871	9189	HGNC:16519	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	20084,20085	TMC6|TNRC6C-AS1	11322	8118	HGNC:18021	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	24764,24765	FGF13|LINC00889	2258	8588	HGNC:3670	entrez_hgnc	collapsed_2_identical_rows
+duplicate_row_identical	info	kirp_tcga_pan_can_atlas_2018	24788,24789	SPANXD|SPANXE	171489|64648	8065	HGNC:14332	entrez_hgnc|symbol_fallback_previous_symbol	collapsed_2_identical_rows
