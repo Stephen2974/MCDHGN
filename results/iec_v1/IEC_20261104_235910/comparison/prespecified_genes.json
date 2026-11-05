@@ -1,0 +1,257 @@
+{
+  "genes": [
+    {
+      "symbol": "COL4A5",
+      "node_id": 10473,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 49,
+      "probability": 0.9781134128570557,
+      "gate": 0.2575635612010956,
+      "in_top_100": true
+    },
+    {
+      "symbol": "DNAH11",
+      "node_id": 11980,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 40,
+      "probability": 0.9822795987129211,
+      "gate": 0.27466824650764465,
+      "in_top_100": true
+    },
+    {
+      "symbol": "HELZ",
+      "node_id": 4017,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 65,
+      "probability": 0.9654737114906311,
+      "gate": 0.5884979963302612,
+      "in_top_100": true
+    },
+    {
+      "symbol": "HR",
+      "node_id": 5434,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 70,
+      "probability": 0.9579895734786987,
+      "gate": 0.3951694369316101,
+      "in_top_100": true
+    },
+    {
+      "symbol": "NUP155",
+      "node_id": 4015,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 83,
+      "probability": 0.9486097097396851,
+      "gate": 0.5044566988945007,
+      "in_top_100": true
+    },
+    {
+      "symbol": "SVIL",
+      "node_id": 1748,
+      "seed": 42,
+      "fold": 0,
+      "label": 0,
+      "rank": 52,
+      "probability": 0.9743438959121704,
+      "gate": 0.5400949716567993,
+      "in_top_100": true
+    },
+    {
+      "symbol": "EXOSC7",
+      "node_id": 5080,
+      "seed": 42,
+      "fold": 1,
+      "label": 0,
+      "rank": 70,
+      "probability": 0.9104344248771667,
+      "gate": 0.6707103848457336,
+      "in_top_100": true
+    },
+    {
+      "symbol": "FEM1B",
+      "node_id": 3176,
+      "seed": 42,
+      "fold": 1,
+      "label": 0,
+      "rank": 121,
+      "probability": 0.853127121925354,
+      "gate": 0.789145290851593,
+      "in_top_100": false
+    },
+    {
+      "symbol": "MTMR6",
+      "node_id": 325,
+      "seed": 42,
+      "fold": 1,
+      "label": 0,
+      "rank": 95,
+      "probability": 0.8850145936012268,
+      "gate": 0.6490876078605652,
+      "in_top_100": true
+    },
+    {
+      "symbol": "PLXNA4",
+      "node_id": 11471,
+      "seed": 42,
+      "fold": 1,
+      "label": 0,
+      "rank": 3,
+      "probability": 0.9983134269714355,
+      "gate": 0.1403379589319229,
+      "in_top_100": true
+    },
+    {
+      "symbol": "SLITRK1",
+      "node_id": 12926,
+      "seed": 42,
+      "fold": 1,
+      "label": 0,
+      "rank": 87,
+      "probability": 0.8910004496574402,
+      "gate": 0.9867637753486633,
+      "in_top_100": true
+    },
+    {
+      "symbol": "BLTP1",
+      "node_id": 10414,
+      "seed": 42,
+      "fold": 2,
+      "label": 0,
+      "rank": 87,
+      "probability": 0.9297170042991638,
+      "gate": 0.6468901038169861,
+      "in_top_100": true
+    },
+    {
+      "symbol": "FRAS1",
+      "node_id": 12037,
+      "seed": 42,
+      "fold": 2,
+      "label": 0,
+      "rank": 110,
+      "probability": 0.9096140265464783,
+      "gate": 0.36334264278411865,
+      "in_top_100": false
+    },
+    {
+      "symbol": "TAF1A",
+      "node_id": 9756,
+      "seed": 42,
+      "fold": 2,
+      "label": 0,
+      "rank": 97,
+      "probability": 0.921408474445343,
+      "gate": 0.6970465779304504,
+      "in_top_100": true
+    },
+    {
+      "symbol": "ATN1",
+      "node_id": 4978,
+      "seed": 42,
+      "fold": 3,
+      "label": 0,
+      "rank": 67,
+      "probability": 0.9711493253707886,
+      "gate": 0.7989171743392944,
+      "in_top_100": true
+    },
+    {
+      "symbol": "MBD5",
+      "node_id": 8497,
+      "seed": 42,
+      "fold": 3,
+      "label": 0,
+      "rank": 56,
+      "probability": 0.9744585752487183,
+      "gate": 0.6163151264190674,
+      "in_top_100": true
+    },
+    {
+      "symbol": "NLGN1",
+      "node_id": 2271,
+      "seed": 42,
+      "fold": 3,
+      "label": 0,
+      "rank": 164,
+      "probability": 0.9022020697593689,
+      "gate": 0.7926069498062134,
+      "in_top_100": false
+    },
+    {
+      "symbol": "PCDHA9",
+      "node_id": 12599,
+      "seed": 42,
+      "fold": 3,
+      "label": 0,
+      "rank": 62,
+      "probability": 0.9730993509292603,
+      "gate": 0.8407102823257446,
+      "in_top_100": true
+    },
+    {
+      "symbol": "ROBO4",
+      "node_id": 9382,
+      "seed": 42,
+      "fold": 3,
+      "label": 0,
+      "rank": 68,
+      "probability": 0.9711288213729858,
+      "gate": 0.8403878808021545,
+      "in_top_100": true
+    },
+    {
+      "symbol": "DPF3",
+      "node_id": 9055,
+      "seed": 42,
+      "fold": 4,
+      "label": 0,
+      "rank": 85,
+      "probability": 0.7993847727775574,
+      "gate": 0.47564631700515747,
+      "in_top_100": true
+    },
+    {
+      "symbol": "FBP2",
+      "node_id": 4564,
+      "seed": 42,
+      "fold": 4,
+      "label": 0,
+      "rank": 137,
+      "probability": 0.7133691906929016,
+      "gate": 0.5999144315719604,
+      "in_top_100": false
+    },
+    {
+      "symbol": "LRP5",
+      "node_id": 1423,
+      "seed": 42,
+      "fold": 4,
+      "label": 0,
+      "rank": 23,
+      "probability": 0.9177320599555969,
+      "gate": 0.6595044732093811,
+      "in_top_100": true
+    },
+    {
+      "symbol": "WDHD1",
+      "node_id": 10165,
+      "seed": 42,
+      "fold": 4,
+      "label": 0,
+      "rank": 67,
+      "probability": 0.8334646821022034,
+      "gate": 0.5244271755218506,
+      "in_top_100": true
+    }
+  ]
+}
