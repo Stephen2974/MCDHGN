@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-03T23:57:51+08:00",
+  "type": "validator_fix_manifest_relation",
+  "previous_manifest": "audit/manifest_before_mask_relation_fix.json",
+  "previous_manifest_sha256": "8b35ee5a939148829590105435fcc3514f338b18846ee7a17e617476d7d26581",
+  "current_manifest": "manifest.json",
+  "reason": "Clean-process test import and build-time D1 source/mask/finite-input relation checks were fixed. Data values were not regenerated.",
+  "data_outputs_unchanged": [
+    "audit/manifest_before_interface_fix.json",
+    "audit/manifest_before_validator_fix.json",
+    "cnv_event_counts.tsv",
+    "cnv_features.tsv",
+    "cnv_gene_links.tsv",
+    "cnv_patient_counts.tsv",
+    "feature_observed.tsv",
+    "feature_schema.tsv",
+    "gene_map.tsv",
+    "mapping_issues.tsv",
+    "missing_reasons.tsv",
+    "sample_metadata.tsv",
+    "source_manifest.json"
+  ],
+  "status": "reused_original_data_revalidated_by_fixed_checker",
+  "supersedes": "audit/interface_fix_relation.json"
+}

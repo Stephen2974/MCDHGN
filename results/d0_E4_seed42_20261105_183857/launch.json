@@ -1,0 +1,33 @@
+{
+    "output":  "G:\\LLLM\\MCDHGN-main\\results\\d0_E4_seed42_20261105_183857",
+    "pid":  14684,
+    "arguments":  [
+                      "-u",
+                      "run_ablation.py",
+                      "--experiments",
+                      "E4",
+                      "--seeds",
+                      "42",
+                      "--folds",
+                      "0",
+                      "1",
+                      "2",
+                      "3",
+                      "4",
+                      "--data-root",
+                      "G:\\LLLM\\MCDHGN-main",
+                      "--devices",
+                      "1",
+                      "--output",
+                      "G:\\LLLM\\MCDHGN-main\\results\\d0_E4_seed42_20261105_183857",
+                      "--lr",
+                      "0.01",
+                      "--epochs",
+                      "1000",
+                      "--eval-every",
+                      "10",
+                      "--patience",
+                      "20"
+                  ],
+    "started":  "2026-11-05T18:38:57.3393249+08:00"
+}

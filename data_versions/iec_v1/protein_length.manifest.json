@@ -1,0 +1,30 @@
+{
+  "formula": "mutation_columns / log(clamp(length, min=2))",
+  "log_base": "e",
+  "clamp_min": 2,
+  "gene_map_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+  "length_table_sha256": "ad0d63a1e75bdcceab2f5dc88fdf4a39c079097e2a1e274c2e14970e9e0dbb17",
+  "n_nodes": 12944,
+  "n_uniprot": 12938,
+  "n_imputed": 6,
+  "median_length": 457,
+  "imputed_node_ids": [
+    309,
+    5012,
+    10415,
+    10603,
+    11599,
+    11724
+  ],
+  "imputed_symbols": [
+    "HSD17B8",
+    "U2AF1L5",
+    "CBSL",
+    "TAZ",
+    "C10orf90",
+    "C22orf46P"
+  ],
+  "uniprot_accessions_missing_remotely": [],
+  "uniprot_query": "https://rest.uniprot.org/uniprotkb/search fields=accession,length",
+  "uniprot_release": "unpinned live query"
+}
