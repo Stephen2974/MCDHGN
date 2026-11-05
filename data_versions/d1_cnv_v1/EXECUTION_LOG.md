@@ -247,3 +247,7 @@ ValueError: sample_metadata has a missing or repeated sample_id
 ## 2026-11-03T23:35:21+08:00 · 离线完整性验证 · passed
 
 {"status": "data_prepared_not_trainable", "trainable": false, "missing_cells": 1860, "protected": {"checked": 113, "mismatches": 0}, "sources": {"files": 120, "lfs_files": 45}, "outputs": 15, "code_checked": 11, "code_changed_since_manifest": [], "checked_pairs": 207104}
+
+## 2026-11-05T22:05:49+08:00 · 保护文件与冻结身份检查 · passed
+
+开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。

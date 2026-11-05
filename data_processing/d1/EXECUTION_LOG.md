@@ -279,3 +279,7 @@ ValueError: sample_metadata has a missing or repeated sample_id
 ## 2026-11-04T00:01:21+08:00 · 下载 · completed
 
 提交 860b63a7f2d23540c94e25dd35302e133c29f48b；文件 0 个；LFS 端点已记录且未保存签名 URL。
+
+## 2026-11-05T22:05:49+08:00 · 保护文件与冻结身份检查 · passed
+
+开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。
