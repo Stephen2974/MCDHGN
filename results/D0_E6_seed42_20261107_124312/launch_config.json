@@ -1,0 +1,61 @@
+﻿{
+    "started_local":  "2026-11-07T12:43:12+08:00",
+    "host":  "DESKTOP-U2SG8TB",
+    "ssh_connection":  "100.119.185.66 60484 100.122.37.26 22",
+    "note":  "Current shell is the existing SSH session to this lab host (alias lab-gpu is resolved by the client). Supervisor is detached with Win32_Process.Create.",
+    "output":  "G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312",
+    "output_rel":  "results\\D0_E6_seed42_20261107_124312",
+    "supervisor_pid":  1648,
+    "detach":  "Win32_Process.Create so the supervisor is outside the SSH job; each fold is Start-Process -WindowStyle Hidden",
+    "python":  "G:\\LLLM\\MCDHGN-main\\.conda\\python.exe",
+    "devices":  [
+                    0,
+                    1,
+                    2
+                ],
+    "device_policy":  "one fold per free GPU via scripts/run_ablation_queue.ps1",
+    "data_root":  "G:\\LLLM\\MCDHGN-main",
+    "experiments":  [
+                        "E6"
+                    ],
+    "seeds":  [
+                  42
+              ],
+    "folds":  [
+                  0,
+                  1,
+                  2,
+                  3,
+                  4
+              ],
+    "architecture":  {
+                         "use_gatv2":  true,
+                         "semantic_mode":  "node",
+                         "fusion_mode":  "pointwise",
+                         "fusion_alpha":  0.6
+                     },
+    "hyperparameters":  {
+                            "hidden_size":  256,
+                            "heads":  4,
+                            "dropout":  0.4,
+                            "lr":  0.01,
+                            "weight_decay":  0.0001,
+                            "positive_weight":  1.904,
+                            "epochs":  1000,
+                            "eval_every":  10,
+                            "patience":  20,
+                            "fusion_dim":  64,
+                            "fusion_chunk_size":  1024,
+                            "optimizer":  "Adam"
+                        },
+    "controls":  {
+                     "E4":  "results\\d0_E4_seed42_20261105_183857",
+                     "E2":  "results\\p0_legacy_D0\\E2\\seed42"
+                 },
+    "per_fold_command_template":  "G:\\LLLM\\MCDHGN-main\\.conda\\python.exe run_ablation.py --experiments E6 --seeds 42 --folds \u003cfold\u003e --data-root G:\\LLLM\\MCDHGN-main --devices \u003cgpu\u003e --output G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024",
+    "supervisor_command":  "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command \"\u0026 \u0027G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\start.ps1\u0027 *\u003e \u0027G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\queue_console.log\u0027 2\u003e \u0027G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\queue_console.err\u0027\"",
+    "start_script":  "G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\start.ps1",
+    "stdout":  "G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\queue_console.log",
+    "stderr":  "G:\\LLLM\\MCDHGN-main\\results\\D0_E6_seed42_20261107_124312\\queue_console.err",
+    "fold_logs":  "E6_s42_fold{0-4}.log / .err and runner.log under the output directory"
+}

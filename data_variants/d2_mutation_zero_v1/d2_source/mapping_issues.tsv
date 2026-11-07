@@ -1,0 +1,6 @@
+node_id	source_id	mapping_status	hgnc_id	ambiguity_reason	d2_policy
+5012	U2AF1L5	unmapped		no_approved_record	no_automatic_feature_fill
+8775	MYO18A	duplicate_identity	HGNC:31104	multiple_existing_nodes_share_hgnc_id	no_automatic_feature_fill
+9833	TIAF1	duplicate_identity	HGNC:31104	multiple_existing_nodes_share_hgnc_id	no_automatic_feature_fill
+10415	CBSL	unmapped		no_approved_record	no_automatic_feature_fill
+10603	TAZ	ambiguous		multiple_hgnc_candidates	no_automatic_feature_fill

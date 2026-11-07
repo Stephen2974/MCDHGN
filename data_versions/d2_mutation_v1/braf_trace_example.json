@@ -1,0 +1,93 @@
+{
+  "gene": "BRAF",
+  "node_id": "1289",
+  "hgnc_id": "HGNC:1097",
+  "mapping_status": "resolved",
+  "cancer_type": "THCA",
+  "callable_patients_n": 489,
+  "callable_policy": "cohort_level_cases_sequenced_selected_primary",
+  "event_counts": {
+    "MISSENSE": {
+      "n_patients": 285,
+      "patient_ids_head": [
+        "TCGA-4C-A93U",
+        "TCGA-BJ-A0Z3",
+        "TCGA-BJ-A0Z9",
+        "TCGA-BJ-A0ZB",
+        "TCGA-BJ-A0ZH",
+        "TCGA-BJ-A18Z",
+        "TCGA-BJ-A28R",
+        "TCGA-BJ-A28X",
+        "TCGA-BJ-A290",
+        "TCGA-BJ-A2NA",
+        "TCGA-BJ-A3EZ",
+        "TCGA-BJ-A3PU",
+        "TCGA-BJ-A45H",
+        "TCGA-BJ-A45I",
+        "TCGA-BJ-A45J",
+        "TCGA-BJ-A4O8",
+        "TCGA-BJ-A4O9",
+        "TCGA-CE-A3ME",
+        "TCGA-CE-A483",
+        "TCGA-DE-A0XZ"
+      ]
+    },
+    "TRUNC": {
+      "n_patients": 0,
+      "patient_ids_head": []
+    },
+    "SPLICE": {
+      "n_patients": 0,
+      "patient_ids_head": []
+    }
+  },
+  "feature_values": {
+    "MUT_MISSENSE:THCA": "0.5828220859",
+    "MUT_TRUNC:THCA": "0",
+    "MUT_SPLICE:THCA": "0"
+  },
+  "selected_samples_n": 489,
+  "protein_position_600": [
+    {
+      "transcript_id": "ENST00000288602",
+      "n_patients_same_position": 283,
+      "n_patients_missense": 283,
+      "n_patients_parseable_in_gene_cancer": 286,
+      "aa_changes": [
+        {
+          "amino_acid_change": "V600E",
+          "n_patients": 283,
+          "patient_ids_head": [
+            "TCGA-4C-A93U",
+            "TCGA-BJ-A0Z3",
+            "TCGA-BJ-A0Z9",
+            "TCGA-BJ-A0ZB",
+            "TCGA-BJ-A0ZH",
+            "TCGA-BJ-A18Z",
+            "TCGA-BJ-A28R",
+            "TCGA-BJ-A28X",
+            "TCGA-BJ-A290",
+            "TCGA-BJ-A2NA",
+            "TCGA-BJ-A3EZ",
+            "TCGA-BJ-A3PU",
+            "TCGA-BJ-A45H",
+            "TCGA-BJ-A45I",
+            "TCGA-BJ-A45J",
+            "TCGA-BJ-A4O8",
+            "TCGA-BJ-A4O9",
+            "TCGA-CE-A3ME",
+            "TCGA-CE-A483",
+            "TCGA-DE-A0XZ"
+          ]
+        },
+        {
+          "amino_acid_change": "V600=",
+          "n_patients": 1,
+          "patient_ids_head": [
+            "TCGA-E8-A437"
+          ]
+        }
+      ]
+    }
+  ]
+}

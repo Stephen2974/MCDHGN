@@ -1,0 +1,234 @@
+{
+  "phase": "after",
+  "generated_at": "2026-11-07T12:14:31+08:00",
+  "n_files": 28,
+  "hard_mismatches": [],
+  "files": [
+    {
+      "label": "d0_input:data/network/hetero/new_9nodes_graph.bin",
+      "path": "data/network/hetero/new_9nodes_graph.bin",
+      "expected_sha256": "eb12655ac718a01565dfa9302660a17ff61c0784c1d709738fe8a542ac7cfce0",
+      "actual_sha256": "eb12655ac718a01565dfa9302660a17ff61c0784c1d709738fe8a542ac7cfce0",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:data/step1/gene_toids.pkl",
+      "path": "data/step1/gene_toids.pkl",
+      "expected_sha256": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+      "actual_sha256": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/0gs.bin",
+      "path": "Intermediate/blocks/0gs.bin",
+      "expected_sha256": "824e314c79bf2ce1a8fd2c53e6a86bac00c86bcb9a34d6b077b5ac0a85d78332",
+      "actual_sha256": "824e314c79bf2ce1a8fd2c53e6a86bac00c86bcb9a34d6b077b5ac0a85d78332",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/1gs.bin",
+      "path": "Intermediate/blocks/1gs.bin",
+      "expected_sha256": "650ddb048f448b3c487684fa0bd8a77f39af5abedaa5f427e8665408d7ae5057",
+      "actual_sha256": "650ddb048f448b3c487684fa0bd8a77f39af5abedaa5f427e8665408d7ae5057",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/2gs.bin",
+      "path": "Intermediate/blocks/2gs.bin",
+      "expected_sha256": "f24b67620e45ae82de12827b77f9fa8def319232004d8654dcfe348b3323647f",
+      "actual_sha256": "f24b67620e45ae82de12827b77f9fa8def319232004d8654dcfe348b3323647f",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/3gs.bin",
+      "path": "Intermediate/blocks/3gs.bin",
+      "expected_sha256": "9abcb1f5f23905a61d5f1a05304ea69140673e6b9401fdafc82aecb6adcb62d5",
+      "actual_sha256": "9abcb1f5f23905a61d5f1a05304ea69140673e6b9401fdafc82aecb6adcb62d5",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/4gs.bin",
+      "path": "Intermediate/blocks/4gs.bin",
+      "expected_sha256": "f0380b097f71d5aace5e145059a1f5143b807fcf32580042b9c2a631ae2cac3f",
+      "actual_sha256": "f0380b097f71d5aace5e145059a1f5143b807fcf32580042b9c2a631ae2cac3f",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/5gs.bin",
+      "path": "Intermediate/blocks/5gs.bin",
+      "expected_sha256": "83f0fafcd9f1eb047d8b4d52fbb33f0cde0a299320760e6f971f048a8ea6d1ad",
+      "actual_sha256": "83f0fafcd9f1eb047d8b4d52fbb33f0cde0a299320760e6f971f048a8ea6d1ad",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/6gs.bin",
+      "path": "Intermediate/blocks/6gs.bin",
+      "expected_sha256": "28976e4247eec0842e1068ae6b9f675e5ee2102d61c61ff77ce027444707af94",
+      "actual_sha256": "28976e4247eec0842e1068ae6b9f675e5ee2102d61c61ff77ce027444707af94",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/7gs.bin",
+      "path": "Intermediate/blocks/7gs.bin",
+      "expected_sha256": "fe882c180bab919bfe551e2b68fda0ef2eca1d96baa20d479cffd3d141801b0b",
+      "actual_sha256": "fe882c180bab919bfe551e2b68fda0ef2eca1d96baa20d479cffd3d141801b0b",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/blocks/8gs.bin",
+      "path": "Intermediate/blocks/8gs.bin",
+      "expected_sha256": "4c668f7e532ba27e6a66a679c31516fe0ef3d0e64c7aadb35f1eec78ec3e9363",
+      "actual_sha256": "4c668f7e532ba27e6a66a679c31516fe0ef3d0e64c7aadb35f1eec78ec3e9363",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d0_input:Intermediate/label_set/train_batch.pkl",
+      "path": "Intermediate/label_set/train_batch.pkl",
+      "expected_sha256": "d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9",
+      "actual_sha256": "d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "p0_artifact:gene_map.tsv",
+      "path": "data_versions/p0_v1/gene_map.tsv",
+      "expected_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+      "actual_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "p0_artifact:feature_schema.tsv",
+      "path": "data_versions/p0_v1/feature_schema.tsv",
+      "expected_sha256": "92fdd33b973d7e2e81681210c8bbcf7621af82d1b2a702d17ee977be05b886e4",
+      "actual_sha256": "92fdd33b973d7e2e81681210c8bbcf7621af82d1b2a702d17ee977be05b886e4",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "p0_artifact:metapaths.json",
+      "path": "data_versions/p0_v1/metapaths.json",
+      "expected_sha256": "15a183da8039bbb98a89bfd5119fa654f74b83d70b916fab033eaf1bde4809ee",
+      "actual_sha256": "15a183da8039bbb98a89bfd5119fa654f74b83d70b916fab033eaf1bde4809ee",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "p0_artifact:split_manifest.json",
+      "path": "data_versions/p0_v1/split_manifest.json",
+      "expected_sha256": "953cb62b53e987b77c7895fd6a981efb69e9bb3dab05e62d945f012c866e76db",
+      "actual_sha256": "953cb62b53e987b77c7895fd6a981efb69e9bb3dab05e62d945f012c866e76db",
+      "match": true,
+      "role": "hard"
+    },
+    {
+      "label": "d2_readonly:mutation_type_features.tsv",
+      "path": "data_versions/d2_mutation_v1/mutation_type_features.tsv",
+      "expected_sha256": "a51d007fc3ac2bb2d8877a1effa89a1cf094a038226f5f10f6bcad8dcdf48fe7",
+      "actual_sha256": "a51d007fc3ac2bb2d8877a1effa89a1cf094a038226f5f10f6bcad8dcdf48fe7",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:feature_observed.tsv",
+      "path": "data_versions/d2_mutation_v1/feature_observed.tsv",
+      "expected_sha256": "c5353341db30305309a89a4813ca8d1c78bd4cd5d2da88fd8cf1020061713c0c",
+      "actual_sha256": "c5353341db30305309a89a4813ca8d1c78bd4cd5d2da88fd8cf1020061713c0c",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:feature_schema.tsv",
+      "path": "data_versions/d2_mutation_v1/feature_schema.tsv",
+      "expected_sha256": "d2747bae481e615e54a84ce84a547c102f17911c32c4709853b1ecb73121181f",
+      "actual_sha256": "d2747bae481e615e54a84ce84a547c102f17911c32c4709853b1ecb73121181f",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:missing_reasons.tsv",
+      "path": "data_versions/d2_mutation_v1/missing_reasons.tsv",
+      "expected_sha256": "f2f196a1fa74383fdd4c832249c544ae755c7bffc2cd12b9f77f2d4c407af635",
+      "actual_sha256": "f2f196a1fa74383fdd4c832249c544ae755c7bffc2cd12b9f77f2d4c407af635",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:gene_map.tsv",
+      "path": "data_versions/d2_mutation_v1/gene_map.tsv",
+      "expected_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+      "actual_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:mapping_issues.tsv",
+      "path": "data_versions/d2_mutation_v1/mapping_issues.tsv",
+      "expected_sha256": "cc594fd1a6d9dc8ce251e9c230ca3121eb7e8c973e2215deed94cf6a187f2903",
+      "actual_sha256": "cc594fd1a6d9dc8ce251e9c230ca3121eb7e8c973e2215deed94cf6a187f2903",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:source_manifest.json",
+      "path": "data_versions/d2_mutation_v1/source_manifest.json",
+      "expected_sha256": "8f7a3362cbdc6ce5472a6c00533e7fa2decfa23924e336c868e8180c8eca9a90",
+      "actual_sha256": "8f7a3362cbdc6ce5472a6c00533e7fa2decfa23924e336c868e8180c8eca9a90",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "d2_readonly:quality_report.json",
+      "path": "data_versions/d2_mutation_v1/quality_report.json",
+      "expected_sha256": "cfef58d0965c7871144e558c6141f40f826ba6cf3e0cac3d673406d919e1a34d",
+      "actual_sha256": "cfef58d0965c7871144e558c6141f40f826ba6cf3e0cac3d673406d919e1a34d",
+      "match": true,
+      "role": "d2_source"
+    },
+    {
+      "label": "train_code:run_ablation.py",
+      "path": "run_ablation.py",
+      "expected_sha256": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+      "actual_sha256": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+      "match": true,
+      "role": "train_code"
+    },
+    {
+      "label": "train_code:model.py",
+      "path": "model.py",
+      "expected_sha256": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+      "actual_sha256": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+      "match": true,
+      "role": "train_code"
+    },
+    {
+      "label": "train_code:fusion.py",
+      "path": "fusion.py",
+      "expected_sha256": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+      "actual_sha256": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+      "match": true,
+      "role": "train_code"
+    },
+    {
+      "label": "train_code:ablation_config.py",
+      "path": "ablation_config.py",
+      "expected_sha256": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+      "actual_sha256": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+      "match": true,
+      "role": "train_code"
+    }
+  ],
+  "compared_to_before_hard_or_source_mismatches": [],
+  "compared_to_before_soft_mismatches": []
+}

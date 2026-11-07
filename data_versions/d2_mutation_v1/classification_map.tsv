@@ -1,0 +1,23 @@
+Variant_Classification	event_class	in_d2_48dim	notes
+3'Flank	OTHER	0	audited_only_not_in_MUT_*_features
+3'UTR	OTHER	0	audited_only_not_in_MUT_*_features
+5'Flank	OTHER	0	audited_only_not_in_MUT_*_features
+5'UTR	OTHER	0	audited_only_not_in_MUT_*_features
+De_novo_Start_InFrame	OTHER	0	audited_only_not_in_MUT_*_features
+De_novo_Start_OutOfFrame	OTHER	0	audited_only_not_in_MUT_*_features
+Frame_Shift_Del	TRUNC	1	
+Frame_Shift_Ins	TRUNC	1	
+IGR	OTHER	0	audited_only_not_in_MUT_*_features
+In_Frame_Del	OTHER	0	audited_only_not_in_MUT_*_features
+In_Frame_Ins	OTHER	0	audited_only_not_in_MUT_*_features
+Intron	OTHER	0	audited_only_not_in_MUT_*_features
+Missense_Mutation	MISSENSE	1	
+Nonsense_Mutation	TRUNC	1	
+Nonstop_Mutation	TRUNC	1	
+RNA	OTHER	0	audited_only_not_in_MUT_*_features
+Silent	OTHER	0	audited_only_not_in_MUT_*_features
+Splice_Region	OTHER	0	audited_only_not_in_MUT_*_features
+Splice_Site	SPLICE	1	
+Targeted_Region	OTHER	0	audited_only_not_in_MUT_*_features
+Translation_Start_Site	OTHER	0	audited_only_not_in_MUT_*_features
+<any_unlisted>	UNKNOWN	0	retained_in_class_histogram_not_assigned_to_MISSENSE_TRUNC_SPLICE

@@ -1,0 +1,2 @@
+column_name	formula	scope	min_parseable_patients	missing_rule	singleton_note	in_d2_mutation_type_features
+MUT_SITE_CONC:<CANCER>	max_patients_at_any_transcript_position / n_patients_with_parseable_protein_position	per node_id × cancer_type; transcripts not pooled	2	empty when parseable<2 or no parseable sites; never coerce to 0	n_parseable==1 yielding 100% is suppressed by min_parseable=2	False

@@ -1,0 +1,5 @@
+{
+  "variant": "d2_mutation_zero_v1",
+  "how_to_load": "python run_ablation.py --data-root data_variants/d2_mutation_zero_v1 ...",
+  "do_not_train_from_this_script": true
+}

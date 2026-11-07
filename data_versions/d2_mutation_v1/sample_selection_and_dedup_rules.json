@@ -1,0 +1,27 @@
+{
+  "patient_id": "TCGA barcode parts 1-3 (TCGA-XX-XXXX)",
+  "sample_selection": [
+    "Require membership in cases_sequenced for the study",
+    "Require clinical primary solid tumor agreeing with barcode sample type 01",
+    "One sample per patient×cancer: lexicographically smallest SAMPLE_ID",
+    "COAD/READ split uses the same ONCOTREE/site rules as D1; patients assigned to both are dropped",
+    "Exclude samples present in legacy ultramutated_tumor_ids.txt (4-part barcode match)",
+    "Do NOT apply a recomputed 1000-mutation threshold; the old script only used the file list"
+  ],
+  "dedup": [
+    "Identical genomic allele + Variant_Classification within patient×gene counted once",
+    "Same patient×gene×event_class counted once for D2 frequencies",
+    "Multi-transcript rows for the same allele do not increase counts"
+  ],
+  "denominator": {
+    "definition": "Deduplicated selected patients per cancer from cases_sequenced",
+    "per_gene_callable": false,
+    "limitation": "Cohort-level WXS/mutation-profile completion only; not locus-specific callable intervals",
+    "gene_length_normalization": false
+  },
+  "ultramutated_policy": {
+    "source": "preprocess_data/gene_mutation/ultramutated_tumor_ids.txt",
+    "dynamic_threshold_1000": "defined_in_legacy_script_but_not_used_there_or_here",
+    "applied": true
+  }
+}

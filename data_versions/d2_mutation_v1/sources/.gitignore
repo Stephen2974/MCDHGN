@@ -1,0 +1,3 @@
+# Large mutation tables stay local; receipts and tiny metas may be committed optionally.
+*
+!.gitignore

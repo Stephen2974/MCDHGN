@@ -1,0 +1,50 @@
+{
+  "version": "d2_mapping_blocked_zero_v1",
+  "created_at": "2026-11-07T12:14:26+08:00",
+  "policy": "Fill D2 MUT_* blanks with 0 only for nodes whose gene_map mapping_status is unmapped, ambiguous, or duplicate_identity, and only when feature_observed=0 and missing_reasons reason starts with mapping_blocked. Do not impute other missingness. Zero is a missingness placeholder, not evidence of zero mutation rate. Keep the original feature_observed mask unchanged (still 0 on filled cells). Do not concatenate the mask into model inputs. Final Gene.feature is [D0 48 dims | D2 48 dims] = 96.",
+  "fill_value": 0.0,
+  "fill_semantics": "missing_placeholder_not_biological_zero",
+  "mask_concatenated_into_model_input": false,
+  "d0_features_modified": false,
+  "observed_d2_values_modified": false,
+  "blocked_nodes": [
+    {
+      "node_id": 5012,
+      "source_id": "U2AF1L5",
+      "mapping_status": "unmapped",
+      "ambiguity_reason": "no_approved_record",
+      "n_cells": 48
+    },
+    {
+      "node_id": 8775,
+      "source_id": "MYO18A",
+      "mapping_status": "duplicate_identity",
+      "ambiguity_reason": "multiple_existing_nodes_share_hgnc_id",
+      "n_cells": 48
+    },
+    {
+      "node_id": 9833,
+      "source_id": "TIAF1",
+      "mapping_status": "duplicate_identity",
+      "ambiguity_reason": "multiple_existing_nodes_share_hgnc_id",
+      "n_cells": 48
+    },
+    {
+      "node_id": 10415,
+      "source_id": "CBSL",
+      "mapping_status": "unmapped",
+      "ambiguity_reason": "no_approved_record",
+      "n_cells": 48
+    },
+    {
+      "node_id": 10603,
+      "source_id": "TAZ",
+      "mapping_status": "ambiguous",
+      "ambiguity_reason": "multiple_hgnc_candidates",
+      "n_cells": 48
+    }
+  ],
+  "n_cells_filled": 240,
+  "expected_cells_filled": 240,
+  "approved_only_if_n_cells_filled_equals_240_and_pattern_matches": true
+}

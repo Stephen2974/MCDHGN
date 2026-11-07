@@ -1,0 +1,612 @@
+{
+  "version": "d2_mutation_v1",
+  "generated_at": "2026-11-06T19:44:57+08:00",
+  "n_genes": 12944,
+  "n_feature_columns": 48,
+  "feature_columns": [
+    "MUT_MISSENSE:KIRC",
+    "MUT_TRUNC:KIRC",
+    "MUT_SPLICE:KIRC",
+    "MUT_MISSENSE:BRCA",
+    "MUT_TRUNC:BRCA",
+    "MUT_SPLICE:BRCA",
+    "MUT_MISSENSE:READ",
+    "MUT_TRUNC:READ",
+    "MUT_SPLICE:READ",
+    "MUT_MISSENSE:PRAD",
+    "MUT_TRUNC:PRAD",
+    "MUT_SPLICE:PRAD",
+    "MUT_MISSENSE:STAD",
+    "MUT_TRUNC:STAD",
+    "MUT_SPLICE:STAD",
+    "MUT_MISSENSE:HNSC",
+    "MUT_TRUNC:HNSC",
+    "MUT_SPLICE:HNSC",
+    "MUT_MISSENSE:LUAD",
+    "MUT_TRUNC:LUAD",
+    "MUT_SPLICE:LUAD",
+    "MUT_MISSENSE:THCA",
+    "MUT_TRUNC:THCA",
+    "MUT_SPLICE:THCA",
+    "MUT_MISSENSE:BLCA",
+    "MUT_TRUNC:BLCA",
+    "MUT_SPLICE:BLCA",
+    "MUT_MISSENSE:ESCA",
+    "MUT_TRUNC:ESCA",
+    "MUT_SPLICE:ESCA",
+    "MUT_MISSENSE:LIHC",
+    "MUT_TRUNC:LIHC",
+    "MUT_SPLICE:LIHC",
+    "MUT_MISSENSE:UCEC",
+    "MUT_TRUNC:UCEC",
+    "MUT_SPLICE:UCEC",
+    "MUT_MISSENSE:COAD",
+    "MUT_TRUNC:COAD",
+    "MUT_SPLICE:COAD",
+    "MUT_MISSENSE:LUSC",
+    "MUT_TRUNC:LUSC",
+    "MUT_SPLICE:LUSC",
+    "MUT_MISSENSE:CESC",
+    "MUT_TRUNC:CESC",
+    "MUT_SPLICE:CESC",
+    "MUT_MISSENSE:KIRP",
+    "MUT_TRUNC:KIRP",
+    "MUT_SPLICE:KIRP"
+  ],
+  "n_mapping_blocked_nodes": 5,
+  "callable_patients_per_cancer": {
+    "KIRC": 402,
+    "BRCA": 1066,
+    "READ": 139,
+    "PRAD": 494,
+    "STAD": 436,
+    "HNSC": 515,
+    "LUAD": 566,
+    "THCA": 489,
+    "BLCA": 410,
+    "ESCA": 182,
+    "LIHC": 366,
+    "UCEC": 517,
+    "COAD": 394,
+    "LUSC": 484,
+    "CESC": 291,
+    "KIRP": 276
+  },
+  "observed_cell_fraction": 0.9996137206427689,
+  "observed_cells": 621072,
+  "total_feature_cells": 621312,
+  "ultramutated": {
+    "path": "data_versions/d2_mutation_v1/sources/ultramutated_tumor_ids.txt",
+    "sha256": "c15dc7d220178f27295573645c1de01211914c332f52b312276c423c5b1cd12b",
+    "n_ids": 71
+  },
+  "gene_meta": {
+    "gene_toids_sha256": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+    "gene_map_sha256": "d39c57cdd8d1456264bf97430879967534a5c9590132b00752da86af20c39ec3",
+    "hgnc_sha256": "12363916be36f8f6f91879b0faade4eeaac973722de7136ec61329b77f2c2f91",
+    "hgnc_release": "retrieved-2026-10-23-sha256-pinned"
+  },
+  "maf_stats_total": {
+    "rows_total": 2562722,
+    "rows_in_selected_samples": 2545644,
+    "rows_mapped": 1797650,
+    "patient_gene_class_events": 1001593,
+    "rows_other_or_unknown_class": 659836,
+    "rows_mapping_rejected": 747994,
+    "rows_duplicate_patient_gene_class": 136221,
+    "rows_sample_not_selected": 17078
+  },
+  "studies": [
+    {
+      "study": "kirc_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 402,
+      "n_clinical_samples": 512,
+      "n_selected": 402,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "kirc_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 512 Kidney Renal Clear Cell Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "kirc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "ccrcc",
+        "name": "Kidney Renal Clear Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Kidney Renal Clear Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 29473,
+        "rows_in_selected_samples": 29473,
+        "rows_mapped": 21351,
+        "patient_gene_class_events": 14273,
+        "rows_other_or_unknown_class": 6846,
+        "rows_mapping_rejected": 8122,
+        "rows_duplicate_patient_gene_class": 232
+      }
+    },
+    {
+      "study": "brca_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 1066,
+      "n_clinical_samples": 1084,
+      "n_selected": 1066,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "brca_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 1,084 Breast Invasive Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "brca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "brca",
+        "name": "Breast Invasive Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Breast Invasive Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 126252,
+        "rows_in_selected_samples": 126252,
+        "rows_mapped": 90077,
+        "patient_gene_class_events": 56568,
+        "rows_mapping_rejected": 36175,
+        "rows_other_or_unknown_class": 30053,
+        "rows_duplicate_patient_gene_class": 3456
+      }
+    },
+    {
+      "study": "coadread_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 534,
+      "n_clinical_samples": 594,
+      "n_selected": 533,
+      "n_ultramutated_excluded": 1,
+      "mutation_meta": {
+        "study": "coadread_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 594 Colorectal Adenocarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "coadread_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "coadread",
+        "name": "Colorectal Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Colorectal Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 319124,
+        "rows_in_selected_samples": 302055,
+        "rows_mapped": 213105,
+        "rows_other_or_unknown_class": 73972,
+        "patient_gene_class_events": 124630,
+        "rows_mapping_rejected": 88950,
+        "rows_duplicate_patient_gene_class": 14503,
+        "rows_sample_not_selected": 17069
+      }
+    },
+    {
+      "study": "prad_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 494,
+      "n_clinical_samples": 494,
+      "n_selected": 494,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "prad_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 494 Prostate Adenocarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "prad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "prad",
+        "name": "Prostate Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Prostate Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 31879,
+        "rows_in_selected_samples": 31879,
+        "rows_mapped": 23060,
+        "patient_gene_class_events": 14310,
+        "rows_other_or_unknown_class": 7622,
+        "rows_mapping_rejected": 8819,
+        "rows_duplicate_patient_gene_class": 1128
+      }
+    },
+    {
+      "study": "stad_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 436,
+      "n_clinical_samples": 440,
+      "n_selected": 436,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "stad_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 440 Stomach Adenocarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "stad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "stad",
+        "name": "Stomach Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Stomach Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 217607,
+        "rows_in_selected_samples": 217607,
+        "rows_mapped": 157468,
+        "patient_gene_class_events": 99542,
+        "rows_mapping_rejected": 60139,
+        "rows_other_or_unknown_class": 51234,
+        "rows_duplicate_patient_gene_class": 6692
+      }
+    },
+    {
+      "study": "hnsc_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 515,
+      "n_clinical_samples": 523,
+      "n_selected": 515,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "hnsc_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 523 Head and Neck Squamous Cell Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "hnsc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "hnsc",
+        "name": "Head and Neck Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Head and Neck Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 112274,
+        "rows_in_selected_samples": 112274,
+        "rows_mapping_rejected": 33023,
+        "rows_mapped": 79251,
+        "rows_other_or_unknown_class": 26480,
+        "patient_gene_class_events": 50762,
+        "rows_duplicate_patient_gene_class": 2009
+      }
+    },
+    {
+      "study": "luad_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 566,
+      "n_clinical_samples": 566,
+      "n_selected": 566,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "luad_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 566 Lung Adenocarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "luad_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "luad",
+        "name": "Lung Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Lung Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 225653,
+        "rows_in_selected_samples": 225653,
+        "rows_mapped": 154051,
+        "patient_gene_class_events": 101354,
+        "rows_other_or_unknown_class": 46718,
+        "rows_mapping_rejected": 71602,
+        "rows_duplicate_patient_gene_class": 5979
+      }
+    },
+    {
+      "study": "thca_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 490,
+      "n_clinical_samples": 500,
+      "n_selected": 489,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "thca_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 500 Thyroid Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "thca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "thpa",
+        "name": "Thyroid Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Thyroid Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 11397,
+        "rows_in_selected_samples": 11388,
+        "rows_mapped": 8364,
+        "patient_gene_class_events": 5572,
+        "rows_other_or_unknown_class": 2729,
+        "rows_mapping_rejected": 3024,
+        "rows_duplicate_patient_gene_class": 63,
+        "rows_sample_not_selected": 9
+      }
+    },
+    {
+      "study": "blca_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 410,
+      "n_clinical_samples": 411,
+      "n_selected": 410,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "blca_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 411 Bladder Urothelial Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "blca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "blca",
+        "name": "Bladder Urothelial Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Bladder Urothelial Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 149306,
+        "rows_in_selected_samples": 149306,
+        "rows_mapped": 108814,
+        "rows_other_or_unknown_class": 36417,
+        "rows_mapping_rejected": 40492,
+        "patient_gene_class_events": 68426,
+        "rows_duplicate_patient_gene_class": 3971
+      }
+    },
+    {
+      "study": "esca_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 182,
+      "n_clinical_samples": 182,
+      "n_selected": 182,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "esca_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 182 Esophageal Adenocarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "esca_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "esca",
+        "name": "Esophageal Adenocarcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Esophageal Adenocarcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 46256,
+        "rows_in_selected_samples": 46256,
+        "rows_mapping_rejected": 14194,
+        "rows_mapped": 32062,
+        "patient_gene_class_events": 17089,
+        "rows_other_or_unknown_class": 14481,
+        "rows_duplicate_patient_gene_class": 492
+      }
+    },
+    {
+      "study": "lihc_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 366,
+      "n_clinical_samples": 372,
+      "n_selected": 366,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "lihc_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 372 Liver Hepatocellular Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "lihc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "hcc",
+        "name": "Liver Hepatocellular Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Liver Hepatocellular Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 56814,
+        "rows_in_selected_samples": 56814,
+        "rows_mapped": 39823,
+        "patient_gene_class_events": 24768,
+        "rows_mapping_rejected": 16991,
+        "rows_other_or_unknown_class": 14533,
+        "rows_duplicate_patient_gene_class": 522
+      }
+    },
+    {
+      "study": "ucec_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 517,
+      "n_clinical_samples": 529,
+      "n_selected": 517,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "ucec_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 529 Uterine Corpus Endometrial Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "ucec_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "ucec",
+        "name": "Uterine Corpus Endometrial Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Uterine Corpus Endometrial Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 919913,
+        "rows_in_selected_samples": 919913,
+        "rows_mapped": 649719,
+        "rows_other_or_unknown_class": 268704,
+        "patient_gene_class_events": 292040,
+        "rows_mapping_rejected": 270194,
+        "rows_duplicate_patient_gene_class": 88975
+      }
+    },
+    {
+      "study": "lusc_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 484,
+      "n_clinical_samples": 487,
+      "n_selected": 484,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "lusc_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 487 Lung Squamous Cell Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "lusc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "lusc",
+        "name": "Lung Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Lung Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 185067,
+        "rows_in_selected_samples": 185067,
+        "rows_mapped": 125930,
+        "rows_other_or_unknown_class": 39937,
+        "patient_gene_class_events": 82175,
+        "rows_mapping_rejected": 59137,
+        "rows_duplicate_patient_gene_class": 3818
+      }
+    },
+    {
+      "study": "cesc_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 291,
+      "n_clinical_samples": 297,
+      "n_selected": 291,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "cesc_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 297 Cervical Squamous Cell CSarcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "cesc_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "cesc",
+        "name": "Cervical Squamous Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Cervical Squamous Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 100690,
+        "rows_in_selected_samples": 100690,
+        "rows_mapped": 71962,
+        "patient_gene_class_events": 35747,
+        "rows_duplicate_patient_gene_class": 4127,
+        "rows_mapping_rejected": 28728,
+        "rows_other_or_unknown_class": 32088
+      }
+    },
+    {
+      "study": "kirp_tcga_pan_can_atlas_2018",
+      "n_sequenced_case_list": 276,
+      "n_clinical_samples": 283,
+      "n_selected": 276,
+      "n_ultramutated_excluded": 0,
+      "mutation_meta": {
+        "study": "kirp_tcga_pan_can_atlas_2018",
+        "datatype": "MAF",
+        "stable_id": "mutations",
+        "profile_description": "Mutation data from whole exome sequencing of 283 Kidney Renal Papillary Cell Carcinoma samples.",
+        "genome_build": "see_maf_NCBI_Build_column"
+      },
+      "study_meta": {
+        "study": "kirp_tcga_pan_can_atlas_2018",
+        "type_of_cancer": "prcc",
+        "name": "Kidney Renal Papillary Cell Carcinoma (TCGA, PanCancer Atlas)",
+        "citation": "TCGA, Cell 2018",
+        "pmid": "29625048,29596782,29622463,29617662,29625055,29625050,29617662,30643250,32214244,29625049,29850653,36334560",
+        "groups": "PUBLIC;PANCAN",
+        "description": "Kidney Renal Papillary Cell Carcinoma TCGA PanCancer data. The original data is <a href=\"https://gdc.cancer.gov/about-data/publications/pancanatlas\">here</a>. The publications are <a href=\"https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html\">here</a>."
+      },
+      "case_list_name": "Samples with mutation data",
+      "maf_stats": {
+        "rows_total": 31017,
+        "rows_in_selected_samples": 31017,
+        "rows_mapping_rejected": 8404,
+        "rows_mapped": 22613,
+        "patient_gene_class_events": 14337,
+        "rows_other_or_unknown_class": 8022,
+        "rows_duplicate_patient_gene_class": 254
+      }
+    }
+  ],
+  "denominator_is_per_gene_callable": false,
+  "gene_length_normalization_applied": false,
+  "gene_length_audit_path": "audit/gene_exon_lengths_gencode_v28.tsv",
+  "ready_for_training_graph": false,
+  "training_admission_note": "Missing cells remain; do not claim direct trainability. Later admission needs an explicit missingness protocol and a new data_variants graph; not done here.",
+  "validation_errors": [],
+  "protected_verify": {
+    "checked_hard": 122,
+    "hard_mismatches": 0,
+    "soft_readonly_mismatches": [
+      "d1_readonly:data_versions/d1_cnv_v1/source_manifest.json"
+    ],
+    "soft_note": "d1_readonly hashes may change under concurrent D1 work; D2 must not revert them"
+  }
+}
