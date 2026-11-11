@@ -1,0 +1,10 @@
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=10 AP=0.472408 AUC=0.660076
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=20 AP=0.479721 AUC=0.602382
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=30 AP=0.444840 AUC=0.537473
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=40 AP=0.681858 AUC=0.791936
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=50 AP=0.720965 AUC=0.826836
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=60 AP=0.735825 AUC=0.834996
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=70 AP=0.689950 AUC=0.812021
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=80 AP=0.734052 AUC=0.823790
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=90 AP=0.738307 AUC=0.824524
+C_v2_original_std1_raw1 seed=42 fold=1 epoch=100 AP=0.732939 AUC=0.814083

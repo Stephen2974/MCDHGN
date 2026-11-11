@@ -1,0 +1,2 @@
+2026-11-08T21:29:12.7696038+08:00 queue start lr=0.003 experiments=E2,E4 seed=42 folds=priority-then-rest devices=0,1,2 jobs=10 data=G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1
+2026-11-08T21:29:12.7885677+08:00 git HEAD 37b58186db2f3729aed4714f96048bb975828e62; uncommitted work left untouched; no test-run

@@ -1,0 +1,8 @@
+2026-11-06T17:12:42.1765669+08:00 queue start experiments=E0 seeds=42 folds=3,4 devices=0,1 jobs=2
+2026-11-06T17:12:42.2897137+08:00 START E0_s42_fold3 -> GPU 0 pid 19564
+2026-11-06T17:12:42.3345923+08:00 START E0_s42_fold4 -> GPU 1 pid 3804
+2026-11-06T17:17:02.5349181+08:00 WARN E0_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-06T17:17:02.5405672+08:00 DONE E0_s42_fold4 (1/2)
+2026-11-06T17:17:02.5794678+08:00 WARN E0_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-06T17:17:02.5840403+08:00 DONE E0_s42_fold3 (2/2)
+2026-11-06T17:17:02.6009259+08:00 queue finished

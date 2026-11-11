@@ -1,0 +1,25 @@
+Precheck before lr=0.003 launch. Read-only. No code, data, or git changes.
+
+Host: DESKTOP-U2SG8TB 192.168.1.88 (this SSH session is already lab-gpu; SSH_CONNECTION set).
+Project: G:\LLLM\MCDHGN-main
+Git HEAD: 37b58186db2f3729aed4714f96048bb975828e62
+Branch: main...origin/main. Uncommitted and untracked files were left in place.
+AGENTS.md: not present under G:\LLLM or the project. Read EXPERIMENTS.md, scripts/README_E1_LR.md, scripts/run_ablation_queue.ps1, run_ablation.py.
+
+No run_ablation process was running. GPU 0/1 memory 0 MiB. GPU 2 had 152 MiB of desktop processes only. No python compute app.
+No existing D1 E2/E4 lr=0.003 result directory.
+
+Baseline lr=0.01 result.json present for E2 and E4, seed42, fold0-4.
+Both experiments share one data fingerprint (12 files). Live files match that fingerprint.
+Feature matrix: 12944 x 80, finite.
+Code hashes match both baselines and the current model.py, fusion.py, run_ablation.py, ablation_config.py.
+Shared training settings: epochs 1000, eval_every 10, patience 20, weight_decay 0.0001,
+positive_weight 1.904, dropout 0.4, hidden 256, heads 4, fusion_dim 64, fusion_chunk_size 1024,
+protocol softmax-ap-checkpoint-v1, Adam, grad clip 1.0 inside run_ablation.py.
+Seed rule inside run_ablation.py: seed + 1000 * fold. CLI seed remains 42.
+E2 architecture: GATv2, semantic node, fusion none, alpha 0.6.
+E4 architecture: GATv2, semantic node, fusion cross, alpha 0.6.
+Only intended change: --lr 0.003. No test-run.
+
+Peak baseline memory about 4.3-4.5 GiB per fold, so one fold per 11 GiB GPU.
+Job order: E2 fold4, E4 fold4, E4 fold0, then E2 fold0-3 and E4 fold1-3.

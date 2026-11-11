@@ -1,0 +1,47 @@
+{
+  "config": {
+    "epochs": 2,
+    "eval_every": 1,
+    "patience": 2,
+    "lr": 0.003,
+    "weight_decay": 0.0001,
+    "positive_weight": 1.904,
+    "dropout": 0.4,
+    "hidden_size": 8,
+    "heads": 2,
+    "fusion_dim": 4,
+    "fusion_chunk_size": 1024,
+    "smoke": true,
+    "protocol": "softmax-ap-checkpoint-v1",
+    "standardize": false,
+    "experiment": "A_SIGN_h2_raw1",
+    "architecture": {
+      "use_gatv2": false,
+      "semantic_mode": "global",
+      "fusion_mode": "none",
+      "fusion_alpha": 0.6
+    },
+    "research": {
+      "family": "sign",
+      "hops": 2,
+      "raw_branch": true,
+      "width": 128
+    },
+    "seed": 42,
+    "fold": 0,
+    "code_sha256": {
+      "ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+      "experiment_log.py": "a6a678a0577e852e4ebe5d26c0c667259e5bba333c13f62a935891af07af1de1",
+      "fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+      "model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+      "research_models.py": "e17b7843511229048b4fcddcf0b21d73a1351e93d81387a75d0733a36af007b9",
+      "run_ablation.py": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+      "summarize_ablations.py": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be",
+      "test_research_models.py": "b401b854e5ae7786cb0a25243f343e97bc106c0d6bb791509d3de5d2b83178a1",
+      "../worker.py": "878f121ab479db6dde2cad73387d9943fc2b2d7562dce8bc1268d6bab12182ec"
+    }
+  },
+  "data_sha256": {
+    "synthetic": "smoke-v1-seed71"
+  }
+}

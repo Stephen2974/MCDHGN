@@ -251,3 +251,112 @@ ValueError: sample_metadata has a missing or repeated sample_id
 ## 2026-11-05T22:05:49+08:00 · 保护文件与冻结身份检查 · passed
 
 开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。
+
+## 2026-11-06T00:08:58+08:00 · download · failed
+
+[Errno 22] Invalid argument
+
+Traceback (most recent call last):
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\pipeline.py", line 707, in main
+    info = download()
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\pipeline.py", line 557, in download
+    config, files, unused = download_studies(source_root, downloaded_at, progress)
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 337, in download_studies
+    progress(f"  {name} bytes={receipt['size']} reused={receipt.get('reused')}")
+OSError: [Errno 22] Invalid argument
+
+## 2026-11-06T14:39:41+08:00 · 保护文件与冻结身份检查 · passed
+
+开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。
+
+## 2026-11-06T14:49:40+08:00 · download · failed
+
+The read operation timed out
+
+expr>
+    unused.extend(inspect_unused_companion(study, name) for name in UNUSED_COMPANIONS)
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 308, in inspect_unused_companion
+    raw = _read_bytes(RAW_ROOT + "/" + relpath)
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 112, in _read_bytes
+    with _request(url, timeout=timeout) as response:
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 105, in _request
+    return urllib.request.urlopen(req, timeout=timeout)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "G:\LLLM\MCDHGN-main\.conda\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+## 2026-11-06T15:37:42+08:00 · 保护文件与冻结身份检查 · passed
+
+开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。
+
+## 2026-11-06T15:55:42+08:00 · download · failed
+
+The read operation timed out
+
+expr>
+    unused.extend(inspect_unused_companion(study, name) for name in UNUSED_COMPANIONS)
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 308, in inspect_unused_companion
+    raw = _read_bytes(RAW_ROOT + "/" + relpath)
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 112, in _read_bytes
+    with _request(url, timeout=timeout) as response:
+  File "G:\LLLM\MCDHGN-main\data_processing\d1\download.py", line 105, in _request
+    return urllib.request.urlopen(req, timeout=timeout)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 214, in urlopen
+    return opener.open(url, data, timeout)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 517, in open
+    response = self._open(req, data)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 534, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 494, in _call_chain
+    result = func(*args)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 1389, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+  File "G:\LLLM\MCDHGN-main\.conda\lib\urllib\request.py", line 1350, in do_open
+    r = h.getresponse()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "G:\LLLM\MCDHGN-main\.conda\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "G:\LLLM\MCDHGN-main\.conda\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+## 2026-11-06T16:33:19+08:00 · 保护文件与冻结身份检查 · passed
+
+开始前核对 113 个 D0/P0 保护文件、P0 映射及 HGNC 快照。
+
+## 2026-11-06T16:53:23+08:00 · 下载 · completed
+
+提交 860b63a7f2d23540c94e25dd35302e133c29f48b；文件 120 个；LFS 端点已记录且未保存签名 URL。
+
+## 2026-11-06T16:53:24+08:00 · 下载后来源检查 · passed
+
+下载完成后核对来源清单、大小、SHA256 与 LFS OID。

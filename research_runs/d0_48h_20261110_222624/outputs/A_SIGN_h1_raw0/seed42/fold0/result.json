@@ -1,0 +1,112 @@
+{
+  "config": {
+    "epochs": 1000,
+    "eval_every": 10,
+    "patience": 20,
+    "lr": 0.003,
+    "weight_decay": 0.0001,
+    "positive_weight": 1.904,
+    "dropout": 0.4,
+    "hidden_size": 256,
+    "heads": 4,
+    "fusion_dim": 64,
+    "fusion_chunk_size": 1024,
+    "smoke": false,
+    "protocol": "softmax-ap-checkpoint-v1",
+    "standardize": false,
+    "experiment": "A_SIGN_h1_raw0",
+    "architecture": {
+      "use_gatv2": false,
+      "semantic_mode": "global",
+      "fusion_mode": "none",
+      "fusion_alpha": 0.6
+    },
+    "research": {
+      "family": "sign",
+      "hops": 1,
+      "raw_branch": false,
+      "width": 128
+    },
+    "seed": 42,
+    "fold": 0,
+    "code_sha256": {
+      "ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+      "experiment_log.py": "a6a678a0577e852e4ebe5d26c0c667259e5bba333c13f62a935891af07af1de1",
+      "fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+      "model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+      "research_models.py": "e17b7843511229048b4fcddcf0b21d73a1351e93d81387a75d0733a36af007b9",
+      "run_ablation.py": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+      "summarize_ablations.py": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be",
+      "test_research_models.py": "b401b854e5ae7786cb0a25243f343e97bc106c0d6bb791509d3de5d2b83178a1",
+      "../worker.py": "878f121ab479db6dde2cad73387d9943fc2b2d7562dce8bc1268d6bab12182ec"
+    }
+  },
+  "data_sha256": {
+    "data/network/hetero/new_9nodes_graph.bin": "eb12655ac718a01565dfa9302660a17ff61c0784c1d709738fe8a542ac7cfce0",
+    "data/step1/gene_toids.pkl": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+    "Intermediate/label_set/train_batch.pkl": "d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9",
+    "Intermediate/blocks/0gs.bin": "824e314c79bf2ce1a8fd2c53e6a86bac00c86bcb9a34d6b077b5ac0a85d78332",
+    "Intermediate/blocks/1gs.bin": "650ddb048f448b3c487684fa0bd8a77f39af5abedaa5f427e8665408d7ae5057",
+    "Intermediate/blocks/2gs.bin": "f24b67620e45ae82de12827b77f9fa8def319232004d8654dcfe348b3323647f",
+    "Intermediate/blocks/3gs.bin": "9abcb1f5f23905a61d5f1a05304ea69140673e6b9401fdafc82aecb6adcb62d5",
+    "Intermediate/blocks/4gs.bin": "f0380b097f71d5aace5e145059a1f5143b807fcf32580042b9c2a631ae2cac3f",
+    "Intermediate/blocks/5gs.bin": "83f0fafcd9f1eb047d8b4d52fbb33f0cde0a299320760e6f971f048a8ea6d1ad",
+    "Intermediate/blocks/6gs.bin": "28976e4247eec0842e1068ae6b9f675e5ee2102d61c61ff77ce027444707af94",
+    "Intermediate/blocks/7gs.bin": "fe882c180bab919bfe551e2b68fda0ef2eca1d96baa20d479cffd3d141801b0b",
+    "Intermediate/blocks/8gs.bin": "4c668f7e532ba27e6a66a679c31516fe0ef3d0e64c7aadb35f1eec78ec3e9363"
+  },
+  "best_epoch": 50,
+  "epochs_trained": 250,
+  "validation": {
+    "ap": 0.6782534843332444,
+    "auc": 0.7786143208079338,
+    "accuracy": 0.6950171821305842,
+    "macro_f1": 0.6827375993796331,
+    "loss": 0.5808135867118835,
+    "precision_at_50": 0.94,
+    "recall_at_50": 0.11576354679802955,
+    "effective_k_50": 50,
+    "precision_at_100": 0.83,
+    "recall_at_100": 0.2044334975369458,
+    "effective_k_100": 100
+  },
+  "weight_diagnostics": {
+    "mean_by_path": [
+      0.35734015703201294,
+      0.03535950928926468,
+      0.13783586025238037,
+      0.017714399844408035,
+      0.17557083070278168,
+      0.058887142688035965,
+      0.12806379795074463,
+      0.022216476500034332,
+      0.06701172888278961
+    ],
+    "std_by_path": [
+      0.21540169417858124,
+      0.032881006598472595,
+      0.16281181573867798,
+      0.022325873374938965,
+      0.23921190202236176,
+      0.05140775814652443,
+      0.09300766885280609,
+      0.054222382605075836,
+      0.07331830263137817
+    ],
+    "mean_entropy": 1.4302597045898438
+  },
+  "train_seconds": 11.1843845,
+  "parameters": 277250,
+  "peak_allocated_bytes": {
+    "2": 618114048
+  },
+  "environment": {
+    "python": "3.9.16 (main, May 17 2023, 17:49:16) [MSC v.1916 64 bit (AMD64)]",
+    "torch": "1.12.0+cu116",
+    "dgl": "1.1.1+cu116",
+    "cuda": "11.6",
+    "gpus": [
+      "NVIDIA GeForce RTX 2080 Ti"
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+﻿{
+    "first_attempt_pid":  19160,
+    "method":  "Win32_Process hidden detached launch",
+    "first_attempt":  "Exited before scheduler initialization; no jobs launched",
+    "active_scheduler_pid":  23164,
+    "verified_at":  "2026-11-10T22:35:06.5424177+08:00"
+}

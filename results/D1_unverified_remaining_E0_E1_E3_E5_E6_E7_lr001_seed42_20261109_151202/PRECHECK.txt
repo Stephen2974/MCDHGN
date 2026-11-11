@@ -1,0 +1,62 @@
+Precheck before D1 unverified remaining E0/E1/E3/E5/E6/E7, seed42, lr=0.01.
+Read-only. No model, data, manifest, or git changes. No test-set evaluation.
+
+Host: DESKTOP-U2SG8TB, Tailscale 100.122.37.26. SSH_CONNECTION=100.119.185.66 -> 100.122.37.26:22.
+The name lab-gpu does not resolve from this host; this SSH session is already the training machine.
+Project: G:\LLLM\MCDHGN-main
+Python: G:\LLLM\MCDHGN-main\.conda\python.exe (3.9.16). No packages installed.
+Git HEAD: 37b58186db2f3729aed4714f96048bb975828e62
+Branch: main...origin/main. Existing uncommitted and untracked files were left in place.
+AGENTS.md: not present under the project or G:\LLLM. Read readme.md, EXPERIMENTS.md,
+scripts/run_ablation_queue.ps1, scripts/README_E1_LR.md, ablation_config.py, fusion.py,
+model.py, and run_ablation.py.
+
+No run_ablation or queue process was running. GPU 0/1 memory 0 MiB. GPU 2 had about 156 MiB
+of desktop processes only (no python compute app). Those processes were not stopped.
+
+Authorized runs not already present: searched every results/**/config.json for E0/E1/E3/E5/E6/E7,
+seed 42, and the D1 data fingerprint below. Hits: 0. E2 and E4 lr=0.01 are complete and were
+not queued. The lr=0.003 E2/E4 directory stays a sensitivity control and is not part of this queue.
+
+Data: data_variants/d1_cnv_unverified_v1
+manifest status remains unverified_temporary. Manifest and missing-value policy were not edited.
+Live fingerprint matches both D1 E2 and E4 lr=0.01 config.json files (all five folds each):
+  data/network/hetero/new_9nodes_graph.bin  2a682539c7645834dd0cdddc0764266834deae0f966ceb72120d00c9c833d05a
+  data/step1/gene_toids.pkl                 45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf
+  Intermediate/label_set/train_batch.pkl    d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9
+  Intermediate/blocks/0gs.bin .. 8gs.bin    match the twelve-file E2/E4 registration
+No extra gene_map.tsv / feature_schema.tsv / metapaths.json / split_manifest.json.
+Feature matrix 12944 x 80, finite. Gene mapping length 12944. Five stored folds.
+
+Current code hashes match the E2/E4 lr=0.01 registration:
+  model.py           0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0
+  fusion.py          a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5
+  run_ablation.py    909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c
+  ablation_config.py 6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280
+
+Shared settings taken from those config.json files, not from a guessed default:
+  lr=0.01, epochs=1000, eval_every=10, patience=20
+  hidden_size=256, heads=4, dropout=0.4
+  weight_decay=0.0001, positive_weight=1.904
+  fusion_dim=64, fusion_chunk_size=1024
+  protocol softmax-ap-checkpoint-v1, Adam, grad clip 1.0 inside run_ablation.py
+Seed rule inside run_ablation.py: seed + 1000 * fold. CLI seed remains 42.
+
+Presets in ablation_config.py:
+  E0 GAT    global none
+  E1 GATv2  global none
+  E3 GATv2  global cross alpha=0.6
+  E5 GATv2  node   cross alpha=1.0
+  E6 GATv2  node   pointwise alpha=0.6
+  E7 GAT    node   cross alpha=0.6
+E6 pointwise is one shared MLP (D -> 2r -> D, bias-free) applied to each view.
+It does not allocate a separate parameter set per view. EXPERIMENTS.md describes the
+per-view application; the registered fusion.py hash is the implementation used by E2/E4.
+No code was changed.
+
+CLI verified from run_ablation.py. Each fold is one process with a single --devices id,
+so parallel_metapaths stays false, matching the existing D1 E2/E4 launches.
+The shared scripts/run_ablation_queue.ps1 assigns cards without checking foreign occupancy
+and stops the remaining queue after the first failed fold. This directory's queue.ps1 keeps
+the same per-fold command and one-fold-per-GPU execution, waits when a card is busy, and
+does not retry a failed fold.

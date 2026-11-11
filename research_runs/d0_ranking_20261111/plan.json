@@ -1,0 +1,1128 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-11T07:44:20.272573+00:00",
+  "authorization_start_utc": "2026-11-10T14:26:23+00:00",
+  "deadline_utc": "2026-11-12T14:26:23+00:00",
+  "per_fold_timeout_seconds": 14400,
+  "gpu_ids": [
+    0,
+    1,
+    2
+  ],
+  "jobs": [
+    {
+      "id": "R_GAT_rank0_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0p1_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0p1",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0p1_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0p1",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0p1_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0p1",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0p1_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0p1",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank0p1_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank0p1",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank1p0_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank1p0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank1p0_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank1p0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank1p0_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank1p0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank1p0_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank1p0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GAT_rank1p0_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "R_GAT_rank1p0",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "mcdhgn"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0p1_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0p1",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0p1_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0p1",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0p1_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0p1",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0p1_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0p1",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank0p1_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank0p1",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 0.1,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank1p0_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank1p0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 0,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank1p0_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank1p0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 1,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank1p0_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank1p0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 2,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank1p0_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank1p0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 3,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    },
+    {
+      "id": "R_GATv2node_rank1p0_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.01,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "architecture": {
+          "use_gatv2": true,
+          "semantic_mode": "node",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "experiment": "R_GATv2node_rank1p0",
+        "research": {
+          "family": "mcdhgn",
+          "raw_residual": false,
+          "layer_norm": false,
+          "head": "original"
+        },
+        "seed": 42,
+        "fold": 4,
+        "ranking": {
+          "coefficient": 1.0,
+          "pairs": 8192
+        }
+      }
+    }
+  ],
+  "execution_sha256": {
+    "code/ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+    "code/experiment_log.py": "a6a678a0577e852e4ebe5d26c0c667259e5bba333c13f62a935891af07af1de1",
+    "code/fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+    "code/model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+    "code/ranking_losses.py": "8d5fb80303ccdce78f947bf9331bff03f8d32df39c295403180bae703f5f798a",
+    "code/research_models.py": "e17b7843511229048b4fcddcf0b21d73a1351e93d81387a75d0733a36af007b9",
+    "code/run_ablation.py": "2d04556c351c4db51afb1d05b03f9da8ad622adee10be64cc7f7b600321e2594",
+    "code/summarize_ablations.py": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be",
+    "code/test_ranking_losses.py": "ff991837da028b1e79cdfe280a34b766313097d657d44cca6cd6e4772f580986",
+    "code/test_research_models.py": "b401b854e5ae7786cb0a25243f343e97bc106c0d6bb791509d3de5d2b83178a1",
+    "worker.py": "878f121ab479db6dde2cad73387d9943fc2b2d7562dce8bc1268d6bab12182ec",
+    "scheduler.py": "ffa278482ca469389adbf3e8a4321e969651e9bf20733774b27685fcf2ef3fd9"
+  },
+  "selection_rule": "Complete five folds per cell; same AP checkpoint for AP/AUC. Compare coefficient .1 and 1 to zero within architecture.",
+  "failure_rule": "Nonfinite loss, worker nonzero exit, missing result, four-hour fold timeout or global deadline. No automatic retries; retain all failed outputs.",
+  "next_phase": "Run only after original and propagation queues end successfully; preserve original deadline.",
+  "hypothesis": "RankNet-style pairwise logistic auxiliary loss; 8192 uniform train-only pairs; CE control exact at coefficient zero.",
+  "limitations": "Pairwise surrogate does not optimize AP exactly. Development validation only. No test labels."
+}

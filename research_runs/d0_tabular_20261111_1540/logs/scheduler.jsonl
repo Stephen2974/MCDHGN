@@ -1,0 +1,20 @@
+{"utc": "2026-11-11T07:39:29.782406+00:00", "event": "scheduler_started", "pid": 18968, "jobs": 40, "deadline": "2026-11-12T14:26:23+00:00"}
+{"utc": "2026-11-11T07:39:29.795373+00:00", "event": "started", "job": "T_hgb_raw_s42_f0", "pid": 20760}
+{"utc": "2026-11-11T07:39:38.874826+00:00", "event": "completed", "job": "T_hgb_raw_s42_f0", "exit_code": 0, "seconds": 9.093999999924563}
+{"utc": "2026-11-11T07:39:38.906256+00:00", "event": "started", "job": "T_hgb_raw_s42_f1", "pid": 21652}
+{"utc": "2026-11-11T07:39:50.916994+00:00", "event": "completed", "job": "T_hgb_raw_s42_f1", "exit_code": 0, "seconds": 12.016000000061467}
+{"utc": "2026-11-11T07:39:50.938695+00:00", "event": "started", "job": "T_hgb_raw_s42_f2", "pid": 21332}
+{"utc": "2026-11-11T07:39:59.953292+00:00", "event": "completed", "job": "T_hgb_raw_s42_f2", "exit_code": 0, "seconds": 9.030999999959022}
+{"utc": "2026-11-11T07:39:59.968620+00:00", "event": "started", "job": "T_hgb_raw_s42_f3", "pid": 23152}
+{"utc": "2026-11-11T07:40:11.997295+00:00", "event": "completed", "job": "T_hgb_raw_s42_f3", "exit_code": 0, "seconds": 12.031000000075437}
+{"utc": "2026-11-11T07:40:12.014206+00:00", "event": "started", "job": "T_hgb_raw_s42_f4", "pid": 18492}
+{"utc": "2026-11-11T07:40:21.043960+00:00", "event": "completed", "job": "T_hgb_raw_s42_f4", "exit_code": 0, "seconds": 9.031000000075437}
+{"utc": "2026-11-11T07:40:21.069890+00:00", "event": "started", "job": "T_hgb_mean1_s42_f0", "pid": 8088}
+{"utc": "2026-11-11T07:40:51.143685+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f0", "exit_code": 0, "seconds": 30.09299999999348}
+{"utc": "2026-11-11T07:40:51.164790+00:00", "event": "started", "job": "T_hgb_mean1_s42_f1", "pid": 2128}
+{"utc": "2026-11-11T07:42:18.388399+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f1", "exit_code": 0, "seconds": 87.23499999998603}
+{"utc": "2026-11-11T07:42:18.402359+00:00", "event": "started", "job": "T_hgb_mean1_s42_f2", "pid": 20060}
+{"utc": "2026-11-11T07:43:57.714176+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f2", "exit_code": 0, "seconds": 99.31299999996554}
+{"utc": "2026-11-11T07:43:57.729137+00:00", "event": "started", "job": "T_hgb_mean1_s42_f3", "pid": 24288}
+{"utc": "2026-11-11T07:44:54.882812+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f3", "exit_code": 0, "seconds": 57.15700000000652}
+{"utc": "2026-11-11T07:44:54.917444+00:00", "event": "started", "job": "T_hgb_mean1_s42_f4", "pid": 11456}

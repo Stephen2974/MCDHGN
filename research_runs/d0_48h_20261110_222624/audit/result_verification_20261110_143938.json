@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-10T14:39:38.133943+00:00",
+  "status": "passed",
+  "checked": [
+    "A00_GAT_reference_lr01_s42_f0",
+    "A00_GAT_reference_lr01_s42_f1",
+    "A00_GAT_reference_lr01_s42_f2",
+    "A01_raw_lr003_s42_f0",
+    "A01_raw_lr003_s42_f1",
+    "A01_raw_lr003_s42_f2",
+    "A01_raw_lr003_s42_f3"
+  ],
+  "test_labels_read": false
+}

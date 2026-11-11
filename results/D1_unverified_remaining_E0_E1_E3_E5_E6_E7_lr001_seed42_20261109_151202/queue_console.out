@@ -1,0 +1,178 @@
+2026-11-09T15:12:32.0387787+08:00 queue start lr=0.01 experiments=E1,E3,E6,E5,E0,E7 seed=42 folds=0-4 devices=0,1,2 jobs=30 data=G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1
+2026-11-09T15:12:32.0608276+08:00 git HEAD 37b58186db2f3729aed4714f96048bb975828e62; uncommitted work left untouched; no test-run; no E2/E4 rerun
+2026-11-09T15:12:32.4809422+08:00 START E1_s42_fold0 -> GPU 0 pid 14980
+2026-11-09T15:12:32.4881170+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E1 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T15:12:32.5287283+08:00 START E1_s42_fold1 -> GPU 1 pid 24088
+2026-11-09T15:12:32.5327124+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E1 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T15:12:32.5696134+08:00 START E1_s42_fold2 -> GPU 2 pid 13024
+2026-11-09T15:12:32.5726038+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E1 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T15:12:52.8392321+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:11:19.9475169+08:00 WARN E1_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T16:11:19.9585084+08:00 DONE E1_s42_fold2 (1/30)
+2026-11-09T16:11:20.1921026+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:11:20.2329937+08:00 START E1_s42_fold3 -> GPU 2 pid 20724
+2026-11-09T16:11:20.2369827+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E1 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T16:11:40.4365987+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:22:49.5293777+08:00 WARN E1_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T16:22:49.5413646+08:00 DONE E1_s42_fold0 (2/30)
+2026-11-09T16:22:49.7317336+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:22:49.7646446+08:00 START E1_s42_fold4 -> GPU 0 pid 20168
+2026-11-09T16:22:49.7686339+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E1 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T16:23:09.9759896+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:33:16.0670670+08:00 WARN E1_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T16:33:16.0768942+08:00 DONE E1_s42_fold1 (3/30)
+2026-11-09T16:33:16.2573892+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T16:33:16.2958028+08:00 START E3_s42_fold0 -> GPU 1 pid 23500
+2026-11-09T16:33:16.2989304+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E3 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T16:33:36.5218360+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:04:15.3250667+08:00 WARN E1_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T17:04:15.3280583+08:00 DONE E1_s42_fold3 (4/30)
+2026-11-09T17:04:15.5375423+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:04:15.5754616+08:00 START E3_s42_fold1 -> GPU 2 pid 15348
+2026-11-09T17:04:15.5774567+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E3 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T17:04:35.7785565+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:21:07.5388297+08:00 WARN E1_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T17:21:07.5498149+08:00 DONE E1_s42_fold4 (5/30)
+2026-11-09T17:21:07.7648492+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:21:07.8057574+08:00 START E3_s42_fold2 -> GPU 0 pid 24024
+2026-11-09T17:21:07.8117444+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E3 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T17:21:28.0368057+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:26:30.8865282+08:00 WARN E3_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T17:26:30.8975084+08:00 DONE E3_s42_fold0 (6/30)
+2026-11-09T17:26:31.1045421+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:26:31.1325550+08:00 START E3_s42_fold3 -> GPU 1 pid 25320
+2026-11-09T17:26:31.1345491+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E3 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T17:26:51.3256174+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:49:27.9536638+08:00 WARN E3_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T17:49:27.9646424+08:00 DONE E3_s42_fold3 (7/30)
+2026-11-09T17:49:28.1775642+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:49:28.2084914+08:00 START E3_s42_fold4 -> GPU 1 pid 22532
+2026-11-09T17:49:28.2104862+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E3 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T17:49:48.4335606+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:58:53.8034618+08:00 WARN E3_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T17:58:53.8134347+08:00 DONE E3_s42_fold1 (8/30)
+2026-11-09T17:58:54.0037319+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T17:58:54.0276662+08:00 START E6_s42_fold0 -> GPU 2 pid 24172
+2026-11-09T17:58:54.0296607+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E6 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T17:59:14.2630204+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T18:21:07.7415421+08:00 WARN E3_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T18:21:07.7525269+08:00 DONE E3_s42_fold2 (9/30)
+2026-11-09T18:21:07.9442340+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T18:21:07.9767777+08:00 START E6_s42_fold1 -> GPU 0 pid 18940
+2026-11-09T18:21:07.9807691+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E6 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T18:21:28.1805031+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:06:27.6197835+08:00 WARN E3_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T19:06:27.6317683+08:00 DONE E3_s42_fold4 (10/30)
+2026-11-09T19:06:27.8259963+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:06:27.8668862+08:00 START E6_s42_fold2 -> GPU 1 pid 23864
+2026-11-09T19:06:27.8708752+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E6 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T19:06:48.0986731+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:09:29.5791973+08:00 WARN E6_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T19:09:29.5886990+08:00 DONE E6_s42_fold0 (11/30)
+2026-11-09T19:09:29.8427129+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:09:29.8856057+08:00 START E6_s42_fold3 -> GPU 2 pid 19396
+2026-11-09T19:09:29.8915891+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E6 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T19:09:50.0939495+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:37:26.9993522+08:00 WARN E6_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T19:37:27.0083433+08:00 DONE E6_s42_fold3 (12/30)
+2026-11-09T19:37:27.1800971+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:37:27.2060282+08:00 START E6_s42_fold4 -> GPU 2 pid 17760
+2026-11-09T19:37:27.2090191+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E6 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T19:37:47.4152013+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:45:52.1553253+08:00 WARN E6_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T19:45:52.1663106+08:00 DONE E6_s42_fold1 (13/30)
+2026-11-09T19:45:52.3660776+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T19:45:52.4039772+08:00 START E5_s42_fold0 -> GPU 0 pid 24936
+2026-11-09T19:45:52.4069694+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E5 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T19:46:12.5973802+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T20:18:32.3852209+08:00 WARN E6_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T20:18:32.3952199+08:00 DONE E6_s42_fold4 (14/30)
+2026-11-09T20:18:32.5794728+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T20:18:32.5968751+08:00 START E5_s42_fold1 -> GPU 2 pid 8924
+2026-11-09T20:18:32.5984353+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E5 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T20:18:52.8324701+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T20:32:00.8626597+08:00 WARN E6_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T20:32:00.8737954+08:00 DONE E6_s42_fold2 (15/30)
+2026-11-09T20:32:01.0579316+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T20:32:01.0936416+08:00 START E5_s42_fold2 -> GPU 1 pid 8840
+2026-11-09T20:32:01.0976292+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E5 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T20:32:21.3076585+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:09:06.5209900+08:00 WARN E5_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T21:09:06.5319737+08:00 DONE E5_s42_fold0 (16/30)
+2026-11-09T21:09:06.7697923+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:09:06.8143016+08:00 START E5_s42_fold3 -> GPU 0 pid 11056
+2026-11-09T21:09:06.8172918+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E5 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T21:09:27.0050118+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:43:28.0435644+08:00 WARN E5_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T21:43:28.0465565+08:00 DONE E5_s42_fold1 (17/30)
+2026-11-09T21:43:28.2469033+08:00 WAIT blocked GPUs: 0,1 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:43:28.2867973+08:00 START E5_s42_fold4 -> GPU 2 pid 26336
+2026-11-09T21:43:28.2907863+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E5 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T21:43:48.5054080+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:55:56.0468051+08:00 WARN E5_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T21:55:56.0507947+08:00 DONE E5_s42_fold2 (18/30)
+2026-11-09T21:55:56.2645581+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:55:56.3094003+08:00 START E0_s42_fold0 -> GPU 1 pid 16892
+2026-11-09T21:55:56.3123901+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E0 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T21:56:16.5477342+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:58:17.5977893+08:00 WARN E0_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T21:58:17.6087682+08:00 DONE E0_s42_fold0 (19/30)
+2026-11-09T21:58:17.8378294+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T21:58:17.8787403+08:00 START E0_s42_fold1 -> GPU 1 pid 18700
+2026-11-09T21:58:17.8817341+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E0 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T21:58:38.1236561+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:01:19.5962478+08:00 WARN E0_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T22:01:19.6076803+08:00 DONE E0_s42_fold1 (20/30)
+2026-11-09T22:01:19.7841888+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:01:19.8011436+08:00 START E0_s42_fold2 -> GPU 1 pid 15400
+2026-11-09T22:01:19.8031374+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E0 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:01:40.0062841+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:05:01.8875657+08:00 WARN E0_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T22:05:01.8966484+08:00 DONE E0_s42_fold2 (21/30)
+2026-11-09T22:05:02.1512642+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:05:02.1931510+08:00 START E0_s42_fold3 -> GPU 1 pid 15048
+2026-11-09T22:05:02.1961426+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E0 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:05:22.3988026+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:08:25.0792640+08:00 WARN E0_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T22:08:25.0903405+08:00 DONE E0_s42_fold3 (22/30)
+2026-11-09T22:08:25.2832171+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:08:25.3071501+08:00 START E0_s42_fold4 -> GPU 1 pid 17984
+2026-11-09T22:08:25.3101421+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E0 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:08:45.5377020+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:12:27.6590833+08:00 WARN E0_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T22:12:27.6623165+08:00 DONE E0_s42_fold4 (23/30)
+2026-11-09T22:12:27.8926205+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:12:27.9374448+08:00 START E7_s42_fold0 -> GPU 1 pid 18636
+2026-11-09T22:12:27.9412215+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E7 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:12:48.1191857+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:14:49.1617558+08:00 WARN E7_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-09T22:14:49.1727335+08:00 DONE E7_s42_fold0 (24/30)
+2026-11-09T22:14:49.3858329+08:00 WAIT blocked GPUs: 0,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:14:49.4218455+08:00 START E7_s42_fold1 -> GPU 1 pid 24912
+2026-11-09T22:14:49.4243654+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E7 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:15:09.6134030+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:15:30.2359133+08:00 WARN E5_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T22:15:30.2377459+08:00 DONE E5_s42_fold3 (25/30)
+2026-11-09T22:15:30.4078878+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:15:30.4350806+08:00 START E7_s42_fold2 -> GPU 0 pid 25692
+2026-11-09T22:15:30.4380725+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E7 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:15:50.6415836+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:20:13.1717609+08:00 WARN E7_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T22:20:13.1820044+08:00 DONE E7_s42_fold1 (26/30)
+2026-11-09T22:20:13.2149159+08:00 WARN E7_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T22:20:13.2169089+08:00 DONE E7_s42_fold2 (27/30)
+2026-11-09T22:20:13.3912735+08:00 WAIT blocked GPUs: 2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:20:13.4291441+08:00 START E7_s42_fold3 -> GPU 0 pid 23948
+2026-11-09T22:20:13.4321344+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E7 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:20:13.4559714+08:00 START E7_s42_fold4 -> GPU 1 pid 21280
+2026-11-09T22:20:13.4589646+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E7 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_remaining_E0_E1_E3_E5_E6_E7_lr001_seed42_20261109_151202 --epochs 1000 --eval-every 10 --patience 20 --lr 0.01 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T22:20:33.6939378+08:00 WAIT blocked GPUs: 0,1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:24:15.6910911+08:00 WARN E7_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T22:24:15.7030724+08:00 DONE E7_s42_fold3 (28/30)
+2026-11-09T22:24:15.9203068+08:00 WAIT blocked GPUs: 1,2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:25:36.5589499+08:00 WARN E7_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T22:25:36.5703714+08:00 DONE E7_s42_fold4 (29/30)
+2026-11-09T22:25:36.7781303+08:00 WAIT blocked GPUs: 2 (memory>=2048 or python compute); not interrupting
+2026-11-09T22:38:04.4625802+08:00 WARN E5_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-09T22:38:04.4744773+08:00 DONE E5_s42_fold4 (30/30)
+2026-11-09T22:38:04.7072915+08:00 queue finished

@@ -1,5 +1,9 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+
+# Derived TensorBoard view of history.jsonl. Rebuild with scripts/history_to_tensorboard.py
+results/tensorboard/
+.tools/
 *.py[cod]
 *$py.class
 

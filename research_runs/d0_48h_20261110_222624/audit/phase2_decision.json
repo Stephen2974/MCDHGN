@@ -1,0 +1,5 @@
+{
+  "utc": "2026-11-11T02:56:41.073581+00:00",
+  "decision": "Phase1 100/100 completed. No variant beat original GAT; do not claim improvement. Test head x train-only input standardization x raw residual at original lr=.01 on GATv2 node, full 2x2x2 design. Retain lr=.003 prior controls. Seed42 all five folds for every cell. Linear head is a capacity reduction, not added capacity. Select only after all cells complete. No test access. Deadline unchanged.",
+  "new_jobs": 40
+}

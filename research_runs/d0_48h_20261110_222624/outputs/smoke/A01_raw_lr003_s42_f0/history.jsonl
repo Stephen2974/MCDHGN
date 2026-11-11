@@ -1,0 +1,2 @@
+{"epoch": 1, "train_loss": 0.7486433982849121, "ap": 0.5453968253968254, "auc": 0.52, "accuracy": 0.6, "macro_f1": 0.6, "loss": 0.7012587189674377, "precision_at_50": 0.5, "recall_at_50": 1.0, "effective_k_50": 10, "precision_at_100": 0.5, "recall_at_100": 1.0, "effective_k_100": 10}
+{"epoch": 2, "train_loss": 0.556852400302887, "ap": 0.6053968253968254, "auc": 0.48, "accuracy": 0.4, "macro_f1": 0.4, "loss": 0.7279421091079712, "precision_at_50": 0.5, "recall_at_50": 1.0, "effective_k_50": 10, "precision_at_100": 0.5, "recall_at_100": 1.0, "effective_k_100": 10}

@@ -1,0 +1,7 @@
+不能对 Null 值表达式调用方法。
+所在位置 G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833\queue.ps1:141 字符: 13
++         if ($blocked.Contains($gpu)) {
++             ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation: (:) []，ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : InvokeMethodOnNull
+ 

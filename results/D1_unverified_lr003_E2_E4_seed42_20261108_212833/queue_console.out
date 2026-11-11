@@ -1,0 +1,43 @@
+2026-11-08T21:30:33.5392662+08:00 queue start lr=0.003 experiments=E2,E4 seed=42 folds=priority-then-rest devices=0,1,2 jobs=10 data=G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1
+2026-11-08T21:30:33.5724158+08:00 git HEAD 37b58186db2f3729aed4714f96048bb975828e62; uncommitted work left untouched; no test-run
+2026-11-08T21:30:33.8614296+08:00 START E2_s42_fold4 -> GPU 0 pid 20156
+2026-11-08T21:30:33.8660927+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E2 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T21:30:33.8965685+08:00 START E4_s42_fold4 -> GPU 1 pid 3328
+2026-11-08T21:30:33.8986344+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E4 --seeds 42 --folds 4 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T21:30:33.9209721+08:00 START E4_s42_fold0 -> GPU 2 pid 7000
+2026-11-08T21:30:33.9233798+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E4 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T22:01:12.9070922+08:00 WARN E2_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-08T22:01:12.9170874+08:00 DONE E2_s42_fold4 (1/10)
+2026-11-08T22:01:13.1698941+08:00 START E2_s42_fold0 -> GPU 0 pid 22724
+2026-11-08T22:01:13.1718760+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E2 --seeds 42 --folds 0 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T22:26:49.5459119+08:00 WARN E4_s42_fold4 exit= but result.json present; treating as DONE
+2026-11-08T22:26:49.5568912+08:00 DONE E4_s42_fold4 (2/10)
+2026-11-08T22:26:49.7901092+08:00 START E2_s42_fold1 -> GPU 1 pid 20276
+2026-11-08T22:26:49.7940931+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E2 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T22:53:46.1318525+08:00 WARN E4_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-08T22:53:46.1428343+08:00 DONE E4_s42_fold0 (3/10)
+2026-11-08T22:53:46.4028498+08:00 START E2_s42_fold2 -> GPU 2 pid 12388
+2026-11-08T22:53:46.4068415+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E2 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T23:18:21.9885054+08:00 WARN E2_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-08T23:18:21.9995028+08:00 DONE E2_s42_fold1 (4/10)
+2026-11-08T23:18:22.2177962+08:00 START E2_s42_fold3 -> GPU 1 pid 23312
+2026-11-08T23:18:22.2219950+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E2 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 1 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-08T23:22:24.5757808+08:00 WARN E2_s42_fold0 exit= but result.json present; treating as DONE
+2026-11-08T23:22:24.5857544+08:00 DONE E2_s42_fold0 (5/10)
+2026-11-08T23:22:24.7799756+08:00 START E4_s42_fold1 -> GPU 0 pid 11292
+2026-11-08T23:22:24.7819704+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E4 --seeds 42 --folds 1 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T00:14:16.3319913+08:00 WARN E4_s42_fold1 exit= but result.json present; treating as DONE
+2026-11-09T00:14:16.3419721+08:00 DONE E4_s42_fold1 (6/10)
+2026-11-09T00:14:16.5499749+08:00 START E4_s42_fold2 -> GPU 0 pid 12692
+2026-11-09T00:14:16.5519706+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E4 --seeds 42 --folds 2 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 0 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T00:15:37.2124984+08:00 WARN E2_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T00:15:37.2234690+08:00 DONE E2_s42_fold2 (7/10)
+2026-11-09T00:15:37.4663863+08:00 START E4_s42_fold3 -> GPU 2 pid 13568
+2026-11-09T00:15:37.4699802+08:00 CMD G:\LLLM\MCDHGN-main\.conda\python.exe run_ablation.py --experiments E4 --seeds 42 --folds 3 --data-root G:\LLLM\MCDHGN-main\data_variants\d1_cnv_unverified_v1 --devices 2 --output G:\LLLM\MCDHGN-main\results\D1_unverified_lr003_E2_E4_seed42_20261108_212833 --epochs 1000 --eval-every 10 --patience 20 --lr 0.003 --weight-decay 0.0001 --positive-weight 1.904 --dropout 0.4 --hidden-size 256 --heads 4 --fusion-dim 64 --fusion-chunk-size 1024
+2026-11-09T00:40:52.6603183+08:00 WARN E2_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T00:40:52.6713088+08:00 DONE E2_s42_fold3 (8/10)
+2026-11-09T01:20:57.1923222+08:00 WARN E4_s42_fold3 exit= but result.json present; treating as DONE
+2026-11-09T01:20:57.2033976+08:00 DONE E4_s42_fold3 (9/10)
+2026-11-09T01:35:26.0675694+08:00 WARN E4_s42_fold2 exit= but result.json present; treating as DONE
+2026-11-09T01:35:26.0797186+08:00 DONE E4_s42_fold2 (10/10)
+2026-11-09T01:35:26.2860627+08:00 queue finished

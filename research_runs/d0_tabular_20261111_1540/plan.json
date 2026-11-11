@@ -1,0 +1,930 @@
+{
+  "created_utc": "2026-11-11T07:38:40.719297+00:00",
+  "deadline_utc": "2026-11-12T14:26:23+00:00",
+  "per_fold_timeout_seconds": 14400,
+  "jobs": [
+    {
+      "id": "T_hgb_raw_s42_f0",
+      "config": {
+        "experiment": "T_hgb_raw",
+        "estimator": "hgb",
+        "features": "raw",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_raw_s42_f1",
+      "config": {
+        "experiment": "T_hgb_raw",
+        "estimator": "hgb",
+        "features": "raw",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_raw_s42_f2",
+      "config": {
+        "experiment": "T_hgb_raw",
+        "estimator": "hgb",
+        "features": "raw",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_raw_s42_f3",
+      "config": {
+        "experiment": "T_hgb_raw",
+        "estimator": "hgb",
+        "features": "raw",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_raw_s42_f4",
+      "config": {
+        "experiment": "T_hgb_raw",
+        "estimator": "hgb",
+        "features": "raw",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean1_s42_f0",
+      "config": {
+        "experiment": "T_hgb_mean1",
+        "estimator": "hgb",
+        "features": "mean1",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean1_s42_f1",
+      "config": {
+        "experiment": "T_hgb_mean1",
+        "estimator": "hgb",
+        "features": "mean1",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean1_s42_f2",
+      "config": {
+        "experiment": "T_hgb_mean1",
+        "estimator": "hgb",
+        "features": "mean1",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean1_s42_f3",
+      "config": {
+        "experiment": "T_hgb_mean1",
+        "estimator": "hgb",
+        "features": "mean1",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean1_s42_f4",
+      "config": {
+        "experiment": "T_hgb_mean1",
+        "estimator": "hgb",
+        "features": "mean1",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean2_s42_f0",
+      "config": {
+        "experiment": "T_hgb_mean2",
+        "estimator": "hgb",
+        "features": "mean2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean2_s42_f1",
+      "config": {
+        "experiment": "T_hgb_mean2",
+        "estimator": "hgb",
+        "features": "mean2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean2_s42_f2",
+      "config": {
+        "experiment": "T_hgb_mean2",
+        "estimator": "hgb",
+        "features": "mean2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean2_s42_f3",
+      "config": {
+        "experiment": "T_hgb_mean2",
+        "estimator": "hgb",
+        "features": "mean2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_mean2_s42_f4",
+      "config": {
+        "experiment": "T_hgb_mean2",
+        "estimator": "hgb",
+        "features": "mean2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_moments2_s42_f0",
+      "config": {
+        "experiment": "T_hgb_moments2",
+        "estimator": "hgb",
+        "features": "moments2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_moments2_s42_f1",
+      "config": {
+        "experiment": "T_hgb_moments2",
+        "estimator": "hgb",
+        "features": "moments2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_moments2_s42_f2",
+      "config": {
+        "experiment": "T_hgb_moments2",
+        "estimator": "hgb",
+        "features": "moments2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_moments2_s42_f3",
+      "config": {
+        "experiment": "T_hgb_moments2",
+        "estimator": "hgb",
+        "features": "moments2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_hgb_moments2_s42_f4",
+      "config": {
+        "experiment": "T_hgb_moments2",
+        "estimator": "hgb",
+        "features": "moments2",
+        "estimator_params": {
+          "loss": "log_loss",
+          "learning_rate": 0.05,
+          "max_leaf_nodes": 15,
+          "min_samples_leaf": 20,
+          "l2_regularization": 1.0,
+          "early_stopping": false,
+          "warm_start": true
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_raw_s42_f0",
+      "config": {
+        "experiment": "T_extra_trees_raw",
+        "estimator": "extra_trees",
+        "features": "raw",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_raw_s42_f1",
+      "config": {
+        "experiment": "T_extra_trees_raw",
+        "estimator": "extra_trees",
+        "features": "raw",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_raw_s42_f2",
+      "config": {
+        "experiment": "T_extra_trees_raw",
+        "estimator": "extra_trees",
+        "features": "raw",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_raw_s42_f3",
+      "config": {
+        "experiment": "T_extra_trees_raw",
+        "estimator": "extra_trees",
+        "features": "raw",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_raw_s42_f4",
+      "config": {
+        "experiment": "T_extra_trees_raw",
+        "estimator": "extra_trees",
+        "features": "raw",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean1_s42_f0",
+      "config": {
+        "experiment": "T_extra_trees_mean1",
+        "estimator": "extra_trees",
+        "features": "mean1",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean1_s42_f1",
+      "config": {
+        "experiment": "T_extra_trees_mean1",
+        "estimator": "extra_trees",
+        "features": "mean1",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean1_s42_f2",
+      "config": {
+        "experiment": "T_extra_trees_mean1",
+        "estimator": "extra_trees",
+        "features": "mean1",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean1_s42_f3",
+      "config": {
+        "experiment": "T_extra_trees_mean1",
+        "estimator": "extra_trees",
+        "features": "mean1",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean1_s42_f4",
+      "config": {
+        "experiment": "T_extra_trees_mean1",
+        "estimator": "extra_trees",
+        "features": "mean1",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean2_s42_f0",
+      "config": {
+        "experiment": "T_extra_trees_mean2",
+        "estimator": "extra_trees",
+        "features": "mean2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean2_s42_f1",
+      "config": {
+        "experiment": "T_extra_trees_mean2",
+        "estimator": "extra_trees",
+        "features": "mean2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean2_s42_f2",
+      "config": {
+        "experiment": "T_extra_trees_mean2",
+        "estimator": "extra_trees",
+        "features": "mean2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean2_s42_f3",
+      "config": {
+        "experiment": "T_extra_trees_mean2",
+        "estimator": "extra_trees",
+        "features": "mean2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_mean2_s42_f4",
+      "config": {
+        "experiment": "T_extra_trees_mean2",
+        "estimator": "extra_trees",
+        "features": "mean2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_moments2_s42_f0",
+      "config": {
+        "experiment": "T_extra_trees_moments2",
+        "estimator": "extra_trees",
+        "features": "moments2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 0,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_moments2_s42_f1",
+      "config": {
+        "experiment": "T_extra_trees_moments2",
+        "estimator": "extra_trees",
+        "features": "moments2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 1,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_moments2_s42_f2",
+      "config": {
+        "experiment": "T_extra_trees_moments2",
+        "estimator": "extra_trees",
+        "features": "moments2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 2,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_moments2_s42_f3",
+      "config": {
+        "experiment": "T_extra_trees_moments2",
+        "estimator": "extra_trees",
+        "features": "moments2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 3,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    },
+    {
+      "id": "T_extra_trees_moments2_s42_f4",
+      "config": {
+        "experiment": "T_extra_trees_moments2",
+        "estimator": "extra_trees",
+        "features": "moments2",
+        "estimator_params": {
+          "n_estimators": 500,
+          "min_samples_leaf": 2,
+          "max_features": "sqrt",
+          "n_jobs": 2
+        },
+        "seed": 42,
+        "fold": 4,
+        "positive_weight": 1.904,
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "smoke": false
+      }
+    }
+  ],
+  "cpu_workers": 1,
+  "cpu_threads": 2,
+  "gpu_ids": [],
+  "execution_sha256": {
+    "cpu_scheduler.py": "b3f89108bf255666497e73efd8cfcea8fc9ce91456984dde6737500bd113a13e",
+    "prepare_tabular.py": "0a103245472defdebd391b6d18130e4e9e06e16f129556b2b77dd01e4f7e5981",
+    "tabular_features.py": "eb421e2f966808b0334928489391c162677011b7634fc083019a8cd03adc6d5d",
+    "tabular_worker.py": "11ae9bd862faec6d66796655412b3af350e6b1e182595661dcbec715a57d4c87",
+    "test_tabular.py": "3cbe702ed53d75c045ba2734498490abae9ded22dcb37a11e513dde515f189a2",
+    "code/ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+    "code/experiment_log.py": "a6a678a0577e852e4ebe5d26c0c667259e5bba333c13f62a935891af07af1de1",
+    "code/fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+    "code/model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+    "code/research_models.py": "e17b7843511229048b4fcddcf0b21d73a1351e93d81387a75d0733a36af007b9",
+    "code/run_ablation.py": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+    "code/summarize_ablations.py": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be",
+    "code/test_research_models.py": "b401b854e5ae7786cb0a25243f343e97bc106c0d6bb791509d3de5d2b83178a1"
+  },
+  "selection_rule": "All five folds, same config; rank complete groups by mean AP; target both AP/AUC > .9.",
+  "repeat_rule": "Best full group and its raw-feature control, seeds43/44, within original budget.",
+  "paired_controls": "mean1-raw; mean2-mean1; moments2-mean2 within estimator; HGB vs ExtraTrees is a separate family comparison.",
+  "ensemble_rule": "Exploratory fixed 0.5 probability mean with C_v2_original_std0_raw0, aligned per fold; no learned weights, no per-fold selection.",
+  "limitations": "Development validation, not unbiased test. HGB has AP-selected iterations; ExtraTrees uses a fixed 500 trees. No equal-compute claim across families."
+}

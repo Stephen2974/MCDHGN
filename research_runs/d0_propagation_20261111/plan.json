@@ -1,0 +1,1471 @@
+{
+  "schema": 1,
+  "created_utc": "2026-11-11T03:03:24.035814+00:00",
+  "authorization_start_utc": "2026-11-10T14:26:23+00:00",
+  "deadline_utc": "2026-11-12T14:26:23+00:00",
+  "per_fold_timeout_seconds": 14400,
+  "gpu_ids": [
+    0,
+    1,
+    2
+  ],
+  "jobs": [
+    {
+      "id": "P_h0_fixed_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h0_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 0,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h0_fixed_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h0_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 0,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h0_fixed_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h0_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 0,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h0_fixed_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h0_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 0,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h0_fixed_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h0_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 0,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h5_fixed_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h5_fixed_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h5_fixed_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h5_fixed_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h5_fixed_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h10_fixed_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h10_fixed_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h10_fixed_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h10_fixed_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h10_fixed_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_fixed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h5_signed_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h5_signed_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h5_signed_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h5_signed_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h5_signed_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h10_signed_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h10_signed_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h10_signed_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h10_signed_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h10_signed_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h10_signed_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 10,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h5_softmax_all_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_softmax_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "softmax",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h5_softmax_all_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_softmax_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "softmax",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h5_softmax_all_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_softmax_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "softmax",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h5_softmax_all_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_softmax_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "softmax",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h5_softmax_all_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_softmax_all",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "softmax",
+          "width": 128,
+          "path_mode": "all"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h5_fixed_ppi_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h5_fixed_ppi_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h5_fixed_ppi_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h5_fixed_ppi_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h5_fixed_ppi_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_fixed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "fixed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    },
+    {
+      "id": "P_h5_signed_ppi_s42_f0",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 0
+      }
+    },
+    {
+      "id": "P_h5_signed_ppi_s42_f1",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 1
+      }
+    },
+    {
+      "id": "P_h5_signed_ppi_s42_f2",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 2
+      }
+    },
+    {
+      "id": "P_h5_signed_ppi_s42_f3",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 3
+      }
+    },
+    {
+      "id": "P_h5_signed_ppi_s42_f4",
+      "config": {
+        "epochs": 1000,
+        "eval_every": 10,
+        "patience": 20,
+        "lr": 0.003,
+        "weight_decay": 0.0001,
+        "positive_weight": 1.904,
+        "dropout": 0.4,
+        "hidden_size": 256,
+        "heads": 4,
+        "fusion_dim": 64,
+        "fusion_chunk_size": 1024,
+        "smoke": false,
+        "protocol": "softmax-ap-checkpoint-v1",
+        "standardize": false,
+        "experiment": "P_h5_signed_ppi",
+        "architecture": {
+          "use_gatv2": false,
+          "semantic_mode": "global",
+          "fusion_mode": "none",
+          "fusion_alpha": 0.6
+        },
+        "research": {
+          "family": "propagation",
+          "hops": 5,
+          "alpha": 0.1,
+          "gamma_mode": "signed",
+          "width": 128,
+          "path_mode": "ppi"
+        },
+        "seed": 42,
+        "fold": 4
+      }
+    }
+  ],
+  "execution_sha256": {
+    "code/ablation_config.py": "6f5e81a470d86048d61a57ab6ada8c8eba11c4e2aa2f9c86136ea72c1b560280",
+    "code/experiment_log.py": "a6a678a0577e852e4ebe5d26c0c667259e5bba333c13f62a935891af07af1de1",
+    "code/fusion.py": "a8cad7be137a9705052d9c88c3fd269e1058a28825e85fb4a63987ffb06e8ee5",
+    "code/model.py": "0c667afd9e9ffd00bf2f04290d3b880c35b303cb0ca19e24230097f9be3c18c0",
+    "code/propagation_models.py": "84cf07f8340d3bd0874caccaf8b62e08384d7c6b56333a34e5deba242ea8d3ff",
+    "code/research_models.py": "60a11ca7e2a98e111984b085d04d6067c9c08251a231067ce19ed24aec2d02ab",
+    "code/run_ablation.py": "909802329d37513858d03391628e8cb520c9e6d50f3f28147d2fc0c1dccdea0c",
+    "code/summarize_ablations.py": "eecd73da86bf3ea9c97301d6db2d05c9af0a92e2d7f454dae658c2bca2d123be",
+    "code/test_propagation_models.py": "c3a40ca89e9ebaecf3e9671398d1c17b9e3889ba7d72df9843e813c9a7c80517",
+    "code/test_research_models.py": "b401b854e5ae7786cb0a25243f343e97bc106c0d6bb791509d3de5d2b83178a1",
+    "worker.py": "878f121ab479db6dde2cad73387d9943fc2b2d7562dce8bc1268d6bab12182ec",
+    "scheduler.py": "ffa278482ca469389adbf3e8a4321e969651e9bf20733774b27685fcf2ef3fd9"
+  },
+  "selection_rule": "Complete five folds per configuration, rank by mean AP; AUC must also exceed .9 for target. No foldwise cherry picking. Seed42 exploratory, repeat selected configurations on seed43/44 before robust claims.",
+  "failure_rule": "Nonfinite loss, worker nonzero exit, missing result, four-hour fold timeout or global deadline. No automatic retries; retain all failed outputs.",
+  "next_phase": "Staged only. Admission requires original queue terminal and no foreign GPU workers; same immutable global deadline. Full five-fold comparisons."
+}

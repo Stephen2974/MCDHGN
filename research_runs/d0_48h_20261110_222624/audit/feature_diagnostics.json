@@ -1,0 +1,477 @@
+{
+  "utc": "2026-11-11T03:02:03.030430+00:00",
+  "folds": [
+    {
+      "fold": 0,
+      "train_only": true,
+      "std_min": 0.015215055085718632,
+      "std_max": 0.1543300896883011,
+      "max_abs": 1.0,
+      "zero_variance_columns": 0,
+      "blocks": [
+        {
+          "columns": [
+            "MF: KIRC",
+            "MF: BRCA",
+            "MF: READ",
+            "MF: PRAD",
+            "MF: STAD",
+            "MF: HNSC",
+            "MF: LUAD",
+            "MF: THCA",
+            "MF: BLCA",
+            "MF: ESCA",
+            "MF: LIHC",
+            "MF: UCEC",
+            "MF: COAD",
+            "MF: LUSC",
+            "MF: CESC",
+            "MF: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.12489402294158956,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "METH: KIRC",
+            "METH: BRCA",
+            "METH: READ",
+            "METH: PRAD",
+            "METH: STAD",
+            "METH: HNSC",
+            "METH: LUAD",
+            "METH: THCA",
+            "METH: BLCA",
+            "METH: ESCA",
+            "METH: LIHC",
+            "METH: UCEC",
+            "METH: COAD",
+            "METH: LUSC",
+            "METH: CESC",
+            "METH: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.018117503263056278,
+            0.5900878131389619,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "GE: KIRC",
+            "GE: BRCA",
+            "GE: READ",
+            "GE: PRAD",
+            "GE: STAD",
+            "GE: HNSC",
+            "GE: LUAD",
+            "GE: THCA",
+            "GE: BLCA",
+            "GE: ESCA",
+            "GE: LIHC",
+            "GE: UCEC",
+            "GE: COAD",
+            "GE: LUSC",
+            "GE: CESC",
+            "GE: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.03591564856469631,
+            0.43025772571563764,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "train_only": true,
+      "std_min": 0.015167784877121449,
+      "std_max": 0.15305228531360626,
+      "max_abs": 1.0,
+      "zero_variance_columns": 0,
+      "blocks": [
+        {
+          "columns": [
+            "MF: KIRC",
+            "MF: BRCA",
+            "MF: READ",
+            "MF: PRAD",
+            "MF: STAD",
+            "MF: HNSC",
+            "MF: LUAD",
+            "MF: THCA",
+            "MF: BLCA",
+            "MF: ESCA",
+            "MF: LIHC",
+            "MF: UCEC",
+            "MF: COAD",
+            "MF: LUSC",
+            "MF: CESC",
+            "MF: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.12756257653236466,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "METH: KIRC",
+            "METH: BRCA",
+            "METH: READ",
+            "METH: PRAD",
+            "METH: STAD",
+            "METH: HNSC",
+            "METH: LUAD",
+            "METH: THCA",
+            "METH: BLCA",
+            "METH: ESCA",
+            "METH: LIHC",
+            "METH: UCEC",
+            "METH: COAD",
+            "METH: LUSC",
+            "METH: CESC",
+            "METH: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.01806256454437971,
+            0.5797438085079194,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "GE: KIRC",
+            "GE: BRCA",
+            "GE: READ",
+            "GE: PRAD",
+            "GE: STAD",
+            "GE: HNSC",
+            "GE: LUAD",
+            "GE: THCA",
+            "GE: BLCA",
+            "GE: ESCA",
+            "GE: LIHC",
+            "GE: UCEC",
+            "GE: COAD",
+            "GE: LUSC",
+            "GE: CESC",
+            "GE: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.035561636090278625,
+            0.4325667425990105,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "train_only": true,
+      "std_min": 0.0037088156677782536,
+      "std_max": 0.15574689209461212,
+      "max_abs": 1.0,
+      "zero_variance_columns": 0,
+      "blocks": [
+        {
+          "columns": [
+            "MF: KIRC",
+            "MF: BRCA",
+            "MF: READ",
+            "MF: PRAD",
+            "MF: STAD",
+            "MF: HNSC",
+            "MF: LUAD",
+            "MF: THCA",
+            "MF: BLCA",
+            "MF: ESCA",
+            "MF: LIHC",
+            "MF: UCEC",
+            "MF: COAD",
+            "MF: LUSC",
+            "MF: CESC",
+            "MF: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.12284961715340621,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "METH: KIRC",
+            "METH: BRCA",
+            "METH: READ",
+            "METH: PRAD",
+            "METH: STAD",
+            "METH: HNSC",
+            "METH: LUAD",
+            "METH: THCA",
+            "METH: BLCA",
+            "METH: ESCA",
+            "METH: LIHC",
+            "METH: UCEC",
+            "METH: COAD",
+            "METH: LUSC",
+            "METH: CESC",
+            "METH: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.018586047925055027,
+            0.5853079736232764,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "GE: KIRC",
+            "GE: BRCA",
+            "GE: READ",
+            "GE: PRAD",
+            "GE: STAD",
+            "GE: HNSC",
+            "GE: LUAD",
+            "GE: THCA",
+            "GE: BLCA",
+            "GE: ESCA",
+            "GE: LIHC",
+            "GE: UCEC",
+            "GE: COAD",
+            "GE: LUSC",
+            "GE: CESC",
+            "GE: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.035796696320176125,
+            0.4329484730958941,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "fold": 3,
+      "train_only": true,
+      "std_min": 0.015223846770823002,
+      "std_max": 0.1564924418926239,
+      "max_abs": 1.0,
+      "zero_variance_columns": 0,
+      "blocks": [
+        {
+          "columns": [
+            "MF: KIRC",
+            "MF: BRCA",
+            "MF: READ",
+            "MF: PRAD",
+            "MF: STAD",
+            "MF: HNSC",
+            "MF: LUAD",
+            "MF: THCA",
+            "MF: BLCA",
+            "MF: ESCA",
+            "MF: LIHC",
+            "MF: UCEC",
+            "MF: COAD",
+            "MF: LUSC",
+            "MF: CESC",
+            "MF: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.124511716142297,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "METH: KIRC",
+            "METH: BRCA",
+            "METH: READ",
+            "METH: PRAD",
+            "METH: STAD",
+            "METH: HNSC",
+            "METH: LUAD",
+            "METH: THCA",
+            "METH: BLCA",
+            "METH: ESCA",
+            "METH: LIHC",
+            "METH: UCEC",
+            "METH: COAD",
+            "METH: LUSC",
+            "METH: CESC",
+            "METH: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0183436693623662,
+            0.5859044790267945,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "GE: KIRC",
+            "GE: BRCA",
+            "GE: READ",
+            "GE: PRAD",
+            "GE: STAD",
+            "GE: HNSC",
+            "GE: LUAD",
+            "GE: THCA",
+            "GE: BLCA",
+            "GE: ESCA",
+            "GE: LIHC",
+            "GE: UCEC",
+            "GE: COAD",
+            "GE: LUSC",
+            "GE: CESC",
+            "GE: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.035860080271959305,
+            0.4314097613096238,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        }
+      ]
+    },
+    {
+      "fold": 4,
+      "train_only": true,
+      "std_min": 0.015188020654022694,
+      "std_max": 0.1562315672636032,
+      "max_abs": 1.0,
+      "zero_variance_columns": 0,
+      "blocks": [
+        {
+          "columns": [
+            "MF: KIRC",
+            "MF: BRCA",
+            "MF: READ",
+            "MF: PRAD",
+            "MF: STAD",
+            "MF: HNSC",
+            "MF: LUAD",
+            "MF: THCA",
+            "MF: BLCA",
+            "MF: ESCA",
+            "MF: LIHC",
+            "MF: UCEC",
+            "MF: COAD",
+            "MF: LUSC",
+            "MF: CESC",
+            "MF: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0,
+            0.12755713835358665,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "METH: KIRC",
+            "METH: BRCA",
+            "METH: READ",
+            "METH: PRAD",
+            "METH: STAD",
+            "METH: HNSC",
+            "METH: LUAD",
+            "METH: THCA",
+            "METH: BLCA",
+            "METH: ESCA",
+            "METH: LIHC",
+            "METH: UCEC",
+            "METH: COAD",
+            "METH: LUSC",
+            "METH: CESC",
+            "METH: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.0188204487785697,
+            0.5941848009824753,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        },
+        {
+          "columns": [
+            "GE: KIRC",
+            "GE: BRCA",
+            "GE: READ",
+            "GE: PRAD",
+            "GE: STAD",
+            "GE: HNSC",
+            "GE: LUAD",
+            "GE: THCA",
+            "GE: BLCA",
+            "GE: ESCA",
+            "GE: LIHC",
+            "GE: UCEC",
+            "GE: COAD",
+            "GE: LUSC",
+            "GE: CESC",
+            "GE: KIRP"
+          ],
+          "quantiles": [
+            0.0,
+            0.0,
+            0.03657215274870396,
+            0.43610596656799394,
+            1.0
+          ],
+          "negative_fraction": 0.0
+        }
+      ]
+    }
+  ],
+  "test_labels_read": false,
+  "changes_made_to_data": false
+}

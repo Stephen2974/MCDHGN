@@ -1,0 +1,190 @@
+{
+  "utc": "2026-11-11T03:08:53.280520+00:00",
+  "synthetic_smoke": true,
+  "runs": [
+    {
+      "experiment": "P_h0_fixed_all",
+      "seed": 42,
+      "fold": 0,
+      "best_epoch": 1,
+      "gamma_mode": "fixed",
+      "gamma": [
+        1.0
+      ],
+      "gamma_sum": 1.0,
+      "gamma_abs_sum": 1.0,
+      "negative_coefficients": 0,
+      "selected_path_weights": [
+        0.3333333432674408,
+        0.3333333432674408,
+        0.3333333432674408
+      ],
+      "path_mode": "all",
+      "validation": {
+        "ap": 1.0,
+        "auc": 1.0,
+        "accuracy": 0.7,
+        "macro_f1": 0.6703296703296704,
+        "loss": 0.6076281070709229,
+        "precision_at_50": 0.5,
+        "recall_at_50": 1.0,
+        "effective_k_50": 10,
+        "precision_at_100": 0.5,
+        "recall_at_100": 1.0,
+        "effective_k_100": 10
+      },
+      "checkpoint_matches_result": true
+    },
+    {
+      "experiment": "P_h5_fixed_all",
+      "seed": 42,
+      "fold": 0,
+      "best_epoch": 1,
+      "gamma_mode": "fixed",
+      "gamma": [
+        0.10000000149011612,
+        0.09000000357627869,
+        0.08100000023841858,
+        0.07289999723434448,
+        0.06560999900102615,
+        0.5904899835586548
+      ],
+      "gamma_sum": 0.9999999403953552,
+      "gamma_abs_sum": 0.9999999403953552,
+      "negative_coefficients": 0,
+      "selected_path_weights": [
+        0.33466801047325134,
+        0.3326660096645355,
+        0.3326660394668579
+      ],
+      "path_mode": "all",
+      "validation": {
+        "ap": 0.7592857142857143,
+        "auc": 0.68,
+        "accuracy": 0.6,
+        "macro_f1": 0.5238095238095238,
+        "loss": 0.68574059009552,
+        "precision_at_50": 0.5,
+        "recall_at_50": 1.0,
+        "effective_k_50": 10,
+        "precision_at_100": 0.5,
+        "recall_at_100": 1.0,
+        "effective_k_100": 10
+      },
+      "checkpoint_matches_result": true
+    },
+    {
+      "experiment": "P_h5_fixed_ppi",
+      "seed": 42,
+      "fold": 0,
+      "best_epoch": 2,
+      "gamma_mode": "fixed",
+      "gamma": [
+        0.10000000149011612,
+        0.09000000357627869,
+        0.08100000023841858,
+        0.07289999723434448,
+        0.06560999900102615,
+        0.5904899835586548
+      ],
+      "gamma_sum": 0.9999999403953552,
+      "gamma_abs_sum": 0.9999999403953552,
+      "negative_coefficients": 0,
+      "selected_path_weights": [
+        1.0
+      ],
+      "path_mode": "ppi",
+      "validation": {
+        "ap": 0.7226190476190477,
+        "auc": 0.6799999999999999,
+        "accuracy": 0.5,
+        "macro_f1": 0.3333333333333333,
+        "loss": 0.6895769834518433,
+        "precision_at_50": 0.5,
+        "recall_at_50": 1.0,
+        "effective_k_50": 10,
+        "precision_at_100": 0.5,
+        "recall_at_100": 1.0,
+        "effective_k_100": 10
+      },
+      "checkpoint_matches_result": true
+    },
+    {
+      "experiment": "P_h5_signed_all",
+      "seed": 42,
+      "fold": 0,
+      "best_epoch": 1,
+      "gamma_mode": "signed",
+      "gamma": [
+        0.10300000011920929,
+        0.08700001239776611,
+        0.08399999141693115,
+        0.07589997351169586,
+        0.06261003017425537,
+        0.5874900221824646
+      ],
+      "gamma_sum": 1.0,
+      "gamma_abs_sum": 1.0,
+      "negative_coefficients": 0,
+      "selected_path_weights": [
+        0.33466801047325134,
+        0.3326660096645355,
+        0.3326660394668579
+      ],
+      "path_mode": "all",
+      "validation": {
+        "ap": 0.7592857142857143,
+        "auc": 0.68,
+        "accuracy": 0.6,
+        "macro_f1": 0.5238095238095238,
+        "loss": 0.6854190826416016,
+        "precision_at_50": 0.5,
+        "recall_at_50": 1.0,
+        "effective_k_50": 10,
+        "precision_at_100": 0.5,
+        "recall_at_100": 1.0,
+        "effective_k_100": 10
+      },
+      "checkpoint_matches_result": true
+    },
+    {
+      "experiment": "P_h5_softmax_all",
+      "seed": 42,
+      "fold": 0,
+      "best_epoch": 1,
+      "gamma_mode": "softmax",
+      "gamma": [
+        0.10054129362106323,
+        0.08994586765766144,
+        0.08095129579305649,
+        0.07285615056753159,
+        0.06557053327560425,
+        0.590134859085083
+      ],
+      "gamma_sum": 0.9999999403953552,
+      "gamma_abs_sum": 0.9999999403953552,
+      "negative_coefficients": 0,
+      "selected_path_weights": [
+        0.33466798067092896,
+        0.3326660096645355,
+        0.3326660096645355
+      ],
+      "path_mode": "all",
+      "validation": {
+        "ap": 0.7592857142857143,
+        "auc": 0.68,
+        "accuracy": 0.6,
+        "macro_f1": 0.5238095238095238,
+        "loss": 0.6856800317764282,
+        "precision_at_50": 0.5,
+        "recall_at_50": 1.0,
+        "effective_k_50": 10,
+        "precision_at_100": 0.5,
+        "recall_at_100": 1.0,
+        "effective_k_100": 10
+      },
+      "checkpoint_matches_result": true
+    }
+  ],
+  "interpretation": "Signed weights can change scale as well as propagation mixture. These diagnostics do not establish causation. Use paired controls; no test labels accessed."
+}
