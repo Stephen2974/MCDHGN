@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_propagation_20261111\admit_propagation.py", line 38, in <module>
+    try:main()
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_propagation_20261111\admit_propagation.py", line 30, in main
+    assert p.exists(),str(p)
+AssertionError: G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\outputs\C_v2_original_std1_raw1\seed42\fold2\result.json
+Traceback (most recent call last):
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_propagation_20261111\admit_propagation.py", line 38, in <module>
+    try:main()
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_propagation_20261111\admit_propagation.py", line 30, in main
+    assert p.exists(),str(p)
+AssertionError: G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\outputs\C_v2_original_std1_raw1\seed42\fold2\result.json

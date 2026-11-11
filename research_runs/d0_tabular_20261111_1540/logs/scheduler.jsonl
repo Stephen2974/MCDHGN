@@ -18,3 +18,65 @@
 {"utc": "2026-11-11T07:43:57.729137+00:00", "event": "started", "job": "T_hgb_mean1_s42_f3", "pid": 24288}
 {"utc": "2026-11-11T07:44:54.882812+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f3", "exit_code": 0, "seconds": 57.15700000000652}
 {"utc": "2026-11-11T07:44:54.917444+00:00", "event": "started", "job": "T_hgb_mean1_s42_f4", "pid": 11456}
+{"utc": "2026-11-11T07:45:52.075420+00:00", "event": "completed", "job": "T_hgb_mean1_s42_f4", "exit_code": 0, "seconds": 57.17200000002049}
+{"utc": "2026-11-11T07:45:52.100354+00:00", "event": "started", "job": "T_hgb_mean2_s42_f0", "pid": 12784}
+{"utc": "2026-11-11T07:47:37.356007+00:00", "event": "completed", "job": "T_hgb_mean2_s42_f0", "exit_code": 0, "seconds": 105.26500000001397}
+{"utc": "2026-11-11T07:47:37.368972+00:00", "event": "started", "job": "T_hgb_mean2_s42_f1", "pid": 16036}
+{"utc": "2026-11-11T07:50:22.724422+00:00", "event": "completed", "job": "T_hgb_mean2_s42_f1", "exit_code": 0, "seconds": 165.35899999993853}
+{"utc": "2026-11-11T07:50:22.737388+00:00", "event": "started", "job": "T_hgb_mean2_s42_f2", "pid": 20344}
+{"utc": "2026-11-11T07:53:08.117362+00:00", "event": "completed", "job": "T_hgb_mean2_s42_f2", "exit_code": 0, "seconds": 165.39100000006147}
+{"utc": "2026-11-11T07:53:08.137309+00:00", "event": "started", "job": "T_hgb_mean2_s42_f3", "pid": 26556}
+{"utc": "2026-11-11T07:55:53.556813+00:00", "event": "completed", "job": "T_hgb_mean2_s42_f3", "exit_code": 0, "seconds": 165.4220000000205}
+{"utc": "2026-11-11T07:55:53.570777+00:00", "event": "started", "job": "T_hgb_mean2_s42_f4", "pid": 8012}
+{"utc": "2026-11-11T07:57:35.828890+00:00", "event": "completed", "job": "T_hgb_mean2_s42_f4", "exit_code": 0, "seconds": 102.26599999994505}
+{"utc": "2026-11-11T07:57:35.869111+00:00", "event": "started", "job": "T_hgb_moments2_s42_f0", "pid": 17936}
+{"utc": "2026-11-11T08:01:39.533735+00:00", "event": "completed", "job": "T_hgb_moments2_s42_f0", "exit_code": 0, "seconds": 243.68800000008196}
+{"utc": "2026-11-11T08:01:39.549693+00:00", "event": "started", "job": "T_hgb_moments2_s42_f1", "pid": 23856}
+{"utc": "2026-11-11T08:05:34.175365+00:00", "event": "completed", "job": "T_hgb_moments2_s42_f1", "exit_code": 0, "seconds": 234.64099999994505}
+{"utc": "2026-11-11T08:05:34.193317+00:00", "event": "started", "job": "T_hgb_moments2_s42_f2", "pid": 25404}
+{"utc": "2026-11-11T08:09:28.796979+00:00", "event": "completed", "job": "T_hgb_moments2_s42_f2", "exit_code": 0, "seconds": 234.625}
+{"utc": "2026-11-11T08:09:28.826900+00:00", "event": "started", "job": "T_hgb_moments2_s42_f3", "pid": 23804}
+{"utc": "2026-11-11T08:13:08.432983+00:00", "event": "completed", "job": "T_hgb_moments2_s42_f3", "exit_code": 0, "seconds": 219.60999999998603}
+{"utc": "2026-11-11T08:13:08.457917+00:00", "event": "started", "job": "T_hgb_moments2_s42_f4", "pid": 23040}
+{"utc": "2026-11-11T08:16:20.957509+00:00", "event": "completed", "job": "T_hgb_moments2_s42_f4", "exit_code": 0, "seconds": 192.51599999994505}
+{"utc": "2026-11-11T08:16:20.975463+00:00", "event": "started", "job": "T_extra_trees_raw_s42_f0", "pid": 26296}
+{"utc": "2026-11-11T08:16:26.992126+00:00", "event": "completed", "job": "T_extra_trees_raw_s42_f0", "exit_code": 0, "seconds": 6.031000000075437}
+{"utc": "2026-11-11T08:16:27.026036+00:00", "event": "started", "job": "T_extra_trees_raw_s42_f1", "pid": 22364}
+{"utc": "2026-11-11T08:16:33.038896+00:00", "event": "completed", "job": "T_extra_trees_raw_s42_f1", "exit_code": 0, "seconds": 6.031000000075437}
+{"utc": "2026-11-11T08:16:33.063828+00:00", "event": "started", "job": "T_extra_trees_raw_s42_f2", "pid": 26172}
+{"utc": "2026-11-11T08:16:39.081704+00:00", "event": "completed", "job": "T_extra_trees_raw_s42_f2", "exit_code": 0, "seconds": 6.030999999959022}
+{"utc": "2026-11-11T08:16:39.104643+00:00", "event": "started", "job": "T_extra_trees_raw_s42_f3", "pid": 2636}
+{"utc": "2026-11-11T08:16:45.123943+00:00", "event": "completed", "job": "T_extra_trees_raw_s42_f3", "exit_code": 0, "seconds": 6.047000000020489}
+{"utc": "2026-11-11T08:16:45.158392+00:00", "event": "started", "job": "T_extra_trees_raw_s42_f4", "pid": 16516}
+{"utc": "2026-11-11T08:16:51.179490+00:00", "event": "completed", "job": "T_extra_trees_raw_s42_f4", "exit_code": 0, "seconds": 6.032000000006519}
+{"utc": "2026-11-11T08:16:51.201977+00:00", "event": "started", "job": "T_extra_trees_mean1_s42_f0", "pid": 23212}
+{"utc": "2026-11-11T08:17:00.235877+00:00", "event": "completed", "job": "T_extra_trees_mean1_s42_f0", "exit_code": 0, "seconds": 9.047000000020489}
+{"utc": "2026-11-11T08:17:00.260808+00:00", "event": "started", "job": "T_extra_trees_mean1_s42_f1", "pid": 21292}
+{"utc": "2026-11-11T08:17:09.296823+00:00", "event": "completed", "job": "T_extra_trees_mean1_s42_f1", "exit_code": 0, "seconds": 9.062999999965541}
+{"utc": "2026-11-11T08:17:09.318763+00:00", "event": "started", "job": "T_extra_trees_mean1_s42_f2", "pid": 19884}
+{"utc": "2026-11-11T08:17:18.343032+00:00", "event": "completed", "job": "T_extra_trees_mean1_s42_f2", "exit_code": 0, "seconds": 9.045999999972992}
+{"utc": "2026-11-11T08:17:18.366965+00:00", "event": "started", "job": "T_extra_trees_mean1_s42_f3", "pid": 22688}
+{"utc": "2026-11-11T08:17:27.389130+00:00", "event": "completed", "job": "T_extra_trees_mean1_s42_f3", "exit_code": 0, "seconds": 9.015999999945052}
+{"utc": "2026-11-11T08:17:27.402093+00:00", "event": "started", "job": "T_extra_trees_mean1_s42_f4", "pid": 22152}
+{"utc": "2026-11-11T08:17:36.430155+00:00", "event": "completed", "job": "T_extra_trees_mean1_s42_f4", "exit_code": 0, "seconds": 9.03200000000652}
+{"utc": "2026-11-11T08:17:36.465064+00:00", "event": "started", "job": "T_extra_trees_mean2_s42_f0", "pid": 17128}
+{"utc": "2026-11-11T08:17:48.498425+00:00", "event": "completed", "job": "T_extra_trees_mean2_s42_f0", "exit_code": 0, "seconds": 12.031000000075437}
+{"utc": "2026-11-11T08:17:48.524354+00:00", "event": "started", "job": "T_extra_trees_mean2_s42_f1", "pid": 5568}
+{"utc": "2026-11-11T08:18:06.590301+00:00", "event": "completed", "job": "T_extra_trees_mean2_s42_f1", "exit_code": 0, "seconds": 18.06299999996554}
+{"utc": "2026-11-11T08:18:06.615234+00:00", "event": "started", "job": "T_extra_trees_mean2_s42_f2", "pid": 17256}
+{"utc": "2026-11-11T08:18:18.657695+00:00", "event": "completed", "job": "T_extra_trees_mean2_s42_f2", "exit_code": 0, "seconds": 12.047000000020489}
+{"utc": "2026-11-11T08:18:18.676645+00:00", "event": "started", "job": "T_extra_trees_mean2_s42_f3", "pid": 4800}
+{"utc": "2026-11-11T08:18:30.713066+00:00", "event": "completed", "job": "T_extra_trees_mean2_s42_f3", "exit_code": 0, "seconds": 12.046999999904074}
+{"utc": "2026-11-11T08:18:30.739108+00:00", "event": "started", "job": "T_extra_trees_mean2_s42_f4", "pid": 2628}
+{"utc": "2026-11-11T08:18:42.771868+00:00", "event": "completed", "job": "T_extra_trees_mean2_s42_f4", "exit_code": 0, "seconds": 12.047000000020489}
+{"utc": "2026-11-11T08:18:42.794632+00:00", "event": "started", "job": "T_extra_trees_moments2_s42_f0", "pid": 26560}
+{"utc": "2026-11-11T08:18:54.813885+00:00", "event": "completed", "job": "T_extra_trees_moments2_s42_f0", "exit_code": 0, "seconds": 12.030999999959022}
+{"utc": "2026-11-11T08:18:54.837821+00:00", "event": "started", "job": "T_extra_trees_moments2_s42_f1", "pid": 22916}
+{"utc": "2026-11-11T08:19:06.870126+00:00", "event": "completed", "job": "T_extra_trees_moments2_s42_f1", "exit_code": 0, "seconds": 12.031000000075437}
+{"utc": "2026-11-11T08:19:06.903642+00:00", "event": "started", "job": "T_extra_trees_moments2_s42_f2", "pid": 18976}
+{"utc": "2026-11-11T08:19:21.928204+00:00", "event": "completed", "job": "T_extra_trees_moments2_s42_f2", "exit_code": 0, "seconds": 15.03200000000652}
+{"utc": "2026-11-11T08:19:21.951143+00:00", "event": "started", "job": "T_extra_trees_moments2_s42_f3", "pid": 22892}
+{"utc": "2026-11-11T08:19:36.985787+00:00", "event": "completed", "job": "T_extra_trees_moments2_s42_f3", "exit_code": 0, "seconds": 15.047000000020489}
+{"utc": "2026-11-11T08:19:37.006729+00:00", "event": "started", "job": "T_extra_trees_moments2_s42_f4", "pid": 20564}
+{"utc": "2026-11-11T08:19:52.055522+00:00", "event": "completed", "job": "T_extra_trees_moments2_s42_f4", "exit_code": 0, "seconds": 15.047000000020489}
+{"utc": "2026-11-11T08:19:52.055522+00:00", "event": "queue_finished"}

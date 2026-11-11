@@ -1,0 +1,180 @@
+{
+  "utc": "2026-11-11T07:47:59.808276+00:00",
+  "verified": 11,
+  "planned": 40,
+  "rows": [
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "fold": 0,
+      "ap": 0.6346411854238299,
+      "auc": 0.7363752160858885,
+      "checkpoint_verified": true,
+      "predictions_sha256": "46dc23e330960090c6c86df46a07e6c3ec559607efd3418afe1f79e65fc8be59"
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "fold": 1,
+      "ap": 0.6106099548431576,
+      "auc": 0.7111801342040313,
+      "checkpoint_verified": true,
+      "predictions_sha256": "64193a9197b674a7f34a422650579b172fb428c359e9c8a9dec19a2554262ddd"
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "fold": 2,
+      "ap": 0.6425610714251562,
+      "auc": 0.7608220101512108,
+      "checkpoint_verified": true,
+      "predictions_sha256": "d7fa923d3ffd0b7e7105e125e5b6f0b6dc222d9851b89d9f44001b158812be6d"
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "fold": 3,
+      "ap": 0.6448079013060508,
+      "auc": 0.7481969895287959,
+      "checkpoint_verified": true,
+      "predictions_sha256": "114e272cbb48adde2c479efc58b9c7aa9ed0036ae039a1fe411782fd8f45f420"
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "fold": 4,
+      "ap": 0.6306597702968392,
+      "auc": 0.7430417561761546,
+      "checkpoint_verified": true,
+      "predictions_sha256": "447efc0c2cb6dbcf3dd230aa7fab5c14f9150e2fa89d7165725d14eb0c116d6e"
+    },
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "fold": 0,
+      "ap": 0.8102882681899428,
+      "auc": 0.8670828080117499,
+      "checkpoint_verified": true,
+      "predictions_sha256": "b66d03c6091c16f92c02ee15d0725350bfb69744867695b958d94e68d300b35c"
+    },
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "fold": 1,
+      "ap": 0.811212042059321,
+      "auc": 0.8763208299053887,
+      "checkpoint_verified": true,
+      "predictions_sha256": "46972f34b486a52d1c5b720eb6ffd67e9277b70de83cb6ac7969404a564f9942"
+    },
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "fold": 2,
+      "ap": 0.8200415172920276,
+      "auc": 0.8823787934863064,
+      "checkpoint_verified": true,
+      "predictions_sha256": "4be76babc856b0eda693a90f2e35ed27187839d92dd47f2b5776d6ca354790b1"
+    },
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "fold": 3,
+      "ap": 0.779046556179988,
+      "auc": 0.8658736910994764,
+      "checkpoint_verified": true,
+      "predictions_sha256": "39ba9cce753f4dbcdfc21f2ef8f85cdae31b952dec44c3ae8c15a316d2fa7fd8"
+    },
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "fold": 4,
+      "ap": 0.8244201172544242,
+      "auc": 0.886264769065521,
+      "checkpoint_verified": true,
+      "predictions_sha256": "985983f562daaaa7e13e1918aa6d8589e55eb8e448d55d2256e128e1e336eff5"
+    },
+    {
+      "experiment": "T_hgb_mean2",
+      "seed": 42,
+      "fold": 0,
+      "ap": 0.8370490909995221,
+      "auc": 0.883417601414144,
+      "checkpoint_verified": true,
+      "predictions_sha256": "a51ff14f02932f2d5a0e4309e623acc9ec76879ebe4ca54d158b487e170c8eed"
+    }
+  ],
+  "summary": [
+    {
+      "experiment": "T_hgb_mean1",
+      "seed": 42,
+      "n": 5,
+      "ap": 0.8090017001951407,
+      "auc": 0.8755841783136885,
+      "ap_sd": 0.017772567818671123,
+      "auc_sd": 0.009046426486018033
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "seed": 42,
+      "n": 5,
+      "ap": 0.6326559766590067,
+      "auc": 0.7399232212292162,
+      "ap_sd": 0.013599017855520142,
+      "auc_sd": 0.018396285445239503
+    }
+  ],
+  "paired": [
+    {
+      "estimator": "hgb",
+      "comparison": "mean1 - raw",
+      "seed": 42,
+      "fold_deltas": [
+        {
+          "fold": 0,
+          "ap": 0.17564708276611296,
+          "auc": 0.13070759192586134
+        },
+        {
+          "fold": 1,
+          "ap": 0.20060208721616335,
+          "auc": 0.16514069570135748
+        },
+        {
+          "fold": 2,
+          "ap": 0.1774804458668714,
+          "auc": 0.12155678333509568
+        },
+        {
+          "fold": 3,
+          "ap": 0.13423865487393716,
+          "auc": 0.11767670157068055
+        },
+        {
+          "fold": 4,
+          "ap": 0.19376034695758504,
+          "auc": 0.14322301288936634
+        }
+      ],
+      "mean_delta": {
+        "ap": 0.17634572353613398,
+        "auc": 0.1356609570844723
+      }
+    }
+  ],
+  "fixed_blend": [
+    {
+      "experiment": "T_hgb_mean1",
+      "n": 5,
+      "ap": 0.8266875171748883,
+      "auc": 0.8834537599145456
+    },
+    {
+      "experiment": "T_hgb_raw",
+      "n": 5,
+      "ap": 0.7840677173343288,
+      "auc": 0.8648620249172833
+    }
+  ],
+  "caveat": "Exploratory development validation; paired folds are dependent; no significance or test claim.",
+  "test_labels_read": false
+}

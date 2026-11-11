@@ -1,38 +1,74 @@
 {
-  "utc": "2026-11-11T07:41:12.021884+00:00",
+  "utc": "2026-11-11T13:41:12.035442+00:00",
   "deadline_utc": "2026-11-12T14:26:23+00:00",
   "runs": [
     {
       "name": "d0_48h_20261110_222624",
-      "completed": 114,
+      "completed": 136,
       "planned": 140,
       "active": [
         {
-          "utc": "2026-11-11T07:18:07.839079+00:00",
+          "utc": "2026-11-11T13:21:58.297101+00:00",
           "event": "started",
-          "job": "C_v2_original_std1_raw0_s42_f4",
-          "gpu": 1,
-          "pid": 15340,
-          "plan_sha256": "6beebd3af0b2819716b1405665202c8e539316db5b422f4862f7a94c1730b965"
-        },
-        {
-          "utc": "2026-11-11T07:27:53.698674+00:00",
-          "event": "started",
-          "job": "C_v2_original_std1_raw1_s42_f0",
+          "job": "C_v2_linear_std1_raw1_s42_f2",
           "gpu": 0,
-          "pid": 25640,
+          "pid": 7028,
           "plan_sha256": "6beebd3af0b2819716b1405665202c8e539316db5b422f4862f7a94c1730b965"
         },
         {
-          "utc": "2026-11-11T07:36:18.810226+00:00",
+          "utc": "2026-11-11T13:23:19.128449+00:00",
           "event": "started",
-          "job": "C_v2_original_std1_raw1_s42_f1",
+          "job": "C_v2_linear_std1_raw1_s42_f3",
+          "gpu": 1,
+          "pid": 26028,
+          "plan_sha256": "6beebd3af0b2819716b1405665202c8e539316db5b422f4862f7a94c1730b965"
+        },
+        {
+          "utc": "2026-11-11T13:36:47.209006+00:00",
+          "event": "started",
+          "job": "C_v2_linear_std1_raw1_s42_f4",
           "gpu": 2,
-          "pid": 19712,
+          "pid": 7100,
           "plan_sha256": "6beebd3af0b2819716b1405665202c8e539316db5b422f4862f7a94c1730b965"
         }
       ],
       "groups": [
+        {
+          "experiment": "C_v2_linear_std1_raw0",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8269490539039076,
+          "auc": 0.8781269971823578,
+          "ap_sd": 0.011399141127848898,
+          "auc_sd": 0.009920174264697282,
+          "seconds": 14432.0650995
+        },
+        {
+          "experiment": "C_v2_original_std1_raw0",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8263264826382497,
+          "auc": 0.8802835835560937,
+          "ap_sd": 0.011071589459089867,
+          "auc_sd": 0.009487970155884078,
+          "seconds": 12708.364759300002
+        },
         {
           "experiment": "C_v2_original_std0_raw0",
           "seed": 42,
@@ -50,6 +86,24 @@
           "ap_sd": 0.00646222802222434,
           "auc_sd": 0.003962384245442505,
           "seconds": 22300.8785502
+        },
+        {
+          "experiment": "C_v2_linear_std0_raw0",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8153667717336864,
+          "auc": 0.8767914745143963,
+          "ap_sd": 0.006914145882780479,
+          "auc_sd": 0.005469028507513267,
+          "seconds": 21780.9394922
         },
         {
           "experiment": "A00_GAT_reference_lr01",
@@ -122,6 +176,24 @@
           "ap_sd": 0.008647956580599811,
           "auc_sd": 0.006839408269526605,
           "seconds": 938.0024745999999
+        },
+        {
+          "experiment": "C_v2_linear_std0_raw1",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.7750244468406643,
+          "auc": 0.8543969786886894,
+          "ap_sd": 0.024137389900410096,
+          "auc_sd": 0.012581096813349792,
+          "seconds": 16967.7360479
         },
         {
           "experiment": "C_v2_original_std0_raw1",
@@ -430,32 +502,58 @@
           "seconds": 29.0113702
         },
         {
-          "experiment": "C_v2_original_std1_raw0",
+          "experiment": "C_v2_original_std1_raw1",
           "seed": 42,
           "n": 4,
           "folds": [
             0,
             1,
-            2,
-            3
+            3,
+            4
           ],
           "complete": false,
-          "ap": 0.8240282451592321,
-          "auc": 0.8789670264375983,
-          "ap_sd": 0.011323757656704117,
-          "auc_sd": 0.010415050932673857,
-          "seconds": 11195.312827700001
+          "ap": 0.7507180620522338,
+          "auc": 0.8372702834084454,
+          "ap_sd": 0.01851152919284349,
+          "auc_sd": 0.01324458979510582,
+          "seconds": 6159.4871418
+        },
+        {
+          "experiment": "C_v2_linear_std1_raw1",
+          "seed": 42,
+          "n": 2,
+          "folds": [
+            0,
+            1
+          ],
+          "complete": false,
+          "ap": 0.7506725352940117,
+          "auc": 0.8285473234383012,
+          "ap_sd": 0.010950964802724132,
+          "auc_sd": 0.009591524353364916,
+          "seconds": 3002.9881431
         }
       ],
-      "failures": [],
+      "failures": [
+        {
+          "utc": "2026-11-11T07:51:47.231666+00:00",
+          "event": "failed",
+          "job": "C_v2_original_std1_raw1_s42_f2",
+          "pid": 7536,
+          "gpu": 1,
+          "exit_code": 1,
+          "result": "G:\\LLLM\\MCDHGN-main\\research_runs\\d0_48h_20261110_222624\\outputs\\C_v2_original_std1_raw1\\seed42\\fold2\\result.json",
+          "seconds": 484.3279999999795
+        }
+      ],
       "errors": [],
       "hash_mismatches": [],
       "last_event": {
-        "utc": "2026-11-11T07:36:18.810226+00:00",
+        "utc": "2026-11-11T13:36:47.209006+00:00",
         "event": "started",
-        "job": "C_v2_original_std1_raw1_s42_f1",
+        "job": "C_v2_linear_std1_raw1_s42_f4",
         "gpu": 2,
-        "pid": 19712,
+        "pid": 7100,
         "plan_sha256": "6beebd3af0b2819716b1405665202c8e539316db5b422f4862f7a94c1730b965"
       },
       "has_lock": true
@@ -474,17 +572,136 @@
     },
     {
       "name": "d0_tabular_20261111_1540",
-      "completed": 6,
+      "completed": 40,
       "planned": 40,
-      "active": [
-        {
-          "utc": "2026-11-11T07:40:51.164790+00:00",
-          "event": "started",
-          "job": "T_hgb_mean1_s42_f1",
-          "pid": 2128
-        }
-      ],
+      "active": [],
       "groups": [
+        {
+          "experiment": "T_hgb_moments2",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8399938244337636,
+          "auc": 0.8916031843894333,
+          "ap_sd": 0.016469680706337957,
+          "auc_sd": 0.012515055009704332,
+          "seconds": 1103.4775003
+        },
+        {
+          "experiment": "T_hgb_mean2",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8394904142985884,
+          "auc": 0.8899871363126054,
+          "ap_sd": 0.01101029904900728,
+          "auc_sd": 0.00871691750243091,
+          "seconds": 679.8105294
+        },
+        {
+          "experiment": "T_extra_trees_moments2",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8173940440409032,
+          "auc": 0.8773800143588326,
+          "ap_sd": 0.010844597041799466,
+          "auc_sd": 0.0070141004602620825,
+          "seconds": 46.243568100000005
+        },
+        {
+          "experiment": "T_hgb_mean1",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8090017001951407,
+          "auc": 0.8755841783136885,
+          "ap_sd": 0.017772567818671123,
+          "auc_sd": 0.009046426486018033,
+          "seconds": 308.91092399999997
+        },
+        {
+          "experiment": "T_extra_trees_mean2",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.8064255187000987,
+          "auc": 0.8750401239315032,
+          "ap_sd": 0.009948775591456101,
+          "auc_sd": 0.006581555212798852,
+          "seconds": 46.3661388
+        },
+        {
+          "experiment": "T_extra_trees_mean1",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.7914222089517496,
+          "auc": 0.8678201203091194,
+          "ap_sd": 0.007483195294778564,
+          "auc_sd": 0.00451217197742622,
+          "seconds": 27.799394600000003
+        },
+        {
+          "experiment": "T_extra_trees_raw",
+          "seed": 42,
+          "n": 5,
+          "folds": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "complete": true,
+          "ap": 0.6440127903711222,
+          "auc": 0.7509520217154566,
+          "ap_sd": 0.010317397649293493,
+          "auc_sd": 0.014459629041295047,
+          "seconds": 14.407243700000002
+        },
         {
           "experiment": "T_hgb_raw",
           "seed": 42,
@@ -502,37 +719,33 @@
           "ap_sd": 0.013599017855520142,
           "auc_sd": 0.018396285445239503,
           "seconds": 29.443948299999995
-        },
-        {
-          "experiment": "T_hgb_mean1",
-          "seed": 42,
-          "n": 1,
-          "folds": [
-            0
-          ],
-          "complete": false,
-          "ap": 0.8102882681899428,
-          "auc": 0.8670828080117499,
-          "ap_sd": null,
-          "auc_sd": null,
-          "seconds": 24.75327
         }
       ],
       "failures": [],
       "errors": [],
       "hash_mismatches": [],
       "last_event": {
-        "utc": "2026-11-11T07:40:51.164790+00:00",
-        "event": "started",
-        "job": "T_hgb_mean1_s42_f1",
-        "pid": 2128
+        "utc": "2026-11-11T08:19:52.055522+00:00",
+        "event": "queue_finished"
       },
-      "has_lock": true
+      "has_lock": false
+    },
+    {
+      "name": "d0_ranking_20261111",
+      "completed": 0,
+      "planned": 30,
+      "active": [],
+      "groups": [],
+      "failures": [],
+      "errors": [],
+      "hash_mismatches": [],
+      "last_event": null,
+      "has_lock": false
     }
   ],
   "gpus": [
-    "0, 98, 11017",
-    "1, 98, 6797",
-    "2, 98, 6167"
+    "0, 96, 6701",
+    "1, 98, 11017",
+    "2, 96, 9869"
   ]
 }

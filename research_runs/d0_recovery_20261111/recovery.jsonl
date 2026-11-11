@@ -1,0 +1,3 @@
+{"utc": "2026-11-11T08:52:34.949695+00:00", "event": "waiting", "scheduler_pid": 9680, "admission_pid": 26468}
+{"utc": "2026-11-11T14:01:02.163782+00:00", "event": "failed_attempt_archived", "manifest": {"best.pt": "1f65763303d6d28a525c9cfbc5726c33c2e7078eb44ff211fb66612aff6eccac", "config.json": "13098592bf38aa607f84803385099fbf4b5804b1bf0bf7538d66bdf1f1d5408f", "history.jsonl": "7bc0610f1531a03ac1b3e24932c54606d7ec7431b9b05e3c9397e6979d4ae8f9"}}
+{"utc": "2026-11-11T14:01:02.177745+00:00", "event": "retry_started", "pid": 19884, "gpu": 0, "job": "C_v2_original_std1_raw1_s42_f2"}

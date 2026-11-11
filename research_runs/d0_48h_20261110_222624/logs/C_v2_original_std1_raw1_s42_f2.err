@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\worker.py", line 46, in <module>
+    if __name__=='__main__':main()
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\worker.py", line 44, in main
+    r.train_one(config,data,output,primary,[a.gpu])
+  File "G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\code\run_ablation.py", line 298, in train_one
+    torch.save({"state_dict": state, "config": config, "data_sha256": fingerprint,
+  File "G:\LLLM\MCDHGN-main\.conda\lib\site-packages\torch\serialization.py", line 376, in save
+    with _open_file_like(f, 'wb') as opened_file:
+  File "G:\LLLM\MCDHGN-main\.conda\lib\site-packages\torch\serialization.py", line 230, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "G:\LLLM\MCDHGN-main\.conda\lib\site-packages\torch\serialization.py", line 211, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+OSError: [Errno 22] Invalid argument: 'G:\\LLLM\\MCDHGN-main\\research_runs\\d0_48h_20261110_222624\\outputs\\C_v2_original_std1_raw1\\seed42\\fold2\\best.pt'

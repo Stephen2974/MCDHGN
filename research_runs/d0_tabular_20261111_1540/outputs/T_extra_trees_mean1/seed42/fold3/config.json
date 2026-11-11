@@ -1,0 +1,34 @@
+{
+  "config": {
+    "experiment": "T_extra_trees_mean1",
+    "estimator": "extra_trees",
+    "features": "mean1",
+    "estimator_params": {
+      "n_estimators": 500,
+      "min_samples_leaf": 2,
+      "max_features": "sqrt",
+      "n_jobs": 2
+    },
+    "seed": 42,
+    "fold": 3,
+    "positive_weight": 1.904,
+    "epochs": 1000,
+    "eval_every": 10,
+    "patience": 20,
+    "smoke": false
+  },
+  "data_sha256": {
+    "data/network/hetero/new_9nodes_graph.bin": "eb12655ac718a01565dfa9302660a17ff61c0784c1d709738fe8a542ac7cfce0",
+    "data/step1/gene_toids.pkl": "45f5e82e49eb8cff6fbb50ecac0f14ff98f3bd75358c1a84e1e5d3b67b247dcf",
+    "Intermediate/label_set/train_batch.pkl": "d9284cf2f5692c2af7a6790a700f303726b1a972a9d3eb88a19f0198b6774ed9",
+    "Intermediate/blocks/0gs.bin": "824e314c79bf2ce1a8fd2c53e6a86bac00c86bcb9a34d6b077b5ac0a85d78332",
+    "Intermediate/blocks/1gs.bin": "650ddb048f448b3c487684fa0bd8a77f39af5abedaa5f427e8665408d7ae5057",
+    "Intermediate/blocks/2gs.bin": "f24b67620e45ae82de12827b77f9fa8def319232004d8654dcfe348b3323647f",
+    "Intermediate/blocks/3gs.bin": "9abcb1f5f23905a61d5f1a05304ea69140673e6b9401fdafc82aecb6adcb62d5",
+    "Intermediate/blocks/4gs.bin": "f0380b097f71d5aace5e145059a1f5143b807fcf32580042b9c2a631ae2cac3f",
+    "Intermediate/blocks/5gs.bin": "83f0fafcd9f1eb047d8b4d52fbb33f0cde0a299320760e6f971f048a8ea6d1ad",
+    "Intermediate/blocks/6gs.bin": "28976e4247eec0842e1068ae6b9f675e5ee2102d61c61ff77ce027444707af94",
+    "Intermediate/blocks/7gs.bin": "fe882c180bab919bfe551e2b68fda0ef2eca1d96baa20d479cffd3d141801b0b",
+    "Intermediate/blocks/8gs.bin": "4c668f7e532ba27e6a66a679c31516fe0ef3d0e64c7aadb35f1eec78ec3e9363"
+  }
+}

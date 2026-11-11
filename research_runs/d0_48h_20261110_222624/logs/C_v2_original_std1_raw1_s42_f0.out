@@ -18,3 +18,13 @@ C_v2_original_std1_raw1 seed=42 fold=0 epoch=170 AP=0.691534 AUC=0.799108
 C_v2_original_std1_raw1 seed=42 fold=0 epoch=180 AP=0.700577 AUC=0.789235
 C_v2_original_std1_raw1 seed=42 fold=0 epoch=190 AP=0.702731 AUC=0.791514
 C_v2_original_std1_raw1 seed=42 fold=0 epoch=200 AP=0.681822 AUC=0.781017
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=210 AP=0.687457 AUC=0.791510
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=220 AP=0.694109 AUC=0.790982
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=230 AP=0.706332 AUC=0.796816
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=240 AP=0.711569 AUC=0.790717
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=250 AP=0.700255 AUC=0.793209
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=260 AP=0.680270 AUC=0.767618
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=270 AP=0.675917 AUC=0.773540
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=280 AP=0.670134 AUC=0.778267
+C_v2_original_std1_raw1 seed=42 fold=0 epoch=290 AP=0.674233 AUC=0.784975
+DONE G:\LLLM\MCDHGN-main\research_runs\d0_48h_20261110_222624\outputs\C_v2_original_std1_raw1\seed42\fold0 | best epoch=90 AP=0.761660

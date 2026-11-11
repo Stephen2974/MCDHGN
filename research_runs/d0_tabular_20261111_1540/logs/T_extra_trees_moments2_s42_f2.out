@@ -1,0 +1,1 @@
+{"job": "T_extra_trees_moments2_s42_f2", "validation": {"ap": 0.807941899815645, "auc": 0.8799797768848473, "loss": 0.4114842713869409}, "seconds": 9.3441603}
